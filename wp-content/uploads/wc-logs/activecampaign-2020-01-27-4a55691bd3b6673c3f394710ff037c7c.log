@@ -1,0 +1,546 @@
+2020-01-27T22:09:37+00:00 DEBUG order_status_changed entering function id: 1326 status: new new_status: pending is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 
+2020-01-27T22:09:37+00:00 DEBUG order_status_changed entering function id: 1326 status: pending new_status: processing is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 
+2020-01-27T22:09:38+00:00 DEBUG order_status_changed entering function id: 1326 status: processing new_status: completed is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 1
+2020-01-27T22:09:38+00:00 DEBUG order_status_changed isset(opt_in):  es_wc_activecampaign_opt_in:  order_opt_in: no _POST: Array
+(
+    [billing_first_name] => Gros
+    [billing_last_name] => Babouin
+    [billing_company] => UPentreprise
+    [billing_country] => CA
+    [billing_address_1] => 207.2 RUE SAINT-PIERRE NORD
+    [billing_address_2] => 
+    [billing_city] => Joliette
+    [billing_state] => QC
+    [billing_postcode] => J6E 0X6
+    [billing_phone] => 4504990092
+    [billing_email] => gros.babouin@upentreprise.com
+    [createaccount] => 1
+    [order_comments] => 
+    [woocommerce-process-checkout-nonce] => 0b386ca910
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+ items: Array
+(
+    [41] => WC_Order_Item_Product Object
+        (
+            [extra_data:protected] => Array
+                (
+                    [product_id] => 0
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 0
+                    [subtotal_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [subtotal] => Array
+                                (
+                                )
+
+                            [total] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [data:protected] => Array
+                (
+                    [order_id] => 1326
+                    [name] => Programme Évolution | Guide pour l'être (Pré-vente)
+                    [product_id] => 1306
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 149.99
+                    [subtotal_tax] => 22.46
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [total] => Array
+                                (
+                                    [16] => 0
+                                    [18] => 0
+                                )
+
+                            [subtotal] => Array
+                                (
+                                    [16] => 7.4995
+                                    [18] => 14.961502
+                                )
+
+                        )
+
+                )
+
+            [cache_group:protected] => order-items
+            [meta_type:protected] => order_item
+            [object_type:protected] => order_item
+            [id:protected] => 41
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [default_data:protected] => Array
+                (
+                    [order_id] => 0
+                    [name] => 
+                    [product_id] => 0
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 0
+                    [subtotal_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [subtotal] => Array
+                                (
+                                )
+
+                            [total] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Item_Product_Data_Store Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _order_id
+                                    [1] => _name
+                                    [2] => _product_id
+                                    [3] => _variation_id
+                                    [4] => _quantity
+                                    [5] => _tax_class
+                                    [6] => _subtotal
+                                    [7] => _subtotal_tax
+                                    [8] => _total
+                                    [9] => _total_tax
+                                    [10] => _taxes
+                                    [11] => _product_id
+                                    [12] => _variation_id
+                                    [13] => _qty
+                                    [14] => _tax_class
+                                    [15] => _line_subtotal
+                                    [16] => _line_subtotal_tax
+                                    [17] => _line_total
+                                    [18] => _line_tax
+                                    [19] => _line_tax_data
+                                )
+
+                            [meta_type:protected] => order_item
+                            [object_id_field_for_meta:protected] => order_item_id
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [report-revenue-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                            [report-orders] => Automattic\WooCommerce\Admin\API\Reports\Orders\DataStore
+                            [report-orders-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                            [report-products] => Automattic\WooCommerce\Admin\API\Reports\Products\DataStore
+                            [report-variations] => Automattic\WooCommerce\Admin\API\Reports\Variations\DataStore
+                            [report-products-stats] => Automattic\WooCommerce\Admin\API\Reports\Products\Stats\DataStore
+                            [report-categories] => Automattic\WooCommerce\Admin\API\Reports\Categories\DataStore
+                            [report-taxes] => Automattic\WooCommerce\Admin\API\Reports\Taxes\DataStore
+                            [report-taxes-stats] => Automattic\WooCommerce\Admin\API\Reports\Taxes\Stats\DataStore
+                            [report-coupons] => Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore
+                            [report-coupons-stats] => Automattic\WooCommerce\Admin\API\Reports\Coupons\Stats\DataStore
+                            [report-downloads] => Automattic\WooCommerce\Admin\API\Reports\Downloads\DataStore
+                            [report-downloads-stats] => Automattic\WooCommerce\Admin\API\Reports\Downloads\Stats\DataStore
+                            [admin-note] => Automattic\WooCommerce\Admin\Notes\DataStore
+                            [report-customers] => Automattic\WooCommerce\Admin\API\Reports\Customers\DataStore
+                            [report-customers-stats] => Automattic\WooCommerce\Admin\API\Reports\Customers\Stats\DataStore
+                            [report-stock-stats] => Automattic\WooCommerce\Admin\API\Reports\Stock\Stats\DataStore
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Item_Product_Data_Store
+                    [object_type:WC_Data_Store:private] => order-item-product
+                )
+
+            [meta_data:protected] => Array
+                (
+                )
+
+        )
+
+)
+
+2020-01-27T22:09:38+00:00 DEBUG order_status_changed isset(opt_in):  es_wc_activecampaign_opt_in:  display_opt_in: no
+2020-01-27T22:09:38+00:00 DEBUG Subscribe (contact/sync) post: Array
+(
+    [email] => gros.babouin@upentreprise.com
+    [first_name] => Gros
+    [last_name] => Babouin
+    [phone] => 4504990092
+)
+ retval: stdClass Object
+(
+    [subscriber_id] => 3326
+    [sendlast_should] => 0
+    [sendlast_did] => 0
+    [result_code] => 1
+    [result_message] => Contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T22:09:39+00:00 DEBUG Subscribe (contact/sync) contact: Array
+(
+    [email] => gros.babouin@upentreprise.com
+    [p[1]] => 1
+    [status[1]] => 1
+)
+ retval: stdClass Object
+(
+    [subscriber_id] => 3326
+    [sendlast_should] => 0
+    [sendlast_did] => 0
+    [result_code] => 1
+    [result_message] => Contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T22:09:39+00:00 DEBUG Subscribe (contact/tag/add) contact: Array
+(
+    [email] => gros.babouin@upentreprise.com
+    [tags] => Array
+        (
+            [0] => Programmes 1306
+            [1] => 
+        )
+
+)
+ retval: stdClass Object
+(
+    [result_code] => 1
+    [result_message] => Tags du contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T22:31:28+00:00 DEBUG order_status_changed entering function id: 1330 status: new new_status: pending is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 
+2020-01-27T22:31:28+00:00 DEBUG order_status_changed entering function id: 1330 status: pending new_status: processing is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 
+2020-01-27T22:31:29+00:00 DEBUG order_status_changed entering function id: 1330 status: processing new_status: completed is_valid: 1 occurs: Array
+(
+    [0] => completed
+)
+ in_array: 1
+2020-01-27T22:31:29+00:00 DEBUG order_status_changed isset(opt_in):  es_wc_activecampaign_opt_in:  order_opt_in: no _POST: Array
+(
+    [billing_first_name] => Mononcle
+    [billing_last_name] => Bleau
+    [billing_company] => UPentreprise
+    [billing_country] => CA
+    [billing_address_1] => 207.2 RUE SAINT-PIERRE NORD
+    [billing_address_2] => 
+    [billing_city] => Joliette
+    [billing_state] => QC
+    [billing_postcode] => J6E 0X6
+    [billing_phone] => 4504990092
+    [billing_email] => production@upentreprise.com
+    [createaccount] => 1
+    [order_comments] => 
+    [woocommerce-process-checkout-nonce] => d15391c8a8
+    [_wp_http_referer] => /?wc-ajax=update_order_review
+)
+ items: Array
+(
+    [45] => WC_Order_Item_Product Object
+        (
+            [extra_data:protected] => Array
+                (
+                    [product_id] => 0
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 0
+                    [subtotal_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [subtotal] => Array
+                                (
+                                )
+
+                            [total] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [data:protected] => Array
+                (
+                    [order_id] => 1330
+                    [name] => Programme Évolution | Guide pour l'être (Pré-vente)
+                    [product_id] => 1306
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 149.99
+                    [subtotal_tax] => 22.46
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [total] => Array
+                                (
+                                    [16] => 0
+                                    [18] => 0
+                                )
+
+                            [subtotal] => Array
+                                (
+                                    [16] => 7.4995
+                                    [18] => 14.961502
+                                )
+
+                        )
+
+                )
+
+            [cache_group:protected] => order-items
+            [meta_type:protected] => order_item
+            [object_type:protected] => order_item
+            [id:protected] => 45
+            [changes:protected] => Array
+                (
+                )
+
+            [object_read:protected] => 1
+            [default_data:protected] => Array
+                (
+                    [order_id] => 0
+                    [name] => 
+                    [product_id] => 0
+                    [variation_id] => 0
+                    [quantity] => 1
+                    [tax_class] => 
+                    [subtotal] => 0
+                    [subtotal_tax] => 0
+                    [total] => 0
+                    [total_tax] => 0
+                    [taxes] => Array
+                        (
+                            [subtotal] => Array
+                                (
+                                )
+
+                            [total] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [data_store:protected] => WC_Data_Store Object
+                (
+                    [instance:WC_Data_Store:private] => WC_Order_Item_Product_Data_Store Object
+                        (
+                            [internal_meta_keys:protected] => Array
+                                (
+                                    [0] => _order_id
+                                    [1] => _name
+                                    [2] => _product_id
+                                    [3] => _variation_id
+                                    [4] => _quantity
+                                    [5] => _tax_class
+                                    [6] => _subtotal
+                                    [7] => _subtotal_tax
+                                    [8] => _total
+                                    [9] => _total_tax
+                                    [10] => _taxes
+                                    [11] => _product_id
+                                    [12] => _variation_id
+                                    [13] => _qty
+                                    [14] => _tax_class
+                                    [15] => _line_subtotal
+                                    [16] => _line_subtotal_tax
+                                    [17] => _line_total
+                                    [18] => _line_tax
+                                    [19] => _line_tax_data
+                                )
+
+                            [meta_type:protected] => order_item
+                            [object_id_field_for_meta:protected] => order_item_id
+                            [must_exist_meta_keys:protected] => Array
+                                (
+                                )
+
+                        )
+
+                    [stores:WC_Data_Store:private] => Array
+                        (
+                            [coupon] => WC_Coupon_Data_Store_CPT
+                            [customer] => WC_Customer_Data_Store
+                            [customer-download] => WC_Customer_Download_Data_Store
+                            [customer-download-log] => WC_Customer_Download_Log_Data_Store
+                            [customer-session] => WC_Customer_Data_Store_Session
+                            [order] => WC_Order_Data_Store_CPT
+                            [order-refund] => WC_Order_Refund_Data_Store_CPT
+                            [order-item] => WC_Order_Item_Data_Store
+                            [order-item-coupon] => WC_Order_Item_Coupon_Data_Store
+                            [order-item-fee] => WC_Order_Item_Fee_Data_Store
+                            [order-item-product] => WC_Order_Item_Product_Data_Store
+                            [order-item-shipping] => WC_Order_Item_Shipping_Data_Store
+                            [order-item-tax] => WC_Order_Item_Tax_Data_Store
+                            [payment-token] => WC_Payment_Token_Data_Store
+                            [product] => WC_Product_Data_Store_CPT
+                            [product-grouped] => WC_Product_Grouped_Data_Store_CPT
+                            [product-variable] => WC_Product_Variable_Data_Store_CPT
+                            [product-variation] => WC_Product_Variation_Data_Store_CPT
+                            [shipping-zone] => WC_Shipping_Zone_Data_Store
+                            [webhook] => WC_Webhook_Data_Store
+                            [report-revenue-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                            [report-orders] => Automattic\WooCommerce\Admin\API\Reports\Orders\DataStore
+                            [report-orders-stats] => Automattic\WooCommerce\Admin\API\Reports\Orders\Stats\DataStore
+                            [report-products] => Automattic\WooCommerce\Admin\API\Reports\Products\DataStore
+                            [report-variations] => Automattic\WooCommerce\Admin\API\Reports\Variations\DataStore
+                            [report-products-stats] => Automattic\WooCommerce\Admin\API\Reports\Products\Stats\DataStore
+                            [report-categories] => Automattic\WooCommerce\Admin\API\Reports\Categories\DataStore
+                            [report-taxes] => Automattic\WooCommerce\Admin\API\Reports\Taxes\DataStore
+                            [report-taxes-stats] => Automattic\WooCommerce\Admin\API\Reports\Taxes\Stats\DataStore
+                            [report-coupons] => Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore
+                            [report-coupons-stats] => Automattic\WooCommerce\Admin\API\Reports\Coupons\Stats\DataStore
+                            [report-downloads] => Automattic\WooCommerce\Admin\API\Reports\Downloads\DataStore
+                            [report-downloads-stats] => Automattic\WooCommerce\Admin\API\Reports\Downloads\Stats\DataStore
+                            [admin-note] => Automattic\WooCommerce\Admin\Notes\DataStore
+                            [report-customers] => Automattic\WooCommerce\Admin\API\Reports\Customers\DataStore
+                            [report-customers-stats] => Automattic\WooCommerce\Admin\API\Reports\Customers\Stats\DataStore
+                            [report-stock-stats] => Automattic\WooCommerce\Admin\API\Reports\Stock\Stats\DataStore
+                        )
+
+                    [current_class_name:WC_Data_Store:private] => WC_Order_Item_Product_Data_Store
+                    [object_type:WC_Data_Store:private] => order-item-product
+                )
+
+            [meta_data:protected] => Array
+                (
+                )
+
+        )
+
+)
+
+2020-01-27T22:31:29+00:00 DEBUG order_status_changed isset(opt_in):  es_wc_activecampaign_opt_in:  display_opt_in: no
+2020-01-27T22:31:29+00:00 DEBUG Subscribe (contact/sync) post: Array
+(
+    [email] => production@upentreprise.com
+    [first_name] => Mononcle
+    [last_name] => Bleau
+    [phone] => 4504990092
+)
+ retval: stdClass Object
+(
+    [subscriber_id] => 3327
+    [sendlast_should] => 0
+    [sendlast_did] => 0
+    [result_code] => 1
+    [result_message] => Contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T22:31:30+00:00 DEBUG Subscribe (contact/sync) contact: Array
+(
+    [email] => production@upentreprise.com
+    [p[1]] => 1
+    [status[1]] => 1
+)
+ retval: stdClass Object
+(
+    [subscriber_id] => 3327
+    [sendlast_should] => 0
+    [sendlast_did] => 0
+    [result_code] => 1
+    [result_message] => Contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T22:31:30+00:00 DEBUG Subscribe (contact/tag/add) contact: Array
+(
+    [email] => production@upentreprise.com
+    [tags] => Array
+        (
+            [0] => Programmes 1306
+            [1] => 
+        )
+
+)
+ retval: stdClass Object
+(
+    [result_code] => 1
+    [result_message] => Tags du contact ajouté
+    [result_output] => json
+    [http_code] => 200
+    [success] => 1
+)
+
+2020-01-27T23:00:31+00:00 DEBUG get_ac_lists (list/list_) number of elements returned: 21
+2020-01-27T23:00:31+00:00 DEBUG get_ac_tags_list (tags/list) number of elements returned: 143

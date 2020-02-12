@@ -1,0 +1,650 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LearnDash Course Reviews\n"
+"POT-Creation-Date: 2019-09-28 19:20+0900\n"
+"PO-Revision-Date: 2018-07-24 15:17+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ld-course-reviews.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/admin.php:75
+#, php-format
+msgid "%s - The following required plugin is currently inactive: %s"
+msgstr ""
+
+#: includes/admin/admin.php:111
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/admin.php:112 includes/admin/tools.php:13
+msgid "Tools"
+msgstr ""
+
+#: includes/admin/admin.php:113
+msgid "License"
+msgstr ""
+
+#: includes/admin/admin.php:131
+msgid "Approve this review"
+msgstr ""
+
+#: includes/admin/admin.php:131
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/admin.php:132
+msgid "Unapprove this review"
+msgstr ""
+
+#: includes/admin/admin.php:132
+msgid "Unapprove"
+msgstr ""
+
+#: includes/admin/admin.php:203
+msgid "Course"
+msgstr ""
+
+#: includes/admin/admin.php:204 includes/admin/metabox.php:98
+msgid "Rating"
+msgstr ""
+
+#: includes/admin/admin.php:205
+msgid "Author"
+msgstr ""
+
+#: includes/admin/admin.php:336
+msgid "All courses"
+msgstr ""
+
+#: includes/admin/admin.php:352
+msgid "All stars"
+msgstr ""
+
+#: includes/admin/admin.php:353
+msgid "5 stars"
+msgstr ""
+
+#: includes/admin/admin.php:354
+msgid "4 stars"
+msgstr ""
+
+#: includes/admin/admin.php:355
+msgid "3 stars"
+msgstr ""
+
+#: includes/admin/admin.php:356
+msgid "2 stars"
+msgstr ""
+
+#: includes/admin/admin.php:357
+msgid "1 star"
+msgstr ""
+
+#: includes/admin/license.php:47 includes/admin/license.php:58
+#: includes/class-ld-course-reviews.php:42
+#: includes/class-ld-course-reviews.php:53
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/admin/license.php:161 includes/admin/license.php:210
+#: includes/admin/license.php:269
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: includes/admin/license.php:176
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: includes/admin/license.php:184
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: includes/admin/license.php:189
+msgid "Invalid license."
+msgstr ""
+
+#: includes/admin/license.php:195
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: includes/admin/license.php:200
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: includes/admin/license.php:205
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: includes/admin/license.php:359
+msgid "License Option"
+msgstr ""
+
+#: includes/admin/license.php:364
+msgid "License Actived"
+msgstr ""
+
+#: includes/admin/license.php:366
+msgid "Enter your license key"
+msgstr ""
+
+#: includes/admin/license.php:374
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/admin/license.php:377
+msgid "Activate License"
+msgstr ""
+
+#: includes/admin/metabox.php:8
+msgid "Review Settings"
+msgstr ""
+
+#: includes/admin/metabox.php:17
+msgid "Course Rating"
+msgstr ""
+
+#: includes/admin/metabox.php:26
+msgid "Review Details"
+msgstr ""
+
+#: includes/admin/metabox.php:50
+msgid "Enable course rating and review"
+msgstr ""
+
+#: includes/admin/metabox.php:54
+msgid "Allow rating and review after"
+msgstr ""
+
+#: includes/admin/metabox.php:56
+msgid "Course Completion"
+msgstr ""
+
+#: includes/admin/metabox.php:57
+msgid "Course Enrollment"
+msgstr ""
+
+#: includes/admin/metabox.php:80
+#, php-format
+msgid "Average Rating: %s"
+msgstr ""
+
+#: includes/admin/metabox.php:81
+#, php-format
+msgid "Total Reviews: %s"
+msgstr ""
+
+#: includes/admin/metabox.php:83
+msgid "See all reviews of this course"
+msgstr ""
+
+#: includes/admin/metabox.php:100 templates/loop-review.php:45
+#, php-format
+msgid "One person found this helpful"
+msgid_plural "%d people found this helpful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/settings.php:24
+msgid "Review require approval"
+msgstr ""
+
+#: includes/admin/settings.php:25
+msgid "Review require approval before publishing"
+msgstr ""
+
+#: includes/admin/settings.php:30
+msgid "Review comments"
+msgstr ""
+
+#: includes/admin/settings.php:31
+msgid "Disable review comments"
+msgstr ""
+
+#: includes/admin/settings.php:36 includes/admin/settings.php:37
+msgid "Hide reviewer avatar"
+msgstr ""
+
+#: includes/admin/settings.php:42
+msgid "Full-star rating"
+msgstr ""
+
+#: includes/admin/settings.php:43
+msgid "Disable half star rating"
+msgstr ""
+
+#: includes/admin/settings.php:48
+msgid "Reviews per page"
+msgstr ""
+
+#: includes/admin/settings.php:54
+msgid "Rating Summary Style"
+msgstr ""
+
+#: includes/admin/settings.php:57
+msgid "Style 1"
+msgstr ""
+
+#: includes/admin/settings.php:58
+msgid "Style 2"
+msgstr ""
+
+#: includes/admin/settings.php:59
+msgid "Style 3"
+msgstr ""
+
+#: includes/admin/settings.php:65
+msgid "Single Review Template"
+msgstr ""
+
+#: includes/admin/settings.php:68
+msgid "Default Template"
+msgstr ""
+
+#: includes/admin/settings.php:69
+msgid "Theme Template"
+msgstr ""
+
+#: includes/admin/settings.php:75 includes/class-ld-course-reviews.php:141
+msgid "Course Reviews"
+msgstr ""
+
+#: includes/admin/settings.php:76
+msgid "Show reviews after course content"
+msgstr ""
+
+#: includes/admin/settings.php:89
+msgid "Email logo"
+msgstr ""
+
+#: includes/admin/settings.php:91
+msgid ""
+"URL to an image you want to show in the email header. Displayed on HTML "
+"emails only."
+msgstr ""
+
+#: includes/admin/settings.php:95
+msgid "From name"
+msgstr ""
+
+#: includes/admin/settings.php:96
+msgid "How the sender name appears in outgoing emails."
+msgstr ""
+
+#: includes/admin/settings.php:102
+msgid "From email"
+msgstr ""
+
+#: includes/admin/settings.php:103
+msgid "How the sender email appears in outgoing emails."
+msgstr ""
+
+#: includes/admin/settings.php:112 includes/admin/settings.php:151
+msgid "Enable notification"
+msgstr ""
+
+#: includes/admin/settings.php:113
+msgid "Send email notification to the author after review submission"
+msgstr ""
+
+#: includes/admin/settings.php:119 includes/admin/settings.php:158
+msgid "Email subject"
+msgstr ""
+
+#: includes/admin/settings.php:121 includes/functions.php:359
+msgid "A user has written a new review for {course_title}"
+msgstr ""
+
+#: includes/admin/settings.php:125 includes/admin/settings.php:164
+msgid "Email type"
+msgstr ""
+
+#: includes/admin/settings.php:128 includes/admin/settings.php:167
+msgid "Plain text"
+msgstr ""
+
+#: includes/admin/settings.php:129 includes/admin/settings.php:168
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/settings.php:132 includes/admin/settings.php:171
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/admin/settings.php:137 includes/admin/settings.php:175
+msgid "Plain template"
+msgstr ""
+
+#: includes/admin/settings.php:139
+msgid ""
+"To override and edit this email template copy <code>ld-course-reviews/"
+"templates/emails/plain/new-review.php</code> to your theme folder: "
+"<code>yourtheme/course-reviews/emails/plain/new-review.php</code>"
+msgstr ""
+
+#: includes/admin/settings.php:143 includes/admin/settings.php:181
+msgid "HTML template"
+msgstr ""
+
+#: includes/admin/settings.php:145
+msgid ""
+"To override and edit this email template copy <code>ld-course-reviews/"
+"templates/emails/new-review.php</code> to your theme folder: <code>yourtheme/"
+"course-reviews/emails/new-review.php</code>"
+msgstr ""
+
+#: includes/admin/settings.php:152
+msgid "Send email notification to the user after review approval"
+msgstr ""
+
+#: includes/admin/settings.php:160
+msgid "Your review for {course_title} has been approved"
+msgstr ""
+
+#: includes/admin/settings.php:177
+msgid ""
+"To override and edit this email template copy <code>ld-course-reviews/"
+"templates/emails/plain/review-approved.php</code> to your theme folder: "
+"<code>yourtheme/course-reviews/emails/plain/review-approved.php</code>"
+msgstr ""
+
+#: includes/admin/settings.php:183
+msgid ""
+"To override and edit this email template copy <code>ld-course-reviews/"
+"templates/emails/review-approved.php</code> to your theme folder: "
+"<code>yourtheme/course-reviews/emails/review-approved.php</code>"
+msgstr ""
+
+#: includes/admin/settings.php:200 includes/admin/settings.php:241
+#: includes/admin/settings.php:244
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings.php:201
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/settings.php:245
+msgid "New Review"
+msgstr ""
+
+#: includes/admin/settings.php:548
+msgid "Settings updated."
+msgstr ""
+
+#: includes/admin/tools.php:15 includes/admin/tools.php:22
+msgid "Recount Stats"
+msgstr ""
+
+#: includes/admin/tools.php:16
+msgid ""
+"LearnDash Course Reviews maintains an internal record of average rating and "
+"upvotes, this allows the plugin to retrieve data directly without negatively "
+"impacting performance when you have a lot of reviews."
+msgstr ""
+
+#: includes/admin/tools.php:17
+msgid ""
+"If you suspect that the stats are incorrect (perhaps you have edited reviews "
+"directly in your database), you can recalculate them here."
+msgstr ""
+
+#: includes/admin/tools.php:23
+msgid "Recounting Stats"
+msgstr ""
+
+#: includes/admin/updater.php:225
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: includes/admin/updater.php:233
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: includes/admin/updater.php:466
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: includes/admin/updater.php:466
+msgid "Error"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:125
+msgid "Sending feedback.."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:139
+msgctxt "Course Reviews"
+msgid "Course Reviews"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:140
+msgctxt "Course Review"
+msgid "Course Review"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:142
+msgid "Item Attributes"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:143
+msgid "All Reviews"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:144
+msgid "Edit Review"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:145
+msgid "Update Review"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:146
+msgid "View Review"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:147
+msgid "View Reviews"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:148
+msgid "Search Reviews"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:152
+msgid "Course Revieiws"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:153
+msgid "LearnDash course reviews"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:261
+#: includes/class-ld-course-reviews.php:409
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:303
+msgid "Review published."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:310 templates/content-reviews.php:37
+msgid "Your review is awaiting approval."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:316
+msgid "Submission failed. Please try again later."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:379
+msgid "No reviews to display"
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:415
+msgid "You must be logged in to submit a vote."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:424
+msgid "Invalid action."
+msgstr ""
+
+#: includes/class-ld-course-reviews.php:440
+msgid "Thank you for your feedback."
+msgstr ""
+
+#: includes/core-functions.php:52
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/functions.php:59
+#, php-format
+msgid "%s <span>rating</span>"
+msgid_plural "%s <span>ratings</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/functions.php:313
+msgid "Next"
+msgstr ""
+
+#: includes/functions.php:314
+msgid "Previous"
+msgstr ""
+
+#: includes/functions.php:489
+msgid "You must be enrolled to review this course."
+msgstr ""
+
+#: includes/functions.php:501
+msgid ""
+"You have not completed lessons required to submit a review for this course."
+msgstr ""
+
+#: includes/functions.php:518
+msgid "Comment"
+msgstr ""
+
+#: includes/functions.php:520
+#, php-format
+msgid "%s comments"
+msgstr ""
+
+#: includes/functions.php:522
+msgid "1 comment"
+msgstr ""
+
+#: templates/content-reviews.php:20
+msgid "Reviews"
+msgstr ""
+
+#: templates/content-reviews.php:39
+msgid "There are no reviews yet. Be the first to review."
+msgstr ""
+
+#: templates/content-single-review.php:15
+msgid "Course Review"
+msgstr ""
+
+#: templates/emails/new-review.php:25 templates/emails/plain/new-review.php:21
+#, php-format
+msgid "A new review has been submitted on %s."
+msgstr ""
+
+#: templates/emails/new-review.php:27 templates/emails/plain/new-review.php:23
+#, php-format
+msgid "Rated %s out of 5 stars"
+msgstr ""
+
+#: templates/loop-review.php:35
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: templates/loop-review.php:38
+msgid "Edit"
+msgstr ""
+
+#: templates/loop-review.php:51
+msgid "Helpful"
+msgstr ""
+
+#: templates/loop-review.php:54
+msgid "Not Helpful"
+msgstr ""
+
+#: templates/rating-summary-1.php:28 templates/rating-summary-2.php:28
+#: templates/rating-summary-3.php:28
+#, php-format
+msgid "%d Reviews"
+msgstr ""
+
+#: templates/rating-summary-1.php:39 templates/rating-summary-3.php:41
+#, php-format
+msgid "%s %%"
+msgstr ""
+
+#: templates/rating-summary-3.php:35
+#, php-format
+msgid "%s star"
+msgstr ""
+
+#: templates/review-form.php:32
+msgid "Write a review"
+msgstr ""
+
+#: templates/review-form.php:40
+msgid "How would you rate this course?"
+msgstr ""
+
+#: templates/review-form.php:76
+msgid "Headline"
+msgstr ""
+
+#: templates/review-form.php:79
+msgid "Write your review here."
+msgstr ""
+
+#: templates/review-form.php:81
+msgid "Submit"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "LearnDash Course Reviews"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://themespirit.com/downloads/learndash-course-reviews/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "LearnDash course reviews plugin."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSpirit"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themespirit.com"
+msgstr ""

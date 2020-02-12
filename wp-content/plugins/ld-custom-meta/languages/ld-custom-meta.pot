@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: LearnDash Custom Meta\n"
+"POT-Creation-Date: 2019-06-21 09:35+0900\n"
+"PO-Revision-Date: 2018-12-02 06:04+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ld-custom-meta.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: ld-custom-meta.php:34
+msgid "LearnDash Custom Meta"
+msgstr ""
+
+#: ld-custom-meta.php:52
+msgid "Text"
+msgstr ""
+
+#: ld-custom-meta.php:53
+msgid "Video"
+msgstr ""
+
+#: ld-custom-meta.php:54
+msgid "Audio"
+msgstr ""
+
+#: ld-custom-meta.php:55
+msgid "Image"
+msgstr ""
+
+#: ld-custom-meta.php:56
+msgid "Presentation"
+msgstr ""
+
+#: ld-custom-meta.php:57
+msgid "Assignment"
+msgstr ""
+
+#: ld-custom-meta.php:68
+msgid "Course Headline"
+msgstr ""
+
+#: ld-custom-meta.php:75
+msgid "A short description of the course below the course title"
+msgstr ""
+
+#: ld-custom-meta.php:84
+msgid "Course Short Description"
+msgstr ""
+
+#: ld-custom-meta.php:91
+msgid "A short description of the course to show on course list"
+msgstr ""
+
+#: ld-custom-meta.php:101
+msgid "Estimated Duration"
+msgstr ""
+
+#: ld-custom-meta.php:108
+msgid "e.g. 5min, 1hour"
+msgstr ""
+
+#: ld-custom-meta.php:117
+msgid "All Levels"
+msgstr ""
+
+#: ld-custom-meta.php:118
+msgid "Beginner"
+msgstr ""
+
+#: ld-custom-meta.php:119
+msgid "Intermediate"
+msgstr ""
+
+#: ld-custom-meta.php:120
+msgid "Advanced"
+msgstr ""
+
+#: ld-custom-meta.php:127
+msgid "Course Level"
+msgstr ""
+
+#: ld-custom-meta.php:132 ld-custom-meta.php:199 ld-custom-meta.php:253
+msgid "Select"
+msgstr ""
+
+#: ld-custom-meta.php:147
+msgid "Course Language"
+msgstr ""
+
+#: ld-custom-meta.php:162
+msgid "Number of Lessons"
+msgstr ""
+
+#: ld-custom-meta.php:177
+msgid "Students Enrolled"
+msgstr ""
+
+#: ld-custom-meta.php:184
+msgid "Number of students enrolled to the course."
+msgstr ""
+
+#: ld-custom-meta.php:194
+msgid "Content Type"
+msgstr ""
+
+#: ld-custom-meta.php:214
+msgid "Content Type Icon"
+msgstr ""
+
+#: ld-custom-meta.php:221
+msgid "e.g. fas fa-play-circle"
+msgstr ""
+
+#: ld-custom-meta.php:230
+msgid "Media Embed"
+msgstr ""
+
+#: ld-custom-meta.php:237
+msgid ""
+"Paste the direct video URL or video embed code. If you have a video file "
+"URL, then you can use the video tag to embed your video like this:"
+msgstr ""
+
+#: ld-custom-meta.php:247
+msgid "Related Product"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themespirit.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add custom meta fields for LearnDash"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSpirit"
+msgstr ""

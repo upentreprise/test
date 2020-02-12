@@ -1,0 +1,54 @@
+2020-01-22T15:22:40+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-22T15:24:39+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-22T15:28:22+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-22T15:33:49+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-22T15:35:52+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-22T16:38:37+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+

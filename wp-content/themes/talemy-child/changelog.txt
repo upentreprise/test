@@ -1,0 +1,81 @@
+[version 1.1.9]
+New: Added close button to login modal
+Fix: BuddyPress white screen if Private Messaging or Notifications component is disabled
+Update: CSS styles
+Update: Spirit Framework v1.1.3
+
+[version 1.1.8]
+New: BuddyPress support
+New: Demo 2, Demo 5
+New: Header style 9
+Update: WooCommerce templates
+Update: Slider Revolution 6.1.5
+Update: Spirit Framework v1.1.2 - fix not sending HTML/Multi-part email
+
+[version 1.1.7]
+New: Added thumbnail overlay color and status label background color option to Block Courses
+New: Added footer top border width and color option
+Fix: Blog page shows no posts, masonry layout
+Fix: Events Countdown timer
+Fix: CSS styles
+Update: Theme templates
+Update: LearnDash Course Reviews v1.0.4
+
+[version 1.1.6]
+New: Added bbPress support
+Fix: Course sidebar take course button
+Fix: Theme update notification issue
+Update: Spirit Framework v1.1.1
+
+[version 1.1.5]
+New: Added options to change course section titles
+New: Added option to change course grid thumbnail hover text
+New: Added hooks for course sections
+New: Setup closed courses with WooCommerce without Button URL.
+Fix: Removed bottom space on course page ( Tab style )
+Improvement: Course sidebar display position on mobile view.
+Update: Spirit Framework v1.1.0
+
+[version 1.1.2]
+New: Added option to change "Blog" text on Blog page
+New: Added breadcrumbs for blog posts - Post style 2
+New: Page Banner option - breadcrumbs
+New: Added option to add CTA button class
+New: Added header ads option for header style 4
+Fix: Course sidebar enroll status for free courses
+Fix: CSS styles
+Fix: Demo Content
+Fix: Revolution Slider v6.0 navigation theme Arrows
+Update: WooCommerce template
+Update: Talemy Demo Data v1.0.8
+Update: Spirit Framework v1.0.9
+
+[version 1.1.1]
+New: RTL support
+New: right offcanvas menu
+New: navbar login button text style
+New: Block Course/Posts - option to change order of tabs
+New: Automatic Theme update
+Fix: wp_video_shortcode error
+Improvement: CSS styles.
+Update: Fontawesome v5.10.1
+Update: Revolution Slider v6.1
+Update: Spirit Framework v1.0.8
+Update: LearnDash Course Reviews v1.0.3
+
+[ Version 1.0.5 ]
+New: Demo One Course, Demo One Instructor
+New: Added support for Events Calendar Filter Bar plugin
+New: Added option to select event list view image size
+New: LearnDash admin notification is now permanently dismissable
+New: Added new footer top layout
+New: Added option to use custom page logo
+Fix: The Event Calendar shortcode styling
+Update: WooCommerce templates
+
+[ Version 1.0.1 ]
+New: Demo High School
+Improvement: CSS styles
+
+[ Version 1.0.0 ]
+Initial Release

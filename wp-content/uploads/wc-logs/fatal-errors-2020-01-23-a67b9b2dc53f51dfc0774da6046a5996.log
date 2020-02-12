@@ -1,0 +1,59 @@
+2020-01-23T08:52:51+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-23T08:53:13+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-23T09:09:13+00:00 CRITICAL Uncaught Error: Class 'MeprDb' not found in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php:124
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): Learndash_Memberpress_Tools->retroactive_access_process('')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_learnda...')
+#4 {main}
+  thrown in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/learndash-memberpress/includes/class-tools.php on line 124
+
+2020-01-23T16:56:28+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Alti_ProtectUploads_Admin::__construct(), 0 passed in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php on line 33 and exactly 2 expected in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php:14
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php(33): Alti_ProtectUploads_Admin->__construct()
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): deactivate_alti_protect_uploads(false)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(802): d in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php on line 14
+
+2020-01-23T16:56:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Alti_ProtectUploads_Admin::__construct(), 0 passed in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php on line 33 and exactly 2 expected in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php:14
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php(33): Alti_ProtectUploads_Admin->__construct()
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): deactivate_alti_protect_uploads(false)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(802): d in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php on line 14
+
+2020-01-23T16:57:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Alti_ProtectUploads_Admin::__construct(), 0 passed in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php on line 33 and exactly 2 expected in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php:14
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php(33): Alti_ProtectUploads_Admin->__construct()
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): deactivate_alti_protect_uploads(false)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(802): d in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php on line 14
+
+2020-01-23T16:58:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Alti_ProtectUploads_Admin::__construct(), 0 passed in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php on line 33 and exactly 2 expected in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php:14
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/protect-uploads.php(33): Alti_ProtectUploads_Admin->__construct()
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): deactivate_alti_protect_uploads(false)
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(802): d in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/protect-uploads/admin/class-protect-uploads-admin.php on line 14
+

@@ -1,0 +1,8 @@
+2020-01-20T19:53:46+00:00 CRITICAL Uncaught Error: Call to a member function getLocations() on string in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/API/Responses/Locations.php:51
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/API.php(609): WooCommerce\Square\API\Responses\Locations->get_locations()
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/Settings.php(612): WooCommerce\Square\API->get_locations()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/Settings.php(263): WooCommerce\Square\Settings->get_locations()
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-settings-api.php(266): WooCommerce\Square\Settings->get_form_fields()
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/Setting dans /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/woocommerce-square/includes/API/Responses/Locations.php à la ligne 51
+

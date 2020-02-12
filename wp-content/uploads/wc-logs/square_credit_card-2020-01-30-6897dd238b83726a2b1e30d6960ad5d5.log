@@ -1,0 +1,968 @@
+01-30-2020 @ 15:28:30 - Square.js Response:
+ Array
+(
+    [digital_wallet_type] => NONE
+    [card_brand] => VISA
+    [last_4] => 6020
+    [exp_month] => 1
+    [exp_year] => 2023
+    [billing_postal_code] => J6E 0X6
+)
+
+01-30-2020 @ 15:28:30 - Request
+method:
+uri: createCustomerWithHttpInfo
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "given_name": "Guillaume",
+    "family_name": "Bleau",
+    "company_name": "UPentreprise",
+    "email_address": "guillaume.bleau@upbusiness.ca",
+    "address": {
+        "address_line_1": "207.2 RUE SAINT-PIERRE NORD",
+        "address_line_2": "",
+        "locality": "Joliette",
+        "administrative_district_level_1": "QC",
+        "postal_code": "J6E 0X6",
+        "country": "CA",
+        "first_name": "Guillaume",
+        "last_name": "Bleau",
+        "organization": "UPentreprise"
+    },
+    "phone_number": "4504990092",
+    "reference_id": "3"
+}
+duration: 0.70236s
+
+01-30-2020 @ 15:28:30 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 20:28:30 GMT
+    [Content-Length] => 530
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "customer": {
+        "id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+        "created_at": "2020-01-30T20:28:30.469Z",
+        "updated_at": "2020-01-30T20:28:30Z",
+        "given_name": "Guillaume",
+        "family_name": "Bleau",
+        "company_name": "UPentreprise",
+        "email_address": "guillaume.bleau@upbusiness.ca",
+        "address": {
+            "address_line_1": "207.2 RUE SAINT-PIERRE NORD",
+            "locality": "Joliette",
+            "administrative_district_level_1": "QC",
+            "postal_code": "J6E 0X6",
+            "country": "CA"
+        },
+        "phone_number": "4504990092",
+        "reference_id": "3",
+        "preferences": {
+            "email_unsubscribed": false
+        },
+        "creation_source": "THIRD_PARTY"
+    }
+}
+
+01-30-2020 @ 15:28:31 - Request
+method:
+uri: createOrderWithHttpInfo/53PFJW3G7R4XZ
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "order": {
+        "reference_id": "1479",
+        "line_items": [
+            {
+                "name": "Programme \u00c9volution | Guide pour l'\u00eatre (Pr\u00e9-vente)",
+                "quantity": "1",
+                "applied_taxes": [
+                    {
+                        "tax_uid": "5e333c6ea5ecb"
+                    },
+                    {
+                        "tax_uid": "5e333c6ea5f4a"
+                    }
+                ],
+                "base_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                }
+            }
+        ],
+        "taxes": [
+            {
+                "uid": "5e333c6ea5ecb",
+                "name": "CA-QC-TPS (753523133 RT0001)-1",
+                "type": "ADDITIVE",
+                "percentage": "5.33",
+                "scope": "LINE_ITEM"
+            },
+            {
+                "uid": "5e333c6ea5f4a",
+                "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                "type": "ADDITIVE",
+                "percentage": "10.00",
+                "scope": "LINE_ITEM"
+            }
+        ],
+        "discounts": [
+            {
+                "name": "Discount",
+                "type": "FIXED_AMOUNT",
+                "amount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "scope": "ORDER"
+            }
+        ]
+    },
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1479"
+}
+duration: 0.4936s
+
+01-30-2020 @ 15:28:31 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Date] => Thu, 30 Jan 2020 20:28:30 GMT
+    [Frame-Options] => DENY
+    [X-Frame-Options] => DENY
+    [X-Content-Type-Options] => nosniff
+    [X-Xss-Protection] => 1; mode=block
+    [Content-Type] => application/json;charset=utf-8
+    [Square-Version] => 2019-08-14
+    [Vary] => Accept-Encoding, User-Agent
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+    [Transfer-Encoding] => chunked
+)
+body: {
+    "order": {
+        "id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY",
+        "location_id": "53PFJW3G7R4XZ",
+        "reference_id": "1479",
+        "source": {
+            "name": "WooCommerce"
+        },
+        "line_items": [
+            {
+                "uid": "y5yW23qvdrujJASoN9kPUB",
+                "name": "Programme \u00c9volution | Guide pour l'\u00eatre (Pr\u00e9-vente)",
+                "quantity": "1",
+                "taxes": [
+                    {
+                        "uid": "5e333c6ea5ecb",
+                        "name": "CA-QC-TPS (753523133 RT0001)-1",
+                        "type": "ADDITIVE",
+                        "percentage": "5.33",
+                        "applied_money": {
+                            "amount": 8,
+                            "currency": "CAD"
+                        },
+                        "scope": "LINE_ITEM"
+                    },
+                    {
+                        "uid": "5e333c6ea5f4a",
+                        "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                        "type": "ADDITIVE",
+                        "percentage": "10.00",
+                        "applied_money": {
+                            "amount": 15,
+                            "currency": "CAD"
+                        },
+                        "scope": "LINE_ITEM"
+                    }
+                ],
+                "discounts": [
+                    {
+                        "uid": "0DWYxclI8sNahafhDPHjAC",
+                        "name": "Discount",
+                        "type": "FIXED_AMOUNT",
+                        "amount_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        },
+                        "applied_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        },
+                        "scope": "ORDER"
+                    }
+                ],
+                "applied_taxes": [
+                    {
+                        "uid": "4mW7jpfC1zmR79xcA3wm1B",
+                        "tax_uid": "5e333c6ea5ecb",
+                        "applied_money": {
+                            "amount": 8,
+                            "currency": "CAD"
+                        }
+                    },
+                    {
+                        "uid": "BqdThXVpsGTVCBjhJwihk",
+                        "tax_uid": "5e333c6ea5f4a",
+                        "applied_money": {
+                            "amount": 15,
+                            "currency": "CAD"
+                        }
+                    }
+                ],
+                "applied_discounts": [
+                    {
+                        "uid": "hqkT1HwmXmnkL6q2OjhSYC",
+                        "discount_uid": "0DWYxclI8sNahafhDPHjAC",
+                        "applied_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        }
+                    }
+                ],
+                "base_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "variation_total_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "gross_sales_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "total_tax_money": {
+                    "amount": 23,
+                    "currency": "CAD"
+                },
+                "total_discount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "total_money": {
+                    "amount": 173,
+                    "currency": "CAD"
+                }
+            }
+        ],
+        "taxes": [
+            {
+                "uid": "5e333c6ea5ecb",
+                "name": "CA-QC-TPS (753523133 RT0001)-1",
+                "type": "ADDITIVE",
+                "percentage": "5.33",
+                "applied_money": {
+                    "amount": 8,
+                    "currency": "CAD"
+                },
+                "scope": "LINE_ITEM"
+            },
+            {
+                "uid": "5e333c6ea5f4a",
+                "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                "type": "ADDITIVE",
+                "percentage": "10.00",
+                "applied_money": {
+                    "amount": 15,
+                    "currency": "CAD"
+                },
+                "scope": "LINE_ITEM"
+            }
+        ],
+        "discounts": [
+            {
+                "uid": "0DWYxclI8sNahafhDPHjAC",
+                "name": "Discount",
+                "type": "FIXED_AMOUNT",
+                "amount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "applied_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "scope": "ORDER"
+            }
+        ],
+        "net_amounts": {
+            "total_money": {
+                "amount": 173,
+                "currency": "CAD"
+            },
+            "tax_money": {
+                "amount": 23,
+                "currency": "CAD"
+            },
+            "discount_money": {
+                "amount": 14849,
+                "currency": "CAD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency": "CAD"
+            },
+            "service_charge_money": {
+                "amount": 0,
+                "currency": "CAD"
+            }
+        },
+        "created_at": "2020-01-30T20:28:31.047Z",
+        "updated_at": "2020-01-30T20:28:31.047Z",
+        "state": "OPEN",
+        "version": 1,
+        "total_money": {
+            "amount": 173,
+            "currency": "CAD"
+        },
+        "total_tax_money": {
+            "amount": 23,
+            "currency": "CAD"
+        },
+        "total_discount_money": {
+            "amount": 14849,
+            "currency": "CAD"
+        },
+        "total_service_charge_money": {
+            "amount": 0,
+            "currency": "CAD"
+        }
+    }
+}
+
+01-30-2020 @ 15:28:32 - Request
+method:
+uri: chargeWithHttpInfo/53PFJW3G7R4XZ
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1479",
+    "amount_money": {
+        "amount": 173,
+        "currency": "CAD"
+    },
+    "card_nonce": "cnon:CBASEI3y3GufTsoLeZviQdjoRgI",
+    "delay_capture": false,
+    "reference_id": "1479",
+    "note": "Programmes Espace Atman - Order 1479",
+    "customer_id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+    "billing_address": {
+        "address_line_1": "207.2 RUE SAINT-PIERRE NORD",
+        "address_line_2": "",
+        "locality": "Joliette",
+        "administrative_district_level_1": "QC",
+        "postal_code": "J6E 0X6",
+        "country": "CA",
+        "first_name": "Guillaume",
+        "last_name": "Bleau",
+        "organization": "UPentreprise"
+    },
+    "buyer_email_address": "guillaume.bleau@upbusiness.ca",
+    "order_id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY"
+}
+duration: 0.98764s
+
+01-30-2020 @ 15:28:32 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 20:28:31 GMT
+    [Content-Length] => 717
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "transaction": {
+        "id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY",
+        "location_id": "53PFJW3G7R4XZ",
+        "created_at": "2020-01-30T20:28:32Z",
+        "tenders": [
+            {
+                "id": "t2aHJqvDkpcPODb25TTlYtpCuaB",
+                "location_id": "53PFJW3G7R4XZ",
+                "transaction_id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY",
+                "created_at": "2020-01-30T20:28:31Z",
+                "note": "Programmes Espace Atman - Order 1479",
+                "amount_money": {
+                    "amount": 173,
+                    "currency": "CAD"
+                },
+                "customer_id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+                "type": "CARD",
+                "card_details": {
+                    "status": "CAPTURED",
+                    "card": {
+                        "card_brand": "VISA",
+                        "last_4": "6020",
+                        "fingerprint": "sq-1-ty8-NmO-oLw-6tK9i5GO3KfIlnj_xCQuhiZ87-LQOekj7-oWmeIAjJJgmcpinDfM8g"
+                    },
+                    "entry_method": "KEYED"
+                }
+            }
+        ],
+        "reference_id": "1479",
+        "product": "EXTERNAL_API",
+        "order_id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY"
+    }
+}
+
+01-30-2020 @ 15:32:42 - Request
+method:
+uri: createRefundWithHttpInfo/53PFJW3G7R4XZ/YIpTtPEopCMOuRDXbD91WUzCuSQZY
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1479:1483",
+    "tender_id": "t2aHJqvDkpcPODb25TTlYtpCuaB",
+    "reason": "Programmes Espace Atman - Refund for Order 1479",
+    "amount_money": {
+        "amount": 173,
+        "currency": "CAD"
+    }
+}
+duration: 1.07959s
+
+01-30-2020 @ 15:32:42 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 20:32:41 GMT
+    [Content-Length] => 323
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "refund": {
+        "id": "0VWEswPq73dcyvGTWly5S",
+        "location_id": "53PFJW3G7R4XZ",
+        "transaction_id": "YIpTtPEopCMOuRDXbD91WUzCuSQZY",
+        "tender_id": "t2aHJqvDkpcPODb25TTlYtpCuaB",
+        "created_at": "2020-01-30T20:32:41Z",
+        "reason": "Programmes Espace Atman - Refund for Order 1479",
+        "amount_money": {
+            "amount": 173,
+            "currency": "CAD"
+        },
+        "status": "PENDING"
+    }
+}
+
+01-30-2020 @ 15:35:24 - Request
+method:
+uri: retrieveCustomerWithHttpInfo/059N0ZN2E0RTV1K8ZZA35B8GJR
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body:
+duration: 0.75245s
+
+01-30-2020 @ 15:35:24 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 20:35:23 GMT
+    [Content-Length] => 608
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "customer": {
+        "id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+        "created_at": "2020-01-30T20:28:30.469Z",
+        "updated_at": "2020-01-30T20:28:30Z",
+        "given_name": "Guillaume",
+        "family_name": "Bleau",
+        "company_name": "UPentreprise",
+        "email_address": "guillaume.bleau@upbusiness.ca",
+        "address": {
+            "address_line_1": "207.2 RUE SAINT-PIERRE NORD",
+            "locality": "Joliette",
+            "administrative_district_level_1": "QC",
+            "postal_code": "J6E 0X6",
+            "country": "CA"
+        },
+        "phone_number": "4504990092",
+        "reference_id": "3",
+        "preferences": {
+            "email_unsubscribed": false
+        },
+        "groups": [
+            {
+                "id": "HSM612ZVZFZFS.CARDS_ON_FILE",
+                "name": "Cartes enregistr\u00e9es"
+            }
+        ],
+        "creation_source": "THIRD_PARTY"
+    }
+}
+
+01-30-2020 @ 15:36:03 - Square.js Response:
+ Array
+(
+    [digital_wallet_type] => NONE
+    [card_brand] => VISA
+    [last_4] => 6020
+    [exp_month] => 1
+    [exp_year] => 2023
+    [billing_postal_code] => J6E 0X6
+)
+
+01-30-2020 @ 15:36:04 - Request
+method:
+uri: createOrderWithHttpInfo/53PFJW3G7R4XZ
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "order": {
+        "reference_id": "1487",
+        "line_items": [
+            {
+                "name": "Programme \u00c9volution | Guide pour l'\u00eatre (Pr\u00e9-vente)",
+                "quantity": "1",
+                "applied_taxes": [
+                    {
+                        "tax_uid": "5e333e33f05fd"
+                    },
+                    {
+                        "tax_uid": "5e333e33f067e"
+                    }
+                ],
+                "base_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                }
+            }
+        ],
+        "taxes": [
+            {
+                "uid": "5e333e33f05fd",
+                "name": "CA-QC-TPS (753523133 RT0001)-1",
+                "type": "ADDITIVE",
+                "percentage": "5.33",
+                "scope": "LINE_ITEM"
+            },
+            {
+                "uid": "5e333e33f067e",
+                "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                "type": "ADDITIVE",
+                "percentage": "10.00",
+                "scope": "LINE_ITEM"
+            }
+        ],
+        "discounts": [
+            {
+                "name": "Discount",
+                "type": "FIXED_AMOUNT",
+                "amount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "scope": "ORDER"
+            }
+        ]
+    },
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1487"
+}
+duration: 0.71141s
+
+01-30-2020 @ 15:36:04 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Date] => Thu, 30 Jan 2020 20:36:04 GMT
+    [Frame-Options] => DENY
+    [X-Frame-Options] => DENY
+    [X-Content-Type-Options] => nosniff
+    [X-Xss-Protection] => 1; mode=block
+    [Content-Type] => application/json;charset=utf-8
+    [Square-Version] => 2019-08-14
+    [Vary] => Accept-Encoding, User-Agent
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+    [Transfer-Encoding] => chunked
+)
+body: {
+    "order": {
+        "id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY",
+        "location_id": "53PFJW3G7R4XZ",
+        "reference_id": "1487",
+        "source": {
+            "name": "WooCommerce"
+        },
+        "line_items": [
+            {
+                "uid": "kLKBAoStHnykTBi0N2bAhC",
+                "name": "Programme \u00c9volution | Guide pour l'\u00eatre (Pr\u00e9-vente)",
+                "quantity": "1",
+                "taxes": [
+                    {
+                        "uid": "5e333e33f05fd",
+                        "name": "CA-QC-TPS (753523133 RT0001)-1",
+                        "type": "ADDITIVE",
+                        "percentage": "5.33",
+                        "applied_money": {
+                            "amount": 8,
+                            "currency": "CAD"
+                        },
+                        "scope": "LINE_ITEM"
+                    },
+                    {
+                        "uid": "5e333e33f067e",
+                        "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                        "type": "ADDITIVE",
+                        "percentage": "10.00",
+                        "applied_money": {
+                            "amount": 15,
+                            "currency": "CAD"
+                        },
+                        "scope": "LINE_ITEM"
+                    }
+                ],
+                "discounts": [
+                    {
+                        "uid": "Frdmtmy6DiWEuyz0ptRuPD",
+                        "name": "Discount",
+                        "type": "FIXED_AMOUNT",
+                        "amount_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        },
+                        "applied_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        },
+                        "scope": "ORDER"
+                    }
+                ],
+                "applied_taxes": [
+                    {
+                        "uid": "fsZ2dWgkzywc8uPZEXTILC",
+                        "tax_uid": "5e333e33f05fd",
+                        "applied_money": {
+                            "amount": 8,
+                            "currency": "CAD"
+                        }
+                    },
+                    {
+                        "uid": "jC4yAVK0mlcjOw85LTnGYB",
+                        "tax_uid": "5e333e33f067e",
+                        "applied_money": {
+                            "amount": 15,
+                            "currency": "CAD"
+                        }
+                    }
+                ],
+                "applied_discounts": [
+                    {
+                        "uid": "ymyT63d5idIp31JASfXdBD",
+                        "discount_uid": "Frdmtmy6DiWEuyz0ptRuPD",
+                        "applied_money": {
+                            "amount": 14849,
+                            "currency": "CAD"
+                        }
+                    }
+                ],
+                "base_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "variation_total_price_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "gross_sales_money": {
+                    "amount": 14999,
+                    "currency": "CAD"
+                },
+                "total_tax_money": {
+                    "amount": 23,
+                    "currency": "CAD"
+                },
+                "total_discount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "total_money": {
+                    "amount": 173,
+                    "currency": "CAD"
+                }
+            }
+        ],
+        "taxes": [
+            {
+                "uid": "5e333e33f05fd",
+                "name": "CA-QC-TPS (753523133 RT0001)-1",
+                "type": "ADDITIVE",
+                "percentage": "5.33",
+                "applied_money": {
+                    "amount": 8,
+                    "currency": "CAD"
+                },
+                "scope": "LINE_ITEM"
+            },
+            {
+                "uid": "5e333e33f067e",
+                "name": "CA-QC-TVQ (1227160086 TQ0001)-2",
+                "type": "ADDITIVE",
+                "percentage": "10.00",
+                "applied_money": {
+                    "amount": 15,
+                    "currency": "CAD"
+                },
+                "scope": "LINE_ITEM"
+            }
+        ],
+        "discounts": [
+            {
+                "uid": "Frdmtmy6DiWEuyz0ptRuPD",
+                "name": "Discount",
+                "type": "FIXED_AMOUNT",
+                "amount_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "applied_money": {
+                    "amount": 14849,
+                    "currency": "CAD"
+                },
+                "scope": "ORDER"
+            }
+        ],
+        "net_amounts": {
+            "total_money": {
+                "amount": 173,
+                "currency": "CAD"
+            },
+            "tax_money": {
+                "amount": 23,
+                "currency": "CAD"
+            },
+            "discount_money": {
+                "amount": 14849,
+                "currency": "CAD"
+            },
+            "tip_money": {
+                "amount": 0,
+                "currency": "CAD"
+            },
+            "service_charge_money": {
+                "amount": 0,
+                "currency": "CAD"
+            }
+        },
+        "created_at": "2020-01-30T20:36:04.550Z",
+        "updated_at": "2020-01-30T20:36:04.550Z",
+        "state": "OPEN",
+        "version": 1,
+        "total_money": {
+            "amount": 173,
+            "currency": "CAD"
+        },
+        "total_tax_money": {
+            "amount": 23,
+            "currency": "CAD"
+        },
+        "total_discount_money": {
+            "amount": 14849,
+            "currency": "CAD"
+        },
+        "total_service_charge_money": {
+            "amount": 0,
+            "currency": "CAD"
+        }
+    }
+}
+
+01-30-2020 @ 15:36:05 - Request
+method:
+uri: chargeWithHttpInfo/53PFJW3G7R4XZ
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1487",
+    "amount_money": {
+        "amount": 173,
+        "currency": "CAD"
+    },
+    "card_nonce": "cnon:CBASEJqm3ElTU224V-E_KxqkVBs",
+    "delay_capture": false,
+    "reference_id": "1487",
+    "note": "Programmes Espace Atman - Order 1487",
+    "customer_id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+    "billing_address": {
+        "address_line_1": "207.2 RUE SAINT-PIERRE NORD",
+        "address_line_2": "",
+        "locality": "Joliette",
+        "administrative_district_level_1": "QC",
+        "postal_code": "J6E 0X6",
+        "country": "CA",
+        "first_name": "Guillaume",
+        "last_name": "Bleau",
+        "organization": "UPentreprise"
+    },
+    "buyer_email_address": "guillaume.bleau@upbusiness.ca",
+    "order_id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY"
+}
+duration: 1.27555s
+
+01-30-2020 @ 15:36:06 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 20:36:05 GMT
+    [Content-Length] => 717
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "transaction": {
+        "id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY",
+        "location_id": "53PFJW3G7R4XZ",
+        "created_at": "2020-01-30T20:36:05Z",
+        "tenders": [
+            {
+                "id": "V49n6O9ZGOx38Txm83h3F0aJuaB",
+                "location_id": "53PFJW3G7R4XZ",
+                "transaction_id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY",
+                "created_at": "2020-01-30T20:36:05Z",
+                "note": "Programmes Espace Atman - Order 1487",
+                "amount_money": {
+                    "amount": 173,
+                    "currency": "CAD"
+                },
+                "customer_id": "059N0ZN2E0RTV1K8ZZA35B8GJR",
+                "type": "CARD",
+                "card_details": {
+                    "status": "CAPTURED",
+                    "card": {
+                        "card_brand": "VISA",
+                        "last_4": "6020",
+                        "fingerprint": "sq-1-ty8-NmO-oLw-6tK9i5GO3KfIlnj_xCQuhiZ87-LQOekj7-oWmeIAjJJgmcpinDfM8g"
+                    },
+                    "entry_method": "KEYED"
+                }
+            }
+        ],
+        "reference_id": "1487",
+        "product": "EXTERNAL_API",
+        "order_id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY"
+    }
+}
+
+01-30-2020 @ 16:09:55 - Request
+method:
+uri: createRefundWithHttpInfo/53PFJW3G7R4XZ/aPcjJjRv6B1oCWjReJtJkZcI7UYZY
+user-agent: WooCommerce-Square/2.0.8 (WooCommerce/3.9.0; WordPress/5.3.2)
+headers: Array
+(
+)
+body: {
+    "idempotency_key": "fb95faf925a4f2e7954ed9c383ed96a2:1487:1491",
+    "tender_id": "V49n6O9ZGOx38Txm83h3F0aJuaB",
+    "reason": "Programmes Espace Atman - Refund for Order 1487",
+    "amount_money": {
+        "amount": 173,
+        "currency": "CAD"
+    }
+}
+duration: 1.38431s
+
+01-30-2020 @ 16:09:55 - Response
+code: 200
+message:
+headers: Array
+(
+    [0] => HTTP/1.1 200 OK
+    [Content-Type] => application/json
+    [Square-Version] => 2019-08-14
+    [Vary] => Origin, Accept-Encoding
+    [X-Content-Type-Options] => nosniff
+    [X-Download-Options] => noopen
+    [X-Frame-Options] => SAMEORIGIN
+    [X-Permitted-Cross-Domain-Policies] => none
+    [X-Xss-Protection] => 1; mode=block
+    [Date] => Thu, 30 Jan 2020 21:09:55 GMT
+    [Content-Length] => 323
+    [Strict-Transport-Security] => max-age=631152000; includeSubDomains; preload
+)
+body: {
+    "refund": {
+        "id": "cJ0HCo2fJDmwwAXFRHk5S",
+        "location_id": "53PFJW3G7R4XZ",
+        "transaction_id": "aPcjJjRv6B1oCWjReJtJkZcI7UYZY",
+        "tender_id": "V49n6O9ZGOx38Txm83h3F0aJuaB",
+        "created_at": "2020-01-30T21:09:55Z",
+        "reason": "Programmes Espace Atman - Refund for Order 1487",
+        "amount_money": {
+            "amount": 173,
+            "currency": "CAD"
+        },
+        "status": "PENDING"
+    }
+}
+

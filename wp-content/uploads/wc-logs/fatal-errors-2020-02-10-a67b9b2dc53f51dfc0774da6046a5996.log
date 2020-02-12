@@ -1,0 +1,11 @@
+2020-02-10T11:02:49+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) dans /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content/themes/talemy-child/learndash/ld30/course.php à la ligne 303
+
+2020-02-10T15:46:13+00:00 CRITICAL Uncaught Error: Call to undefined method VersionPress\ChangeInfos\UntrackedChangeInfo::getScope() in /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content/plugins/versionpress/src/Utils/UninstallationUtil.php:40
+Stack trace:
+#0 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content/plugins/versionpress/uninstall.php(52): VersionPress\Utils\UninstallationUtil::uninstallationShouldRemoveGitRepo()
+#1 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-admin/includes/plugin.php(1209): include('/home/367771.cl...')
+#2 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-admin/includes/plugin.php(944): uninstall_plugin('versionpress/ve...')
+#3 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-admin/includes/ajax-actions.php(4541): delete_plugins(Array)
+#4 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-includes/class-wp-hook.php(288): wp_ajax_delete_plugin('')
+#5 /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_fil in /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content/plugins/versionpress/src/Utils/UninstallationUtil.php on line 40
+

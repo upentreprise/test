@@ -1,0 +1,15 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_talemy">
+            <key name="header_info_address" />
+            <key name="header_info_email" />
+            <key name="header_info_phone" />
+            <key name="nav_btn_text" />
+            <key name="nav_btn_url" />
+            <key name="topbar_btn_text" />
+            <key name="topbar_btn_url" />
+            <key name="footer_copyright" />
+            <key name="ld_thumb_hover_text" />
+        </key>
+    </admin-texts>
+</wpml-config>

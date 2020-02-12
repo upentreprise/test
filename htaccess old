@@ -1,0 +1,24 @@
+# BEGIN WordPress
+# Les directives (lignes) entre 'BEGIN WordPress' et 'END WordPress' sont
+# généré dynamiquement, et ne doivent uniquement être modifiées via les filtres WordPress.
+# Toute modification des directives entre ces marqueurs sera outrepassée.
+# Prevent Direct Access Rewrite Rules
+RewriteRule private/([a-zA-Z0-9]+)$ index.php?pda_v3_pf=$1 [L]
+RewriteCond %{REQUEST_FILENAME} -s
+RewriteCond %{HTTP_USER_AGENT} !facebookexternalhit/[0-9]
+RewriteCond %{HTTP_USER_AGENT} !Twitterbot/[0-9]
+RewriteCond %{HTTP_USER_AGENT} !Googlebot/[0-9]
+RewriteRule wp-content/uploads/_pda(\/[A-Za-z0-9_@.\/&+-]+)+\.([A-Za-z0-9_@.\/&+-]+)$ index.php?pda_v3_pf=$1&is_direct_access=true&file_type=$2 [QSA,L]
+# Prevent Direct Access Rewrite Rules End
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+
+# END WordPress

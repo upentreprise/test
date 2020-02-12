@@ -1,0 +1,60 @@
+2020-02-01T07:02:48+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate(false)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(681):  in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T07:02:56+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate('')
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/plugins.php(177): do_action(' in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T07:02:56+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate('')
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/plugins.php(177): do_action(' in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T07:03:44+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate(false)
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/includes/plugin.php(681):  in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T07:03:51+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate('')
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/plugins.php(177): do_action(' in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T07:03:52+00:00 CRITICAL Uncaught UnexpectedValueException: RecursiveDirectoryIterator::__construct(WPPB_PLUGIN_DIR): failed to open dir: No such file or directory in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php:65
+Stack trace:
+#0 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(65): RecursiveDirectoryIterator->__construct('WPPB_PLUGIN_DIR')
+#1 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php(56): pble_scan_labels()
+#2 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(288): pble_scan_on_plugin_activate('')
+#3 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-admin/plugins.php(177): do_action(' in /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/plugins/pb-add-on-labels-edit/pble.php on line 65
+
+2020-02-01T14:26:50+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) dans /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/themes/talemy/includes/class-talemy-walker-menu.php à la ligne 393
+
+2020-02-01T14:27:12+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) dans /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/themes/talemy/includes/class-talemy-walker-menu.php à la ligne 393
+
+2020-02-01T14:27:12+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) dans /home/361387.cloudwaysapps.com/abervzsrxh/public_html/wp-content/themes/talemy/includes/class-talemy-walker-menu.php à la ligne 393
+

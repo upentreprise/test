@@ -1,0 +1,1002 @@
+0000.000 (0) Opened log file at time: Mon, 10 Feb 2020 18:02:30 +0000 on https://programmes.espaceatman.com
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.21 WP: 5.3.2 PHP: 7.3.14-5+0~20200202.52+debian9~1.gbpa71879 (fpm-fcgi, Linux 367771.cloudwaysapps.com 4.9.0-11-amd64 #1 SMP Debian 4.9.189-3+deb9u1 (2019-09-20) x86_64) MySQL: 10.1.41-MariaDB-1~stretch WPLANG: en_US Server: Apache/2.4.25 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 1200M (used: 38.7M | 14M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 31353.7 MB
+0000.006 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.010 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.014 (0) Set semaphore last lock (fd) time to 2020-02-10 18:02:30
+0000.015 (0) Semaphore lock (fd) complete
+0000.020 (0) Backup run: resumption=0, nonce=922fbb353c07, file_nonce=922fbb353c07 begun at=1581357750 (0s ago), job type=backup
+0000.022 (0) Scheduling a resumption (1) after 300 seconds (1581358050) in case this run gets aborted
+0000.037 (0) Checking if we have a zip executable available
+0000.038 (0) Testing: /usr/bin/zip
+0000.045 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.048 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.050 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.051 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.053 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.063 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.071 (0) Working binary zip found: /usr/bin/zip
+0000.075 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.078 (0) Creation of backups of directories: beginning
+0000.083 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.583 (0) Total entities for the zip file: 4607 directories, 27583 files (0 skipped as non-modified), 343.7 MB
+0000.589 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.593 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.596 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.600 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.604 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.606 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 27583 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.297 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: size is now: 4.00 MB
+0002.302 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 600 files added (on-disk size: 4125.6 KB)
+0002.305 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 700 files added (on-disk size: 4125.6 KB)
+0002.308 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 800 files added (on-disk size: 4125.6 KB)
+0002.311 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 900 files added (on-disk size: 4125.6 KB)
+0002.314 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1000 files added (on-disk size: 4125.6 KB)
+0002.315 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 27583 files batched, 501 (1002) added so far); re-opening (prior size: 4125.6 KB)
+0002.661 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1100 files added (on-disk size: 4502.8 KB)
+0002.670 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1200 files added (on-disk size: 4502.8 KB)
+0002.677 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1300 files added (on-disk size: 4502.8 KB)
+0002.684 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1400 files added (on-disk size: 4502.8 KB)
+0002.692 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1500 files added (on-disk size: 4502.8 KB)
+0002.695 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 27583 files batched, 501 (1503) added so far); re-opening (prior size: 4502.8 KB)
+0003.176 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1600 files added (on-disk size: 5015 KB)
+0003.181 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1700 files added (on-disk size: 5015 KB)
+0003.187 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1800 files added (on-disk size: 5015 KB)
+0003.192 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 1900 files added (on-disk size: 5015 KB)
+0003.197 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2000 files added (on-disk size: 5015 KB)
+0003.199 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 27583 files batched, 501 (2004) added so far); re-opening (prior size: 5015 KB)
+0003.856 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2100 files added (on-disk size: 5970.6 KB)
+0003.863 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2200 files added (on-disk size: 5970.6 KB)
+0003.868 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2300 files added (on-disk size: 5970.6 KB)
+0003.873 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2400 files added (on-disk size: 5970.6 KB)
+0003.878 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2500 files added (on-disk size: 5970.6 KB)
+0003.881 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.4 MB, 27583 files batched, 501 (2505) added so far); re-opening (prior size: 5970.6 KB)
+0004.452 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2600 files added (on-disk size: 6805.1 KB)
+0004.458 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2700 files added (on-disk size: 6805.1 KB)
+0004.463 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2800 files added (on-disk size: 6805.1 KB)
+0004.468 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 2900 files added (on-disk size: 6805.1 KB)
+0004.472 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3000 files added (on-disk size: 6805.1 KB)
+0004.474 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.5 MB, 27583 files batched, 501 (3006) added so far); re-opening (prior size: 6805.1 KB)
+0004.919 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3100 files added (on-disk size: 7191.4 KB)
+0004.922 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3200 files added (on-disk size: 7191.4 KB)
+0004.929 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3300 files added (on-disk size: 7191.4 KB)
+0004.933 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3400 files added (on-disk size: 7191.4 KB)
+0004.940 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3500 files added (on-disk size: 7191.4 KB)
+0004.942 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.7 MB, 27583 files batched, 501 (3507) added so far); re-opening (prior size: 7191.4 KB)
+0005.423 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3600 files added (on-disk size: 7777.8 KB)
+0005.427 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3700 files added (on-disk size: 7777.8 KB)
+0005.433 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3800 files added (on-disk size: 7777.8 KB)
+0005.437 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 3900 files added (on-disk size: 7777.8 KB)
+0005.445 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4000 files added (on-disk size: 7777.8 KB)
+0005.448 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.8 MB, 27583 files batched, 501 (4008) added so far); re-opening (prior size: 7777.8 KB)
+0006.110 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4100 files added (on-disk size: 8802.7 KB)
+0006.113 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4200 files added (on-disk size: 8802.7 KB)
+0006.121 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4300 files added (on-disk size: 8802.7 KB)
+0006.127 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4400 files added (on-disk size: 8802.7 KB)
+0006.133 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4500 files added (on-disk size: 8802.7 KB)
+0006.140 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.2 MB, 27583 files batched, 501 (4509) added so far); re-opening (prior size: 8802.7 KB)
+0008.099 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: size is now: 12.80 MB
+0008.105 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4600 files added (on-disk size: 13098.6 KB)
+0008.108 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4700 files added (on-disk size: 13098.6 KB)
+0008.113 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4800 files added (on-disk size: 13098.6 KB)
+0008.116 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 4900 files added (on-disk size: 13098.6 KB)
+0008.121 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5000 files added (on-disk size: 13098.6 KB)
+0008.124 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14 MB, 27583 files batched, 501 (5010) added so far); re-opening (prior size: 13098.6 KB)
+0009.470 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: size is now: 20.30 MB
+0009.477 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5100 files added (on-disk size: 20804.8 KB)
+0009.480 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5200 files added (on-disk size: 20804.8 KB)
+0009.483 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5300 files added (on-disk size: 20804.8 KB)
+0009.494 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5400 files added (on-disk size: 20804.8 KB)
+0009.497 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5500 files added (on-disk size: 20804.8 KB)
+0009.504 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 27583 files batched, 501 (5511) added so far); re-opening (prior size: 20804.8 KB)
+0010.015 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5600 files added (on-disk size: 22316.4 KB)
+0010.019 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5700 files added (on-disk size: 22316.4 KB)
+0010.022 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5800 files added (on-disk size: 22316.4 KB)
+0010.025 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 5900 files added (on-disk size: 22316.4 KB)
+0010.029 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6000 files added (on-disk size: 22316.4 KB)
+0010.031 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.9 MB, 27583 files batched, 501 (6012) added so far); re-opening (prior size: 22316.4 KB)
+0011.333 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: size is now: 27.30 MB
+0011.342 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6100 files added (on-disk size: 27987.6 KB)
+0011.346 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6200 files added (on-disk size: 27987.6 KB)
+0011.351 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6300 files added (on-disk size: 27987.6 KB)
+0011.356 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6400 files added (on-disk size: 27987.6 KB)
+0011.361 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6500 files added (on-disk size: 27987.6 KB)
+0011.363 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 27583 files batched, 501 (6513) added so far); re-opening (prior size: 27987.6 KB)
+0012.025 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6600 files added (on-disk size: 29144.4 KB)
+0012.031 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6700 files added (on-disk size: 29144.4 KB)
+0012.036 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6800 files added (on-disk size: 29144.4 KB)
+0012.040 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 6900 files added (on-disk size: 29144.4 KB)
+0012.045 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7000 files added (on-disk size: 29144.4 KB)
+0012.048 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 27583 files batched, 501 (7014) added so far); re-opening (prior size: 29144.4 KB)
+0012.963 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7100 files added (on-disk size: 31926.8 KB)
+0012.968 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7200 files added (on-disk size: 31926.8 KB)
+0012.972 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7300 files added (on-disk size: 31926.8 KB)
+0012.978 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7400 files added (on-disk size: 31926.8 KB)
+0012.984 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7500 files added (on-disk size: 31926.8 KB)
+0012.987 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 27583 files batched, 501 (7515) added so far); re-opening (prior size: 31926.8 KB)
+0014.125 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7600 files added (on-disk size: 35364.3 KB)
+0014.128 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7700 files added (on-disk size: 35364.3 KB)
+0014.132 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7800 files added (on-disk size: 35364.3 KB)
+0014.136 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 7900 files added (on-disk size: 35364.3 KB)
+0014.139 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8000 files added (on-disk size: 35364.3 KB)
+0014.141 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (10.3 MB, 27583 files batched, 501 (8016) added so far); re-opening (prior size: 35364.3 KB)
+0015.856 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8100 files added (on-disk size: 38822.6 KB)
+0015.861 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8200 files added (on-disk size: 38822.6 KB)
+0015.866 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8300 files added (on-disk size: 38822.6 KB)
+0015.871 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8400 files added (on-disk size: 38822.6 KB)
+0015.876 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8500 files added (on-disk size: 38822.6 KB)
+0015.878 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 27583 files batched, 501 (8517) added so far); re-opening (prior size: 38822.6 KB)
+0016.589 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8600 files added (on-disk size: 39882.1 KB)
+0016.595 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8700 files added (on-disk size: 39882.1 KB)
+0016.599 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8800 files added (on-disk size: 39882.1 KB)
+0016.604 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 8900 files added (on-disk size: 39882.1 KB)
+0016.608 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9000 files added (on-disk size: 39882.1 KB)
+0016.611 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (15.3 MB, 27583 files batched, 501 (9018) added so far); re-opening (prior size: 39882.1 KB)
+0018.372 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9100 files added (on-disk size: 45155.6 KB)
+0018.377 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9200 files added (on-disk size: 45155.6 KB)
+0018.382 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9300 files added (on-disk size: 45155.6 KB)
+0018.386 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9400 files added (on-disk size: 45155.6 KB)
+0018.391 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9500 files added (on-disk size: 45155.6 KB)
+0018.394 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 27583 files batched, 501 (9519) added so far); re-opening (prior size: 45155.6 KB)
+0019.020 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9600 files added (on-disk size: 45678.4 KB)
+0019.025 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9700 files added (on-disk size: 45678.4 KB)
+0019.031 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9800 files added (on-disk size: 45678.4 KB)
+0019.036 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 9900 files added (on-disk size: 45678.4 KB)
+0019.041 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10000 files added (on-disk size: 45678.4 KB)
+0019.044 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 MB, 27583 files batched, 501 (10020) added so far); re-opening (prior size: 45678.4 KB)
+0019.867 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10100 files added (on-disk size: 46744.1 KB)
+0019.872 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10200 files added (on-disk size: 46744.1 KB)
+0019.877 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10300 files added (on-disk size: 46744.1 KB)
+0019.882 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10400 files added (on-disk size: 46744.1 KB)
+0019.886 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10500 files added (on-disk size: 46744.1 KB)
+0019.889 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.4 MB, 27583 files batched, 501 (10521) added so far); re-opening (prior size: 46744.1 KB)
+0020.851 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10600 files added (on-disk size: 48991.9 KB)
+0020.856 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10700 files added (on-disk size: 48991.9 KB)
+0020.860 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10800 files added (on-disk size: 48991.9 KB)
+0020.865 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 10900 files added (on-disk size: 48991.9 KB)
+0020.869 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11000 files added (on-disk size: 48991.9 KB)
+0020.872 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 27583 files batched, 501 (11022) added so far); re-opening (prior size: 48991.9 KB)
+0021.738 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11100 files added (on-disk size: 50200.4 KB)
+0021.744 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11200 files added (on-disk size: 50200.4 KB)
+0021.748 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11300 files added (on-disk size: 50200.4 KB)
+0021.753 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11400 files added (on-disk size: 50200.4 KB)
+0021.758 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11500 files added (on-disk size: 50200.4 KB)
+0021.760 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 27583 files batched, 501 (11523) added so far); re-opening (prior size: 50200.4 KB)
+0022.651 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11600 files added (on-disk size: 52420.7 KB)
+0022.656 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11700 files added (on-disk size: 52420.7 KB)
+0022.660 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11800 files added (on-disk size: 52420.7 KB)
+0022.665 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 11900 files added (on-disk size: 52420.7 KB)
+0022.669 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12000 files added (on-disk size: 52420.7 KB)
+0022.672 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (8.6 MB, 27583 files batched, 501 (12024) added so far); re-opening (prior size: 52420.7 KB)
+0023.643 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12100 files added (on-disk size: 54084.1 KB)
+0023.656 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12200 files added (on-disk size: 54084.1 KB)
+0023.670 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12300 files added (on-disk size: 54084.1 KB)
+0023.685 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12400 files added (on-disk size: 54084.1 KB)
+0023.693 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12500 files added (on-disk size: 54084.1 KB)
+0023.697 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.4 MB, 27583 files batched, 501 (12525) added so far); re-opening (prior size: 54084.1 KB)
+0025.818 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12600 files added (on-disk size: 55741 KB)
+0025.821 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12700 files added (on-disk size: 55741 KB)
+0025.839 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12800 files added (on-disk size: 55741 KB)
+0025.843 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 12900 files added (on-disk size: 55741 KB)
+0025.855 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13000 files added (on-disk size: 55741 KB)
+0025.861 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (14.1 MB, 27583 files batched, 501 (13026) added so far); re-opening (prior size: 55741 KB)
+0029.423 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13100 files added (on-disk size: 60517 KB)
+0029.428 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13200 files added (on-disk size: 60517 KB)
+0029.433 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13300 files added (on-disk size: 60517 KB)
+0029.437 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13400 files added (on-disk size: 60517 KB)
+0029.442 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13500 files added (on-disk size: 60517 KB)
+0029.445 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.6 MB, 27583 files batched, 501 (13527) added so far); re-opening (prior size: 60517 KB)
+0030.296 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13600 files added (on-disk size: 61433.4 KB)
+0030.300 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13700 files added (on-disk size: 61433.4 KB)
+0030.306 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13800 files added (on-disk size: 61433.4 KB)
+0030.310 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 13900 files added (on-disk size: 61433.4 KB)
+0030.316 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14000 files added (on-disk size: 61433.4 KB)
+0030.318 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4 MB, 27583 files batched, 501 (14028) added so far); re-opening (prior size: 61433.4 KB)
+0031.356 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14100 files added (on-disk size: 62711.7 KB)
+0031.360 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14200 files added (on-disk size: 62711.7 KB)
+0031.363 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14300 files added (on-disk size: 62711.7 KB)
+0031.366 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14400 files added (on-disk size: 62711.7 KB)
+0031.369 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14500 files added (on-disk size: 62711.7 KB)
+0031.371 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (12 MB, 27583 files batched, 501 (14529) added so far); re-opening (prior size: 62711.7 KB)
+0032.600 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14600 files added (on-disk size: 65831.4 KB)
+0032.606 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14700 files added (on-disk size: 65831.4 KB)
+0032.610 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14800 files added (on-disk size: 65831.4 KB)
+0032.614 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 14900 files added (on-disk size: 65831.4 KB)
+0032.619 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15000 files added (on-disk size: 65831.4 KB)
+0032.621 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.2 MB, 27583 files batched, 501 (15030) added so far); re-opening (prior size: 65831.4 KB)
+0033.889 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15100 files added (on-disk size: 69245.3 KB)
+0033.894 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15200 files added (on-disk size: 69245.3 KB)
+0033.900 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15300 files added (on-disk size: 69245.3 KB)
+0033.905 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15400 files added (on-disk size: 69245.3 KB)
+0033.909 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15500 files added (on-disk size: 69245.3 KB)
+0033.912 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.4 MB, 27583 files batched, 501 (15531) added so far); re-opening (prior size: 69245.3 KB)
+0034.711 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15600 files added (on-disk size: 69830.9 KB)
+0034.716 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15700 files added (on-disk size: 69830.9 KB)
+0034.721 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15800 files added (on-disk size: 69830.9 KB)
+0034.727 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 15900 files added (on-disk size: 69830.9 KB)
+0034.732 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16000 files added (on-disk size: 69830.9 KB)
+0034.735 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.3 MB, 27583 files batched, 501 (16032) added so far); re-opening (prior size: 69830.9 KB)
+0037.333 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16100 files added (on-disk size: 74279.4 KB)
+0037.338 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16200 files added (on-disk size: 74279.4 KB)
+0037.343 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16300 files added (on-disk size: 74279.4 KB)
+0037.347 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (27.5 MB, 27583 files batched, 362 (16394) added so far); re-opening (prior size: 74279.4 KB)
+0040.646 (0) A useful amount of data was added after this amount of zip processing: 3.6 s (normalised: 3.3 s, rate: 7818.3 KB/s)
+0040.651 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.6081459522247, normalised_time=3.2743498519582, max_time=40.648871898651, data points known=1, old_max_bytes=26214400, new_max_bytes=195260586)
+0040.655 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16400 files added (on-disk size: 86684.3 KB)
+0040.660 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16500 files added (on-disk size: 86684.3 KB)
+0040.665 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16600 files added (on-disk size: 86684.3 KB)
+0040.670 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16700 files added (on-disk size: 86684.3 KB)
+0040.674 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16800 files added (on-disk size: 86684.3 KB)
+0040.679 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (11.8 MB, 27583 files batched, 501 (16895) added so far); re-opening (prior size: 86684.3 KB)
+0042.820 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 16900 files added (on-disk size: 90869.9 KB)
+0042.824 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17000 files added (on-disk size: 90869.9 KB)
+0042.827 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17100 files added (on-disk size: 90869.9 KB)
+0042.830 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17200 files added (on-disk size: 90869.9 KB)
+0042.833 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17300 files added (on-disk size: 90869.9 KB)
+0042.836 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.5 MB, 27583 files batched, 501 (17396) added so far); re-opening (prior size: 90869.9 KB)
+0043.916 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17400 files added (on-disk size: 93025.7 KB)
+0043.922 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17500 files added (on-disk size: 93025.7 KB)
+0043.927 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17600 files added (on-disk size: 93025.7 KB)
+0043.932 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17700 files added (on-disk size: 93025.7 KB)
+0043.937 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17800 files added (on-disk size: 93025.7 KB)
+0043.942 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (9.5 MB, 27583 files batched, 501 (17897) added so far); re-opening (prior size: 93025.7 KB)
+0045.739 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 17900 files added (on-disk size: 95413.8 KB)
+0045.743 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18000 files added (on-disk size: 95413.8 KB)
+0045.745 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18100 files added (on-disk size: 95413.8 KB)
+0045.749 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18200 files added (on-disk size: 95413.8 KB)
+0045.753 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18300 files added (on-disk size: 95413.8 KB)
+0045.757 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 27583 files batched, 501 (18398) added so far); re-opening (prior size: 95413.8 KB)
+0046.571 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18400 files added (on-disk size: 96849.5 KB)
+0046.576 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18500 files added (on-disk size: 96849.5 KB)
+0046.581 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18600 files added (on-disk size: 96849.5 KB)
+0046.586 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18700 files added (on-disk size: 96849.5 KB)
+0046.591 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18800 files added (on-disk size: 96849.5 KB)
+0046.595 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.6 MB, 27583 files batched, 501 (18899) added so far); re-opening (prior size: 96849.5 KB)
+0047.819 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 18900 files added (on-disk size: 98795 KB)
+0047.824 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19000 files added (on-disk size: 98795 KB)
+0047.827 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19100 files added (on-disk size: 98795 KB)
+0047.832 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19200 files added (on-disk size: 98795 KB)
+0047.835 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19300 files added (on-disk size: 98795 KB)
+0047.839 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.3 MB, 27583 files batched, 501 (19400) added so far); re-opening (prior size: 98795 KB)
+0048.533 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19400 files added (on-disk size: 99547 KB)
+0048.538 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19500 files added (on-disk size: 99547 KB)
+0048.544 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19600 files added (on-disk size: 99547 KB)
+0048.549 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19700 files added (on-disk size: 99547 KB)
+0048.555 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19800 files added (on-disk size: 99547 KB)
+0048.560 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 19900 files added (on-disk size: 99547 KB)
+0048.563 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.6 MB, 27583 files batched, 501 (19901) added so far); re-opening (prior size: 99547 KB)
+0049.514 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20000 files added (on-disk size: 100918.4 KB)
+0049.519 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20100 files added (on-disk size: 100918.4 KB)
+0049.524 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20200 files added (on-disk size: 100918.4 KB)
+0049.529 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20300 files added (on-disk size: 100918.4 KB)
+0049.534 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20400 files added (on-disk size: 100918.4 KB)
+0049.536 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6 MB, 27583 files batched, 501 (20402) added so far); re-opening (prior size: 100918.4 KB)
+0050.808 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20500 files added (on-disk size: 102887.7 KB)
+0050.813 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20600 files added (on-disk size: 102887.7 KB)
+0050.818 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20700 files added (on-disk size: 102887.7 KB)
+0050.823 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20800 files added (on-disk size: 102887.7 KB)
+0050.827 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 20900 files added (on-disk size: 102887.7 KB)
+0050.829 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (0.8 MB, 27583 files batched, 501 (20903) added so far); re-opening (prior size: 102887.7 KB)
+0051.668 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21000 files added (on-disk size: 103295.3 KB)
+0051.674 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21100 files added (on-disk size: 103295.3 KB)
+0051.678 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21200 files added (on-disk size: 103295.3 KB)
+0051.683 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21300 files added (on-disk size: 103295.3 KB)
+0051.687 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21400 files added (on-disk size: 103295.3 KB)
+0051.690 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 27583 files batched, 501 (21404) added so far); re-opening (prior size: 103295.3 KB)
+0052.620 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21500 files added (on-disk size: 104188.6 KB)
+0052.625 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21600 files added (on-disk size: 104188.6 KB)
+0052.630 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21700 files added (on-disk size: 104188.6 KB)
+0052.635 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21800 files added (on-disk size: 104188.6 KB)
+0052.639 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 21900 files added (on-disk size: 104188.6 KB)
+0052.641 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.2 MB, 27583 files batched, 501 (21905) added so far); re-opening (prior size: 104188.6 KB)
+0054.298 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22000 files added (on-disk size: 106721.6 KB)
+0054.302 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22100 files added (on-disk size: 106721.6 KB)
+0054.309 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22200 files added (on-disk size: 106721.6 KB)
+0054.313 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22300 files added (on-disk size: 106721.6 KB)
+0054.316 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22400 files added (on-disk size: 106721.6 KB)
+0054.319 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3.1 MB, 27583 files batched, 501 (22406) added so far); re-opening (prior size: 106721.6 KB)
+0055.760 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22500 files added (on-disk size: 107991.4 KB)
+0055.764 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22600 files added (on-disk size: 107991.4 KB)
+0055.767 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22700 files added (on-disk size: 107991.4 KB)
+0055.773 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22800 files added (on-disk size: 107991.4 KB)
+0055.776 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 22900 files added (on-disk size: 107991.4 KB)
+0055.779 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.9 MB, 27583 files batched, 501 (22907) added so far); re-opening (prior size: 107991.4 KB)
+0057.335 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23000 files added (on-disk size: 109947.3 KB)
+0057.341 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23100 files added (on-disk size: 109947.3 KB)
+0057.346 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23200 files added (on-disk size: 109947.3 KB)
+0057.350 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23300 files added (on-disk size: 109947.3 KB)
+0057.355 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23400 files added (on-disk size: 109947.3 KB)
+0057.357 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.8 MB, 27583 files batched, 501 (23408) added so far); re-opening (prior size: 109947.3 KB)
+0058.285 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23500 files added (on-disk size: 110538.2 KB)
+0058.291 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23600 files added (on-disk size: 110538.2 KB)
+0058.295 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23700 files added (on-disk size: 110538.2 KB)
+0058.301 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23800 files added (on-disk size: 110538.2 KB)
+0058.306 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 23900 files added (on-disk size: 110538.2 KB)
+0058.308 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.1 MB, 27583 files batched, 501 (23909) added so far); re-opening (prior size: 110538.2 KB)
+0059.360 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24000 files added (on-disk size: 111212.4 KB)
+0059.366 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24100 files added (on-disk size: 111212.4 KB)
+0059.378 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24200 files added (on-disk size: 111212.4 KB)
+0059.387 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24300 files added (on-disk size: 111212.4 KB)
+0059.392 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24400 files added (on-disk size: 111212.4 KB)
+0059.395 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (5.7 MB, 27583 files batched, 501 (24410) added so far); re-opening (prior size: 111212.4 KB)
+0061.005 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24500 files added (on-disk size: 112805.3 KB)
+0061.010 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24600 files added (on-disk size: 112805.3 KB)
+0061.015 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24700 files added (on-disk size: 112805.3 KB)
+0061.020 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24800 files added (on-disk size: 112805.3 KB)
+0061.025 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 24900 files added (on-disk size: 112805.3 KB)
+0061.027 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.6 MB, 27583 files batched, 501 (24911) added so far); re-opening (prior size: 112805.3 KB)
+0062.216 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25000 files added (on-disk size: 115480.7 KB)
+0062.221 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25100 files added (on-disk size: 115480.7 KB)
+0062.226 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25200 files added (on-disk size: 115480.7 KB)
+0062.230 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25300 files added (on-disk size: 115480.7 KB)
+0062.235 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25400 files added (on-disk size: 115480.7 KB)
+0062.238 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (3 MB, 27583 files batched, 501 (25412) added so far); re-opening (prior size: 115480.7 KB)
+0063.289 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25500 files added (on-disk size: 116626.7 KB)
+0063.294 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25600 files added (on-disk size: 116626.7 KB)
+0063.300 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25700 files added (on-disk size: 116626.7 KB)
+0063.304 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25800 files added (on-disk size: 116626.7 KB)
+0063.309 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 25900 files added (on-disk size: 116626.7 KB)
+0063.312 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.9 MB, 27583 files batched, 501 (25913) added so far); re-opening (prior size: 116626.7 KB)
+0064.657 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26000 files added (on-disk size: 118625.8 KB)
+0064.662 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26100 files added (on-disk size: 118625.8 KB)
+0064.667 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26200 files added (on-disk size: 118625.8 KB)
+0064.672 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26300 files added (on-disk size: 118625.8 KB)
+0064.676 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26400 files added (on-disk size: 118625.8 KB)
+0064.679 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (7.1 MB, 27583 files batched, 501 (26414) added so far); re-opening (prior size: 118625.8 KB)
+0065.956 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26500 files added (on-disk size: 121133.8 KB)
+0065.960 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26600 files added (on-disk size: 121133.8 KB)
+0065.963 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26700 files added (on-disk size: 121133.8 KB)
+0065.967 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26800 files added (on-disk size: 121133.8 KB)
+0065.969 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 26900 files added (on-disk size: 121133.8 KB)
+0065.972 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (4.4 MB, 27583 files batched, 501 (26915) added so far); re-opening (prior size: 121133.8 KB)
+0067.154 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27000 files added (on-disk size: 122185.5 KB)
+0067.160 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27100 files added (on-disk size: 122185.5 KB)
+0067.166 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27200 files added (on-disk size: 122185.5 KB)
+0067.171 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27300 files added (on-disk size: 122185.5 KB)
+0067.175 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27400 files added (on-disk size: 122185.5 KB)
+0067.178 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (6.2 MB, 27583 files batched, 501 (27416) added so far); re-opening (prior size: 122185.5 KB)
+0068.308 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip.tmp: 27500 files added (on-disk size: 123547.9 KB)
+0071.005 (0) Created plugins zip (0) - 124306 KB in 70.9 s (1752.8 KB/s) (sha1: 5ad6292959c5cf1d7508840b1e7da7a223835e27, sha256: 9a2fa6bff9d5da8d2e5a81ce08f5a7821d6ae24eeb7c89ca090fb5c6f3e9589c)
+0071.009 (0) Beginning creation of dump of themes (split every: 400 MB)
+0071.022 (0) Total entities for the zip file: 122 directories, 692 files (0 skipped as non-modified), 22.2 MB
+0071.025 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0071.028 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0071.031 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0071.034 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0071.036 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0071.038 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.7 MB, 692 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0071.726 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: size is now: 14.10 MB
+0071.736 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip.tmp: 600 files added (on-disk size: 14448.9 KB)
+0072.566 (0) Created themes zip (0) - 16332.5 KB in 1.6 s (10498 KB/s) (sha1: ab512d9152b44ff6d8c1ffce5a54fce61baff9ad, sha256: f58829f3a56d0b7614ef9a155280221d3d2759da60ccbc9d5249ef8783d0abfd)
+0072.571 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0072.573 (0) Looking for candidates to backup in: /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content/uploads
+0072.574 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (1)
+0072.575 (0) finding files: custom_fonts: adding to list (2)
+0072.576 (0) finding files: essential-addons-elementor: adding to list (3)
+0072.577 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (4)
+0072.578 (0) finding files: wpo_wcpdf: adding to list (5)
+0072.579 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (6)
+0072.581 (0) finding files: woocommerce_uploads: adding to list (7)
+0072.582 (0) finding files: sb-instagram-feed-images: adding to list (8)
+0072.584 (0) finding files: ultimatemember: adding to list (9)
+0072.586 (0) finding files: woocommerce-placeholder.png: adding to list (10)
+0072.587 (0) finding files: elementor: adding to list (11)
+0072.589 (0) finding files: cache: adding to list (12)
+0072.591 (0) finding files: videos: adding to list (13)
+0072.593 (0) finding files: custom-css-js: adding to list (14)
+0072.594 (0) finding files: _pda: adding to list (15)
+0072.595 (0) finding files: .htaccess: adding to list (16)
+0072.597 (0) finding files: essays: adding to list (17)
+0072.599 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (18)
+0072.601 (0) finding files: cartflows-logs: adding to list (19)
+0072.602 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (20)
+0072.604 (0) finding files: wp-file-manager-pro: adding to list (21)
+0072.606 (0) finding files: woocommerce-pdf-invoices: adding to list (22)
+0072.608 (0) finding files: taxjar-wc_tax_rates-01-17-2020-1579293312.csv: adding to list (23)
+0072.610 (0) finding files: 2020: adding to list (24)
+0072.611 (0) finding files: learndash: adding to list (25)
+0072.613 (0) finding files: thwec_templates: adding to list (26)
+0072.614 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (27)
+0072.616 (0) finding files: assignments: adding to list (28)
+0072.618 (0) finding files: wc-logs: adding to list (29)
+0072.619 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (30)
+0072.621 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (31)
+0072.622 (0) finding files: revisr-backups: skipping: excluded by options (glob)
+0072.624 (0) finding files: useanyfont: adding to list (32)
+0072.626 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (33)
+0072.628 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0072.686 (0) Total entities for the zip file: 106 directories, 2401 files (0 skipped as non-modified), 1345.4 MB
+0072.692 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0072.701 (0) [Warning] A very large file was encountered: uploads/videos/Capsule 3 - La Méditation.mp4 (size: 304.4 Mb)
+0072.702 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 186.2 MB added on this batch (318.4 MB, 2401 files batched, 198 (198) added so far); re-opening (prior size: 0 KB)
+0077.371 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads.zip.tmp: size is now: 310.70 MB
+0077.376 (0) A useful amount of data was added after this amount of zip processing: 5.3 s (normalised: 3.1 s, rate: 61094.3 KB/s)
+0077.379 (0) Performance is good - will increase the amount of data we attempt to batch (time=5.3374140262604, normalised_time=3.121145358324, max_time=77.377082109451, data points known=1, old_max_bytes=195260586, new_max_bytes=209715200)
+0077.384 (0) [Warning] A very large file was encountered: uploads/videos/Capsule 2 - Prendre du recul.mp4 (size: 267.3 Mb)
+0077.386 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (267.3 MB, 2401 files batched, 1 (199) added so far); re-opening (prior size: 318172 KB)
+0082.433 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads.zip.tmp: size is now: 578.00 MB
+0082.444 (0) A useful amount of data was added after this amount of zip processing: 5.4 s (normalised: 4 s, rate: 50629.6 KB/s)
+0082.446 (0) Performance is good - but we will not increase the amount of data we batch, as we are already at the present limit (time=5.4053320884705, normalised_time=4.045061598891, max_time=82.44567990303, data points known=1, max_bytes=209715200)
+0082.450 (0) Zip size is at/near split limit (578 MB / 400 MB) - bumping index (from: 0)
+0094.249 (0) Created uploads zip (0) - 591842.2 KB in 9.8 s (60263 KB/s) (checksums: sha1: beeb4b1b78b7ca88e2c15e44d3d68002693362cd, sha256: c9d23d59283b02b0f02e0e9af994abcfa27493f5939281785318c79b811899a4)
+0094.257 (0) [Warning] A very large file was encountered: uploads/videos/Capsule 1 - Connaissance de soi.mp4 (size: 328.1 Mb)
+0094.259 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 200 MB added on this batch (328.1 MB, 2401 files batched, 1 (200) added so far); re-opening (prior size: 0 KB)
+0097.238 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip.tmp: size is now: 328.10 MB
+0097.245 (0) A useful amount of data was added after this amount of zip processing: 15.2 s (normalised: 9.3 s, rate: 22093.5 KB/s)
+0097.248 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip.tmp: 200 files added (on-disk size: 335963.7 KB)
+0097.257 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip.tmp: 300 files added (on-disk size: 335963.7 KB)
+0097.263 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip.tmp: 400 files added (on-disk size: 335963.7 KB)
+0097.266 (0) Adding batch to zip file (UpdraftPlus_BinZip): possibly approaching split limit (72.8 MB, 205 (405) files added so far); last ratio: 1; re-opening (prior size: 335963.7 KB)
+0100.959 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip.tmp: size is now: 399.70 MB
+0100.966 (0) Zip size is at/near split limit (399.7 MB / 400 MB) - bumping index (from: 1)
+0107.415 (0) Created uploads zip (1) - 409322.8 KB in 6.7 s (60927.7 KB/s) (checksums: sha1: 3331f454668725734bb912c97f450b33b18da346, sha256: 33b63224c5f1b5e5ff8779b6d8a5cf0b4077442327517586c2d01ce59766d94f)
+0107.423 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 2.0 seconds have passed since the last write (0 MB, 1 (406) files added so far); re-opening (prior size: 0 KB)
+0107.442 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: size is now: 0.00 MB
+0107.464 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 500 files added (on-disk size: 23.1 KB)
+0107.472 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 600 files added (on-disk size: 23.1 KB)
+0107.482 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 700 files added (on-disk size: 23.1 KB)
+0107.490 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 800 files added (on-disk size: 23.1 KB)
+0107.501 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 900 files added (on-disk size: 23.1 KB)
+0107.505 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (56.1 MB, 2401 files batched, 501 (907) added so far); re-opening (prior size: 23.1 KB)
+0111.512 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: size is now: 55.80 MB
+0111.520 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1000 files added (on-disk size: 57173.5 KB)
+0111.524 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1100 files added (on-disk size: 57173.5 KB)
+0111.532 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1200 files added (on-disk size: 57173.5 KB)
+0111.536 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1300 files added (on-disk size: 57173.5 KB)
+0111.544 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1400 files added (on-disk size: 57173.5 KB)
+0111.545 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (84 MB, 2401 files batched, 501 (1408) added so far); re-opening (prior size: 57173.5 KB)
+0116.542 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: size is now: 138.80 MB
+0116.554 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1500 files added (on-disk size: 142087.9 KB)
+0116.559 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1600 files added (on-disk size: 142087.9 KB)
+0116.565 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1700 files added (on-disk size: 142087.9 KB)
+0116.572 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1800 files added (on-disk size: 142087.9 KB)
+0116.578 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 1900 files added (on-disk size: 142087.9 KB)
+0116.580 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (118.4 MB, 2401 files batched, 501 (1909) added so far); re-opening (prior size: 142087.9 KB)
+0123.706 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: size is now: 255.60 MB
+0123.766 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 2000 files added (on-disk size: 261766 KB)
+0123.774 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 2100 files added (on-disk size: 261766 KB)
+0123.779 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 2200 files added (on-disk size: 261766 KB)
+0123.785 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 2300 files added (on-disk size: 261766 KB)
+0123.793 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: 2400 files added (on-disk size: 261766 KB)
+0130.319 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip.tmp: size is now: 354.00 MB
+0136.195 (0) Created uploads zip (2) - 362483.6 KB in 28.8 s (12596 KB/s) (sha1: f11783dbe3f5e5747f9bf0623dc0a3678374b872, sha256: a16087c1d30ddddc16b443d419ba016647353631a682f3e4a27fd6d9ca887fb2)
+0136.198 (0) Beginning backup of other directories found in the content directory (index: 0)
+0136.202 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0136.204 (0) Looking for candidates to backup in: /home/367771.cloudwaysapps.com/mvrmvkthpa/public_html/wp-content
+0136.205 (0) finding files: mu-plugins: adding to list (1)
+0136.206 (0) finding files: updraft: skipping: this is the updraft directory
+0136.207 (0) finding files: cache: skipping: excluded by options
+0136.209 (0) finding files: breeze-config: adding to list (2)
+0136.210 (0) finding files: languages: adding to list (3)
+0136.211 (0) finding files: uploads: skipping: this is the uploads directory
+0136.212 (0) finding files: index.php: adding to list (4)
+0136.213 (0) finding files: plugins: skipping: this is the plugins directory
+0136.214 (0) finding files: advanced-cache.php: adding to list (5)
+0136.215 (0) finding files: themes: skipping: this is the themes directory
+0136.217 (0) finding files: upgrade: skipping: excluded by options
+0136.226 (0) Total entities for the zip file: 6 directories, 358 files (0 skipped as non-modified), 13.6 MB
+0136.229 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0136.232 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0136.235 (0) Zip: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0137.580 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip.tmp: size is now: 3.70 MB
+0137.695 (0) Created others zip (0) - 3803.2 KB in 1.5 s (2575.2 KB/s) (sha1: 1376529614cc773c596febde720c6bc5b2f5ec96, sha256: af63c4e14332e53adb6e0d01e14e13cc22357f20a2642ccbde08c5ec18350a2d)
+0137.706 (0) Saving backup status to database (elements: 10)
+0137.711 (0) Beginning creation of database dump (WordPress DB)
+0137.717 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0137.791 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1235 bytes total)
+0137.799 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0137.813 (0) Table wp_options: Total expected rows (approximate): 1899
+0138.074 (0) Table wp_options: Total rows added: 2049 in 0.26 seconds
+0138.077 (0) Table wp_options: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_options.table.gz - 577.1 KB)
+0138.085 (0) Table wp_users: Total expected rows (approximate): 13
+0138.088 (0) Table wp_users: Total rows added: 13 in 0.00 seconds
+0138.091 (0) Table wp_users: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_users.table.gz - 1.5 KB)
+0138.098 (0) Table wp_usermeta: Total expected rows (approximate): 701
+0138.107 (0) Table wp_usermeta: Total rows added: 701 in 0.01 seconds
+0138.110 (0) Table wp_usermeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_usermeta.table.gz - 15.6 KB)
+0138.117 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0138.120 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0138.123 (0) Table wp_commentmeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0138.130 (0) Table wp_comments: Total expected rows (approximate): 1592
+0138.159 (0) Table wp_comments: Total rows added: 1592 in 0.03 seconds
+0138.163 (0) Table wp_comments: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_comments.table.gz - 17.5 KB)
+0138.169 (0) Table wp_links: Total expected rows (approximate): 0
+0138.172 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0138.175 (0) Table wp_links: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_links.table.gz - 0.4 KB)
+0138.185 (0) Table wp_ms_snippets: Total expected rows (approximate): 0
+0138.189 (0) Table wp_ms_snippets: Total rows added: 0 in 0.00 seconds
+0138.192 (0) Table wp_ms_snippets: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ms_snippets.table.gz - 0.4 KB)
+0138.202 (0) Table wp_postmeta: Total expected rows (approximate): 10457
+0138.853 (0) Table wp_postmeta: binary mysqldump finished (writes: 42) in 0.65 seconds
+0138.857 (0) Table wp_postmeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_postmeta.table.gz - 1199.1 KB)
+0138.864 (0) Table wp_posts: Total expected rows (approximate): 998
+0139.047 (0) Table wp_posts: Total rows added: 1612 in 0.18 seconds
+0139.050 (0) Table wp_posts: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_posts.table.gz - 328.5 KB)
+0139.056 (0) Table wp_snippets: Total expected rows (approximate): 6
+0139.060 (0) Table wp_snippets: Total rows added: 6 in 0.00 seconds
+0139.062 (0) Table wp_snippets: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_snippets.table.gz - 1 KB)
+0139.068 (0) Table wp_term_relationships: Total expected rows (approximate): 696
+0139.074 (0) Table wp_term_relationships: Total rows added: 696 in 0.00 seconds
+0139.077 (0) Table wp_term_relationships: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_term_relationships.table.gz - 2.1 KB)
+0139.083 (0) Table wp_term_taxonomy: Total expected rows (approximate): 73
+0139.087 (0) Table wp_term_taxonomy: Total rows added: 73 in 0.00 seconds
+0139.089 (0) Table wp_term_taxonomy: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_term_taxonomy.table.gz - 1 KB)
+0139.095 (0) Table wp_termmeta: Total expected rows (approximate): 9
+0139.099 (0) Table wp_termmeta: Total rows added: 9 in 0.00 seconds
+0139.100 (0) Table wp_termmeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_termmeta.table.gz - 0.5 KB)
+0139.106 (0) Table wp_terms: Total expected rows (approximate): 73
+0139.109 (0) Table wp_terms: Total rows added: 73 in 0.00 seconds
+0139.111 (0) Table wp_terms: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_terms.table.gz - 1.4 KB)
+0139.118 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 2
+0139.121 (0) Table wp_wc_category_lookup: Total rows added: 2 in 0.00 seconds
+0139.123 (0) Table wp_wc_category_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0139.130 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 2
+0139.134 (0) Table wp_wc_product_meta_lookup: Total rows added: 2 in 0.00 seconds
+0139.136 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_product_meta_lookup.table.gz - 0.5 KB)
+0139.142 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0139.145 (0) Table wp_wc_tax_rate_classes: Total rows added: 2 in 0.00 seconds
+0139.147 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0139.152 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 1018
+0139.165 (0) Table wp_woocommerce_order_itemmeta: Total rows added: 1018 in 0.01 seconds
+0139.167 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_order_itemmeta.table.gz - 8.5 KB)
+0139.174 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0139.176 (0) Table wp_woocommerce_payment_tokenmeta: Total rows added: 0 in 0.00 seconds
+0139.178 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0139.184 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 85
+0139.188 (0) Table wp_yoast_seo_links: Total rows added: 85 in 0.00 seconds
+0139.190 (0) Table wp_yoast_seo_links: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_yoast_seo_links.table.gz - 1.2 KB)
+0139.198 (0) Table wp_yoast_seo_meta: Total expected rows (approximate): 99
+0139.203 (0) Table wp_yoast_seo_meta: Total rows added: 99 in 0.00 seconds
+0139.205 (0) Table wp_yoast_seo_meta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_yoast_seo_meta.table.gz - 0.7 KB)
+0139.212 (0) Table wp_cpmp_player: Total expected rows (approximate): 0
+0139.216 (0) Table wp_cpmp_player: Total rows added: 0 in 0.00 seconds
+0139.225 (0) Table wp_cpmp_player: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_cpmp_player.table.gz - 0.3 KB)
+0139.237 (0) Table wp_gf_addon_feed: Total expected rows (approximate): 0
+0139.241 (0) Table wp_gf_addon_feed: Total rows added: 1 in 0.00 seconds
+0139.243 (0) Table wp_gf_addon_feed: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_addon_feed.table.gz - 0.7 KB)
+0139.251 (0) Table wp_gf_draft_submissions: Total expected rows (approximate): 0
+0139.254 (0) Table wp_gf_draft_submissions: Total rows added: 0 in 0.00 seconds
+0139.256 (0) Table wp_gf_draft_submissions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_draft_submissions.table.gz - 0.4 KB)
+0139.264 (0) Table wp_gf_entry: Total expected rows (approximate): 11
+0139.268 (0) Table wp_gf_entry: Total rows added: 11 in 0.00 seconds
+0139.270 (0) Table wp_gf_entry: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry.table.gz - 1.3 KB)
+0139.278 (0) Table wp_gf_entry_meta: Total expected rows (approximate): 55
+0139.282 (0) Table wp_gf_entry_meta: Total rows added: 55 in 0.00 seconds
+0139.284 (0) Table wp_gf_entry_meta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry_meta.table.gz - 1 KB)
+0139.292 (0) Table wp_gf_entry_notes: Total expected rows (approximate): 11
+0139.296 (0) Table wp_gf_entry_notes: Total rows added: 11 in 0.00 seconds
+0139.298 (0) Table wp_gf_entry_notes: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry_notes.table.gz - 0.7 KB)
+0139.306 (0) Table wp_gf_form: Total expected rows (approximate): 0
+0139.310 (0) Table wp_gf_form: Total rows added: 1 in 0.00 seconds
+0139.312 (0) Table wp_gf_form: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form.table.gz - 0.5 KB)
+0139.320 (0) Table wp_gf_form_meta: Total expected rows (approximate): 0
+0139.325 (0) Table wp_gf_form_meta: Total rows added: 1 in 0.00 seconds
+0139.327 (0) Table wp_gf_form_meta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_meta.table.gz - 1.6 KB)
+0139.337 (0) Table wp_gf_form_revisions: Total expected rows (approximate): 0
+0139.341 (0) Table wp_gf_form_revisions: Total rows added: 0 in 0.00 seconds
+0139.343 (0) Table wp_gf_form_revisions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_revisions.table.gz - 0.4 KB)
+0139.352 (0) Table wp_gf_form_view: Total expected rows (approximate): 12
+0139.357 (0) Table wp_gf_form_view: Total rows added: 12 in 0.00 seconds
+0139.359 (0) Table wp_gf_form_view: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_view.table.gz - 0.6 KB)
+0139.369 (0) Table wp_icl_content_status: Total expected rows (approximate): 0
+0139.373 (0) Table wp_icl_content_status: Total rows added: 0 in 0.00 seconds
+0139.376 (0) Table wp_icl_content_status: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_content_status.table.gz - 0.3 KB)
+0139.387 (0) Table wp_icl_core_status: Total expected rows (approximate): 0
+0139.392 (0) Table wp_icl_core_status: Total rows added: 0 in 0.00 seconds
+0139.394 (0) Table wp_icl_core_status: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_core_status.table.gz - 0.4 KB)
+0139.404 (0) Table wp_icl_flags: Total expected rows (approximate): 64
+0139.409 (0) Table wp_icl_flags: Total rows added: 64 in 0.00 seconds
+0139.412 (0) Table wp_icl_flags: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_flags.table.gz - 0.9 KB)
+0139.421 (0) Table wp_icl_languages: Total expected rows (approximate): 64
+0139.426 (0) Table wp_icl_languages: Total rows added: 64 in 0.00 seconds
+0139.429 (0) Table wp_icl_languages: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_languages.table.gz - 1.6 KB)
+0139.441 (0) Table wp_icl_languages_translations: Total expected rows (approximate): 4096
+0139.505 (0) Table wp_icl_languages_translations: Total rows added: 4096 in 0.06 seconds
+0139.510 (0) Table wp_icl_languages_translations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_languages_translations.table.gz - 33.8 KB)
+0139.521 (0) Table wp_icl_locale_map: Total expected rows (approximate): 2
+0139.526 (0) Table wp_icl_locale_map: Total rows added: 2 in 0.00 seconds
+0139.529 (0) Table wp_icl_locale_map: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_locale_map.table.gz - 0.3 KB)
+0139.540 (0) Table wp_icl_message_status: Total expected rows (approximate): 0
+0139.545 (0) Table wp_icl_message_status: Total rows added: 0 in 0.00 seconds
+0139.549 (0) Table wp_icl_message_status: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_message_status.table.gz - 0.4 KB)
+0139.562 (0) Table wp_icl_mo_files_domains: Total expected rows (approximate): 61
+0139.572 (0) Table wp_icl_mo_files_domains: Total rows added: 61 in 0.01 seconds
+0139.576 (0) Table wp_icl_mo_files_domains: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_mo_files_domains.table.gz - 3.8 KB)
+0139.591 (0) Table wp_icl_node: Total expected rows (approximate): 0
+0139.596 (0) Table wp_icl_node: Total rows added: 0 in 0.00 seconds
+0139.599 (0) Table wp_icl_node: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_node.table.gz - 0.3 KB)
+0139.611 (0) Table wp_icl_reminders: Total expected rows (approximate): 0
+0139.615 (0) Table wp_icl_reminders: Total rows added: 0 in 0.00 seconds
+0139.618 (0) Table wp_icl_reminders: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_reminders.table.gz - 0.3 KB)
+0139.626 (0) Table wp_icl_string_packages: Total expected rows (approximate): 7
+0139.630 (0) Table wp_icl_string_packages: Total rows added: 7 in 0.00 seconds
+0139.633 (0) Table wp_icl_string_packages: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_packages.table.gz - 0.6 KB)
+0139.641 (0) Table wp_icl_string_pages: Total expected rows (approximate): 0
+0139.645 (0) Table wp_icl_string_pages: Total rows added: 0 in 0.00 seconds
+0139.648 (0) Table wp_icl_string_pages: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_pages.table.gz - 0.3 KB)
+0139.657 (0) Table wp_icl_string_positions: Total expected rows (approximate): 11470
+0139.791 (0) Table wp_icl_string_positions: binary mysqldump finished (writes: 32) in 0.13 seconds
+0139.796 (0) Table wp_icl_string_positions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_positions.table.gz - 114.2 KB)
+0139.804 (0) Table wp_icl_string_status: Total expected rows (approximate): 0
+0139.808 (0) Table wp_icl_string_status: Total rows added: 0 in 0.00 seconds
+0139.811 (0) Table wp_icl_string_status: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_status.table.gz - 0.4 KB)
+0139.820 (0) Table wp_icl_string_translations: Total expected rows (approximate): 25808
+0140.120 (0) Table wp_icl_string_translations: binary mysqldump finished (writes: 40) in 0.30 seconds
+0140.124 (0) Table wp_icl_string_translations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_translations.table.gz - 550.6 KB)
+0140.131 (0) Table wp_icl_string_urls: Total expected rows (approximate): 0
+0140.134 (0) Table wp_icl_string_urls: Total rows added: 0 in 0.00 seconds
+0140.135 (0) Table wp_icl_string_urls: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_urls.table.gz - 0.3 KB)
+0140.142 (0) Table wp_icl_strings: Total expected rows (approximate): 49813
+0140.957 (0) Table wp_icl_strings: binary mysqldump finished (writes: 55) in 0.81 seconds
+0140.961 (0) Table wp_icl_strings: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_strings.table.gz - 3118.2 KB)
+0140.968 (0) Table wp_icl_translate: Total expected rows (approximate): 0
+0140.971 (0) Table wp_icl_translate: Total rows added: 0 in 0.00 seconds
+0140.973 (0) Table wp_icl_translate: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translate.table.gz - 0.4 KB)
+0140.979 (0) Table wp_icl_translate_job: Total expected rows (approximate): 0
+0140.982 (0) Table wp_icl_translate_job: Total rows added: 0 in 0.00 seconds
+0140.983 (0) Table wp_icl_translate_job: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translate_job.table.gz - 0.4 KB)
+0140.989 (0) Table wp_icl_translation_batches: Total expected rows (approximate): 0
+0140.992 (0) Table wp_icl_translation_batches: Total rows added: 0 in 0.00 seconds
+0140.994 (0) Table wp_icl_translation_batches: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_batches.table.gz - 0.3 KB)
+0141.000 (0) Table wp_icl_translation_downloads: Total expected rows (approximate): 0
+0141.003 (0) Table wp_icl_translation_downloads: Total rows added: 0 in 0.00 seconds
+0141.005 (0) Table wp_icl_translation_downloads: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_downloads.table.gz - 0.3 KB)
+0141.010 (0) Table wp_icl_translation_status: Total expected rows (approximate): 125
+0141.015 (0) Table wp_icl_translation_status: Total rows added: 125 in 0.00 seconds
+0141.018 (0) Table wp_icl_translation_status: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_status.table.gz - 2.4 KB)
+0141.024 (0) Table wp_icl_translations: Total expected rows (approximate): 1810
+0141.041 (0) Table wp_icl_translations: Total rows added: 1810 in 0.02 seconds
+0141.043 (0) Table wp_icl_translations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translations.table.gz - 16 KB)
+0141.050 (0) Table wp_ld_notifications_delayed_emails: Total expected rows (approximate): 0
+0141.052 (0) Table wp_ld_notifications_delayed_emails: Total rows added: 0 in 0.00 seconds
+0141.054 (0) Table wp_ld_notifications_delayed_emails: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ld_notifications_delayed_emails.table.gz - 0.4 KB)
+0141.060 (0) Table wp_learndash_user_activity: Total expected rows (approximate): 59
+0141.065 (0) Table wp_learndash_user_activity: Total rows added: 59 in 0.00 seconds
+0141.068 (0) Table wp_learndash_user_activity: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_learndash_user_activity.table.gz - 1.3 KB)
+0141.076 (0) Table wp_learndash_user_activity_meta: Total expected rows (approximate): 117
+0141.082 (0) Table wp_learndash_user_activity_meta: Total rows added: 117 in 0.00 seconds
+0141.084 (0) Table wp_learndash_user_activity_meta: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_learndash_user_activity_meta.table.gz - 1.1 KB)
+0141.091 (0) Table wp_pp_group_members: Total expected rows (approximate): 12
+0141.095 (0) Table wp_pp_group_members: Total rows added: 12 in 0.00 seconds
+0141.097 (0) Table wp_pp_group_members: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_pp_group_members.table.gz - 0.5 KB)
+0141.103 (0) Table wp_pp_groups: Total expected rows (approximate): 15
+0141.107 (0) Table wp_pp_groups: Total rows added: 15 in 0.00 seconds
+0141.109 (0) Table wp_pp_groups: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_pp_groups.table.gz - 0.8 KB)
+0141.115 (0) Table wp_ppc_exception_items: Total expected rows (approximate): 0
+0141.119 (0) Table wp_ppc_exception_items: Total rows added: 0 in 0.00 seconds
+0141.122 (0) Table wp_ppc_exception_items: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_exception_items.table.gz - 0.4 KB)
+0141.129 (0) Table wp_ppc_exceptions: Total expected rows (approximate): 0
+0141.133 (0) Table wp_ppc_exceptions: Total rows added: 0 in 0.00 seconds
+0141.135 (0) Table wp_ppc_exceptions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_exceptions.table.gz - 0.4 KB)
+0141.142 (0) Table wp_ppc_roles: Total expected rows (approximate): 0
+0141.145 (0) Table wp_ppc_roles: Total rows added: 0 in 0.00 seconds
+0141.147 (0) Table wp_ppc_roles: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_roles.table.gz - 0.4 KB)
+0141.154 (0) Table wp_redirection_404: Total expected rows (approximate): 193
+0141.159 (0) Table wp_redirection_404: Total rows added: 193 in 0.00 seconds
+0141.162 (0) Table wp_redirection_404: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_404.table.gz - 3.9 KB)
+0141.168 (0) Table wp_redirection_groups: Total expected rows (approximate): 2
+0141.171 (0) Table wp_redirection_groups: Total rows added: 2 in 0.00 seconds
+0141.173 (0) Table wp_redirection_groups: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_groups.table.gz - 0.5 KB)
+0141.180 (0) Table wp_redirection_items: Total expected rows (approximate): 0
+0141.184 (0) Table wp_redirection_items: Total rows added: 1 in 0.00 seconds
+0141.186 (0) Table wp_redirection_items: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_items.table.gz - 0.6 KB)
+0141.194 (0) Table wp_redirection_logs: Total expected rows (approximate): 0
+0141.197 (0) Table wp_redirection_logs: Total rows added: 0 in 0.00 seconds
+0141.199 (0) Table wp_redirection_logs: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_logs.table.gz - 0.4 KB)
+0141.207 (0) Table wp_revisr: Total expected rows (approximate): 1
+0141.212 (0) Table wp_revisr: Total rows added: 1 in 0.00 seconds
+0141.214 (0) Table wp_revisr: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revisr.table.gz - 0.4 KB)
+0141.222 (0) Table wp_revslider_css: Total expected rows (approximate): 109
+0141.230 (0) Table wp_revslider_css: Total rows added: 109 in 0.01 seconds
+0141.232 (0) Table wp_revslider_css: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_css.table.gz - 4.9 KB)
+0141.240 (0) Table wp_revslider_css_bkp: Total expected rows (approximate): 47
+0141.246 (0) Table wp_revslider_css_bkp: Total rows added: 47 in 0.00 seconds
+0141.249 (0) Table wp_revslider_css_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_css_bkp.table.gz - 1.8 KB)
+0141.260 (0) Table wp_revslider_layer_animations: Total expected rows (approximate): 0
+0141.264 (0) Table wp_revslider_layer_animations: Total rows added: 0 in 0.00 seconds
+0141.267 (0) Table wp_revslider_layer_animations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_layer_animations.table.gz - 0.3 KB)
+0141.276 (0) Table wp_revslider_layer_animations_bkp: Total expected rows (approximate): 0
+0141.281 (0) Table wp_revslider_layer_animations_bkp: Total rows added: 0 in 0.00 seconds
+0141.284 (0) Table wp_revslider_layer_animations_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_layer_animations_bkp.table.gz - 0.3 KB)
+0141.293 (0) Table wp_revslider_navigations: Total expected rows (approximate): 0
+0141.297 (0) Table wp_revslider_navigations: Total rows added: 0 in 0.00 seconds
+0141.300 (0) Table wp_revslider_navigations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_navigations.table.gz - 0.3 KB)
+0141.310 (0) Table wp_revslider_navigations_bkp: Total expected rows (approximate): 0
+0141.315 (0) Table wp_revslider_navigations_bkp: Total rows added: 0 in 0.00 seconds
+0141.318 (0) Table wp_revslider_navigations_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_navigations_bkp.table.gz - 0.3 KB)
+0141.327 (0) Table wp_revslider_sliders: Total expected rows (approximate): 0
+0141.331 (0) Table wp_revslider_sliders: Total rows added: 0 in 0.00 seconds
+0141.334 (0) Table wp_revslider_sliders: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_sliders.table.gz - 0.3 KB)
+0141.343 (0) Table wp_revslider_sliders_bkp: Total expected rows (approximate): 0
+0141.347 (0) Table wp_revslider_sliders_bkp: Total rows added: 0 in 0.00 seconds
+0141.350 (0) Table wp_revslider_sliders_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_sliders_bkp.table.gz - 0.3 KB)
+0141.358 (0) Table wp_revslider_slides: Total expected rows (approximate): 0
+0141.362 (0) Table wp_revslider_slides: Total rows added: 0 in 0.00 seconds
+0141.364 (0) Table wp_revslider_slides: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_slides.table.gz - 0.3 KB)
+0141.373 (0) Table wp_revslider_slides_bkp: Total expected rows (approximate): 0
+0141.377 (0) Table wp_revslider_slides_bkp: Total rows added: 0 in 0.00 seconds
+0141.380 (0) Table wp_revslider_slides_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_slides_bkp.table.gz - 0.3 KB)
+0141.389 (0) Table wp_revslider_static_slides: Total expected rows (approximate): 0
+0141.393 (0) Table wp_revslider_static_slides: Total rows added: 0 in 0.00 seconds
+0141.396 (0) Table wp_revslider_static_slides: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_static_slides.table.gz - 0.3 KB)
+0141.405 (0) Table wp_revslider_static_slides_bkp: Total expected rows (approximate): 0
+0141.409 (0) Table wp_revslider_static_slides_bkp: Total rows added: 0 in 0.00 seconds
+0141.412 (0) Table wp_revslider_static_slides_bkp: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_static_slides_bkp.table.gz - 0.3 KB)
+0141.420 (0) Table wp_say_what_strings: Total expected rows (approximate): 0
+0141.425 (0) Table wp_say_what_strings: Total rows added: 0 in 0.00 seconds
+0141.427 (0) Table wp_say_what_strings: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_say_what_strings.table.gz - 0.3 KB)
+0141.436 (0) Table wp_sbi_instagram_feeds_posts: Total expected rows (approximate): 0
+0141.442 (0) Table wp_sbi_instagram_feeds_posts: Total rows added: 0 in 0.00 seconds
+0141.445 (0) Table wp_sbi_instagram_feeds_posts: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_sbi_instagram_feeds_posts.table.gz - 0.3 KB)
+0141.456 (0) Table wp_sbi_instagram_posts: Total expected rows (approximate): 0
+0141.460 (0) Table wp_sbi_instagram_posts: Total rows added: 0 in 0.00 seconds
+0141.463 (0) Table wp_sbi_instagram_posts: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_sbi_instagram_posts.table.gz - 0.4 KB)
+0141.472 (0) Table wp_um_metadata: Total expected rows (approximate): 0
+0141.477 (0) Table wp_um_metadata: Total rows added: 0 in 0.00 seconds
+0141.479 (0) Table wp_um_metadata: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_um_metadata.table.gz - 0.4 KB)
+0141.489 (0) Table wp_vxc_zoho_accounts: Total expected rows (approximate): 2
+0141.493 (0) Table wp_vxc_zoho_accounts: Total rows added: 2 in 0.00 seconds
+0141.496 (0) Table wp_vxc_zoho_accounts: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_vxc_zoho_accounts.table.gz - 2 KB)
+0141.505 (0) Table wp_vxc_zoho_log: Total expected rows (approximate): 9
+0141.511 (0) Table wp_vxc_zoho_log: Total rows added: 9 in 0.00 seconds
+0141.514 (0) Table wp_vxc_zoho_log: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_vxc_zoho_log.table.gz - 3.1 KB)
+0141.523 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 11
+0141.527 (0) Table wp_wc_admin_note_actions: Total rows added: 11 in 0.00 seconds
+0141.530 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_admin_note_actions.table.gz - 0.9 KB)
+0141.539 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 9
+0141.544 (0) Table wp_wc_admin_notes: Total rows added: 9 in 0.00 seconds
+0141.547 (0) Table wp_wc_admin_notes: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_admin_notes.table.gz - 1.9 KB)
+0141.556 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 33
+0141.561 (0) Table wp_wc_customer_lookup: Total rows added: 33 in 0.00 seconds
+0141.564 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_customer_lookup.table.gz - 1.6 KB)
+0141.574 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0141.578 (0) Table wp_wc_download_log: Total rows added: 0 in 0.00 seconds
+0141.581 (0) Table wp_wc_download_log: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0141.590 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 43
+0141.595 (0) Table wp_wc_order_coupon_lookup: Total rows added: 43 in 0.00 seconds
+0141.598 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_coupon_lookup.table.gz - 0.8 KB)
+0141.607 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 49
+0141.613 (0) Table wp_wc_order_product_lookup: Total rows added: 49 in 0.00 seconds
+0141.616 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_product_lookup.table.gz - 1.3 KB)
+0141.627 (0) Table wp_wc_order_stats: Total expected rows (approximate): 49
+0141.636 (0) Table wp_wc_order_stats: Total rows added: 49 in 0.00 seconds
+0141.639 (0) Table wp_wc_order_stats: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_stats.table.gz - 1.4 KB)
+0141.652 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 74
+0141.657 (0) Table wp_wc_order_tax_lookup: Total rows added: 74 in 0.00 seconds
+0141.660 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_tax_lookup.table.gz - 1 KB)
+0141.670 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0141.674 (0) Table wp_wc_webhooks: Total rows added: 0 in 0.00 seconds
+0141.677 (0) Table wp_wc_webhooks: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0141.686 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0141.690 (0) Table wp_woocommerce_api_keys: Total rows added: 1 in 0.00 seconds
+0141.693 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_api_keys.table.gz - 0.6 KB)
+0141.701 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0141.705 (0) Table wp_woocommerce_attribute_taxonomies: Total rows added: 0 in 0.00 seconds
+0141.707 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0141.716 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0141.720 (0) Table wp_woocommerce_downloadable_product_permissions: Total rows added: 0 in 0.00 seconds
+0141.723 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0141.731 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0141.735 (0) Table wp_woocommerce_log: Total rows added: 0 in 0.00 seconds
+0141.737 (0) Table wp_woocommerce_log: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0141.746 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 166
+0141.752 (0) Table wp_woocommerce_order_items: Total rows added: 166 in 0.00 seconds
+0141.755 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_order_items.table.gz - 1.4 KB)
+0141.763 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0141.767 (0) Table wp_woocommerce_payment_tokens: Total rows added: 0 in 0.00 seconds
+0141.770 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0141.778 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 10
+0141.782 (0) Table wp_woocommerce_sessions: Total rows added: 10 in 0.00 seconds
+0141.785 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_sessions.table.gz - 2.1 KB)
+0141.794 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0141.797 (0) Table wp_woocommerce_shipping_zone_locations: Total rows added: 1 in 0.00 seconds
+0141.800 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0141.808 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0141.812 (0) Table wp_woocommerce_shipping_zone_methods: Total rows added: 0 in 0.00 seconds
+0141.815 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0141.824 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0141.828 (0) Table wp_woocommerce_shipping_zones: Total rows added: 1 in 0.00 seconds
+0141.831 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zones.table.gz - 0.4 KB)
+0141.840 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0141.844 (0) Table wp_woocommerce_tax_rate_locations: Total rows added: 0 in 0.00 seconds
+0141.846 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0141.855 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 14
+0141.860 (0) Table wp_woocommerce_tax_rates: Total rows added: 14 in 0.00 seconds
+0141.862 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_tax_rates.table.gz - 0.6 KB)
+0141.871 (0) Table wp_wp_pro_quiz_category: Total expected rows (approximate): 0
+0141.875 (0) Table wp_wp_pro_quiz_category: Total rows added: 0 in 0.00 seconds
+0141.879 (0) Table wp_wp_pro_quiz_category: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_category.table.gz - 0.3 KB)
+0141.888 (0) Table wp_wp_pro_quiz_form: Total expected rows (approximate): 0
+0141.892 (0) Table wp_wp_pro_quiz_form: Total rows added: 0 in 0.00 seconds
+0141.894 (0) Table wp_wp_pro_quiz_form: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_form.table.gz - 0.3 KB)
+0141.903 (0) Table wp_wp_pro_quiz_lock: Total expected rows (approximate): 0
+0141.907 (0) Table wp_wp_pro_quiz_lock: Total rows added: 0 in 0.00 seconds
+0141.909 (0) Table wp_wp_pro_quiz_lock: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_lock.table.gz - 0.3 KB)
+0141.918 (0) Table wp_wp_pro_quiz_master: Total expected rows (approximate): 0
+0141.924 (0) Table wp_wp_pro_quiz_master: Total rows added: 1 in 0.00 seconds
+0141.926 (0) Table wp_wp_pro_quiz_master: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_master.table.gz - 0.9 KB)
+0141.935 (0) Table wp_wp_pro_quiz_prerequisite: Total expected rows (approximate): 0
+0141.939 (0) Table wp_wp_pro_quiz_prerequisite: Total rows added: 0 in 0.00 seconds
+0141.942 (0) Table wp_wp_pro_quiz_prerequisite: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_prerequisite.table.gz - 0.3 KB)
+0141.952 (0) Table wp_wp_pro_quiz_question: Total expected rows (approximate): 0
+0141.956 (0) Table wp_wp_pro_quiz_question: Total rows added: 0 in 0.00 seconds
+0141.959 (0) Table wp_wp_pro_quiz_question: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_question.table.gz - 0.5 KB)
+0141.968 (0) Table wp_wp_pro_quiz_statistic: Total expected rows (approximate): 0
+0141.973 (0) Table wp_wp_pro_quiz_statistic: Total rows added: 0 in 0.00 seconds
+0141.975 (0) Table wp_wp_pro_quiz_statistic: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_statistic.table.gz - 0.3 KB)
+0141.984 (0) Table wp_wp_pro_quiz_statistic_ref: Total expected rows (approximate): 0
+0141.989 (0) Table wp_wp_pro_quiz_statistic_ref: Total rows added: 0 in 0.00 seconds
+0141.992 (0) Table wp_wp_pro_quiz_statistic_ref: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_statistic_ref.table.gz - 0.4 KB)
+0142.000 (0) Table wp_wp_pro_quiz_template: Total expected rows (approximate): 0
+0142.004 (0) Table wp_wp_pro_quiz_template: Total rows added: 0 in 0.00 seconds
+0142.007 (0) Table wp_wp_pro_quiz_template: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_template.table.gz - 0.3 KB)
+0142.016 (0) Table wp_wp_pro_quiz_toplist: Total expected rows (approximate): 0
+0142.021 (0) Table wp_wp_pro_quiz_toplist: Total rows added: 0 in 0.00 seconds
+0142.023 (0) Table wp_wp_pro_quiz_toplist: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_toplist.table.gz - 0.4 KB)
+0142.033 (0) Table wp_wpfm_backup: Total expected rows (approximate): 0
+0142.037 (0) Table wp_wpfm_backup: Total rows added: 0 in 0.00 seconds
+0142.039 (0) Table wp_wpfm_backup: finishing file (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wpfm_backup.table.gz - 0.3 KB)
+0142.047 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_options.table.gz (1/117): adding to final database dump
+0142.265 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_users.table.gz (2/117): adding to final database dump
+0142.268 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_usermeta.table.gz (3/117): adding to final database dump
+0142.274 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_commentmeta.table.gz (4/117): adding to final database dump
+0142.277 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_comments.table.gz (5/117): adding to final database dump
+0142.288 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_links.table.gz (6/117): adding to final database dump
+0142.290 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ms_snippets.table.gz (7/117): adding to final database dump
+0142.291 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_postmeta.table.gz (8/117): adding to final database dump
+0142.687 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_posts.table.gz (9/117): adding to final database dump
+0142.819 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_snippets.table.gz (10/117): adding to final database dump
+0142.822 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_term_relationships.table.gz (11/117): adding to final database dump
+0142.824 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_term_taxonomy.table.gz (12/117): adding to final database dump
+0142.826 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_termmeta.table.gz (13/117): adding to final database dump
+0142.827 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_terms.table.gz (14/117): adding to final database dump
+0142.831 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_category_lookup.table.gz (15/117): adding to final database dump
+0142.833 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_product_meta_lookup.table.gz (16/117): adding to final database dump
+0142.835 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_tax_rate_classes.table.gz (17/117): adding to final database dump
+0142.837 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_order_itemmeta.table.gz (18/117): adding to final database dump
+0142.842 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_payment_tokenmeta.table.gz (19/117): adding to final database dump
+0142.844 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_yoast_seo_links.table.gz (20/117): adding to final database dump
+0142.846 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_yoast_seo_meta.table.gz (21/117): adding to final database dump
+0142.847 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_cpmp_player.table.gz (22/117): adding to final database dump
+0142.849 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_addon_feed.table.gz (23/117): adding to final database dump
+0142.850 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_draft_submissions.table.gz (24/117): adding to final database dump
+0142.851 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry.table.gz (25/117): adding to final database dump
+0142.853 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry_meta.table.gz (26/117): adding to final database dump
+0142.855 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_entry_notes.table.gz (27/117): adding to final database dump
+0142.856 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form.table.gz (28/117): adding to final database dump
+0142.858 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_meta.table.gz (29/117): adding to final database dump
+0142.859 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_revisions.table.gz (30/117): adding to final database dump
+0142.861 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_gf_form_view.table.gz (31/117): adding to final database dump
+0142.863 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_content_status.table.gz (32/117): adding to final database dump
+0142.864 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_core_status.table.gz (33/117): adding to final database dump
+0142.866 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_flags.table.gz (34/117): adding to final database dump
+0142.867 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_languages.table.gz (35/117): adding to final database dump
+0142.869 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_languages_translations.table.gz (36/117): adding to final database dump
+0142.885 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_locale_map.table.gz (37/117): adding to final database dump
+0142.887 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_message_status.table.gz (38/117): adding to final database dump
+0142.889 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_mo_files_domains.table.gz (39/117): adding to final database dump
+0142.891 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_node.table.gz (40/117): adding to final database dump
+0142.893 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_reminders.table.gz (41/117): adding to final database dump
+0142.894 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_packages.table.gz (42/117): adding to final database dump
+0142.895 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_pages.table.gz (43/117): adding to final database dump
+0142.897 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_positions.table.gz (44/117): adding to final database dump
+0142.938 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_status.table.gz (45/117): adding to final database dump
+0142.941 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_translations.table.gz (46/117): adding to final database dump
+0143.093 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_string_urls.table.gz (47/117): adding to final database dump
+0143.096 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_strings.table.gz (48/117): adding to final database dump
+0143.642 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translate.table.gz (49/117): adding to final database dump
+0143.644 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translate_job.table.gz (50/117): adding to final database dump
+0143.646 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_batches.table.gz (51/117): adding to final database dump
+0143.648 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_downloads.table.gz (52/117): adding to final database dump
+0143.649 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translation_status.table.gz (53/117): adding to final database dump
+0143.651 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_icl_translations.table.gz (54/117): adding to final database dump
+0143.656 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ld_notifications_delayed_emails.table.gz (55/117): adding to final database dump
+0143.658 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_learndash_user_activity.table.gz (56/117): adding to final database dump
+0143.660 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_learndash_user_activity_meta.table.gz (57/117): adding to final database dump
+0143.662 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_pp_group_members.table.gz (58/117): adding to final database dump
+0143.663 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_pp_groups.table.gz (59/117): adding to final database dump
+0143.665 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_exception_items.table.gz (60/117): adding to final database dump
+0143.666 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_exceptions.table.gz (61/117): adding to final database dump
+0143.667 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_ppc_roles.table.gz (62/117): adding to final database dump
+0143.668 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_404.table.gz (63/117): adding to final database dump
+0143.671 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_groups.table.gz (64/117): adding to final database dump
+0143.673 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_items.table.gz (65/117): adding to final database dump
+0143.675 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_redirection_logs.table.gz (66/117): adding to final database dump
+0143.677 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revisr.table.gz (67/117): adding to final database dump
+0143.678 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_css.table.gz (68/117): adding to final database dump
+0143.683 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_css_bkp.table.gz (69/117): adding to final database dump
+0143.685 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_layer_animations.table.gz (70/117): adding to final database dump
+0143.686 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_layer_animations_bkp.table.gz (71/117): adding to final database dump
+0143.688 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_navigations.table.gz (72/117): adding to final database dump
+0143.689 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_navigations_bkp.table.gz (73/117): adding to final database dump
+0143.691 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_sliders.table.gz (74/117): adding to final database dump
+0143.693 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_sliders_bkp.table.gz (75/117): adding to final database dump
+0143.694 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_slides.table.gz (76/117): adding to final database dump
+0143.696 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_slides_bkp.table.gz (77/117): adding to final database dump
+0143.698 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_static_slides.table.gz (78/117): adding to final database dump
+0143.699 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_revslider_static_slides_bkp.table.gz (79/117): adding to final database dump
+0143.701 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_say_what_strings.table.gz (80/117): adding to final database dump
+0143.703 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_sbi_instagram_feeds_posts.table.gz (81/117): adding to final database dump
+0143.710 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_sbi_instagram_posts.table.gz (82/117): adding to final database dump
+0143.712 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_um_metadata.table.gz (83/117): adding to final database dump
+0143.713 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_vxc_zoho_accounts.table.gz (84/117): adding to final database dump
+0143.715 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_vxc_zoho_log.table.gz (85/117): adding to final database dump
+0143.717 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_admin_note_actions.table.gz (86/117): adding to final database dump
+0143.726 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_admin_notes.table.gz (87/117): adding to final database dump
+0143.728 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_customer_lookup.table.gz (88/117): adding to final database dump
+0143.730 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_download_log.table.gz (89/117): adding to final database dump
+0143.731 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_coupon_lookup.table.gz (90/117): adding to final database dump
+0143.733 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_product_lookup.table.gz (91/117): adding to final database dump
+0143.735 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_stats.table.gz (92/117): adding to final database dump
+0143.736 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_order_tax_lookup.table.gz (93/117): adding to final database dump
+0143.738 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wc_webhooks.table.gz (94/117): adding to final database dump
+0143.739 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_api_keys.table.gz (95/117): adding to final database dump
+0143.741 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_attribute_taxonomies.table.gz (96/117): adding to final database dump
+0143.742 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (97/117): adding to final database dump
+0143.743 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_log.table.gz (98/117): adding to final database dump
+0143.745 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_order_items.table.gz (99/117): adding to final database dump
+0143.749 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_payment_tokens.table.gz (100/117): adding to final database dump
+0143.750 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_sessions.table.gz (101/117): adding to final database dump
+0143.752 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zone_locations.table.gz (102/117): adding to final database dump
+0143.753 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zone_methods.table.gz (103/117): adding to final database dump
+0143.754 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_shipping_zones.table.gz (104/117): adding to final database dump
+0143.755 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_tax_rate_locations.table.gz (105/117): adding to final database dump
+0143.758 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_woocommerce_tax_rates.table.gz (106/117): adding to final database dump
+0143.759 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_category.table.gz (107/117): adding to final database dump
+0143.760 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_form.table.gz (108/117): adding to final database dump
+0143.762 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_lock.table.gz (109/117): adding to final database dump
+0143.763 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_master.table.gz (110/117): adding to final database dump
+0143.764 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_prerequisite.table.gz (111/117): adding to final database dump
+0143.765 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_question.table.gz (112/117): adding to final database dump
+0143.767 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_statistic.table.gz (113/117): adding to final database dump
+0143.769 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_statistic_ref.table.gz (114/117): adding to final database dump
+0143.770 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_template.table.gz (115/117): adding to final database dump
+0143.771 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wp_pro_quiz_toplist.table.gz (116/117): adding to final database dump
+0143.773 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db-table-wp_wpfm_backup.table.gz (117/117): adding to final database dump
+0143.776 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db.gz: finished writing out complete database file (6016 KB)
+0143.961 (0) Total database tables backed up: 117 (backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db.gz, size: 6181087, sha1: 48c950fa67e564b7e3d031671dcf04e402f8df07, sha256: e651e2085126d730ba4ec409739201a743fa2f4dff19e243ce406987be7f3aa0)
+0143.968 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0143.969 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0143.970 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0143.971 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip: uploads: This file has not yet been successfully uploaded: will queue
+0143.973 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip: uploads: This file has not yet been successfully uploaded: will queue
+0143.974 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip: others: This file has not yet been successfully uploaded: will queue
+0143.975 (0) backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db.gz: db: This file has not yet been successfully uploaded: will queue
+0143.976 (0) Saving backup history. Total backup size: 1.4 GB
+0143.980 (0) Requesting upload of the files that have not yet been successfully uploaded (7)
+0143.985 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0143.985 (0) No remote despatch: user chose no remote backup service
+0143.986 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-plugins.zip
+0143.989 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-themes.zip
+0143.992 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads.zip
+0143.994 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads2.zip
+0143.997 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-uploads3.zip
+0143.999 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-others.zip
+0144.002 (0) Recording as successfully uploaded: backup_2020-02-10-1302_Programmes_Espace_Atman_922fbb353c07-db.gz
+0144.008 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0144.010 (0) Number of backup sets in history: 2; groups (db): 1
+0144.011 (0) Examining (for databases) backup set with group_id=0, nonce=922fbb353c07, datestamp=1581357750 (Feb 10 2020 18:02:30)
+0144.013 (0) This backup set is the backup set just made, so will not be deleted.
+0144.013 (0) Examining (for databases) backup set with group_id=0, nonce=2dbf7e1b6eda, datestamp=1580561173 (Feb 01 2020 12:46:13)
+0144.013 (0) This backup set (1580561173) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0144.013 (0) Number of backup sets in history: 2; groups (files): 1
+0144.014 (0) Examining (for files) backup set with nonce=922fbb353c07, datestamp=1581357750 (Feb 10 2020 18:02:30)
+0144.014 (0) This backup set is the backup set just made, so will not be deleted.
+0144.014 (0) This backup set is the backup set just made, so will not be deleted.
+0144.015 (0) This backup set is the backup set just made, so will not be deleted.
+0144.015 (0) This backup set is the backup set just made, so will not be deleted.
+0144.015 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0144.015 (0) Examining (for files) backup set with nonce=2dbf7e1b6eda, datestamp=1580561173 (Feb 01 2020 12:46:13)
+0144.016 (0) This backup set (1580561173) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0144.016 (0) This backup set (1580561173) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0144.016 (0) This backup set (1580561173) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0144.016 (0) This backup set (1580561173) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0144.016 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0144.016 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0144.019 (0) Resume backup (922fbb353c07, 0): finish run
+0144.022 (0) Decremented the semaphore (fd) by 1
+0144.027 (0) Semaphore (fd) unlocked
+0144.029 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0144.034 (0) No email will/can be sent - the user has not configured an email address.
+0144.035 (0) The backup apparently succeeded (with warnings) and is now complete

@@ -1,0 +1,60 @@
+# Translation of Plugins - Email Customizer for WooCommerce - Development (trunk) in French (France)
+# This file is distributed under the same license as the Plugins - Email Customizer for WooCommerce - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-11-08 17:29:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Email Customizer for WooCommerce - Development (trunk)\n"
+
+#: classes/inc/class-wecmf-template-settings.php:300
+msgid "Template"
+msgstr "Modèle"
+
+#: classes/inc/class-wecmf-template-settings.php:299
+msgid "Email"
+msgstr "E-mail"
+
+#: classes/class-wecmf-settings.php:126
+msgid "Settings"
+msgstr "Réglages"
+
+#: classes/class-wecmf-settings.php:121
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: classes/class-wecmf-settings.php:107
+msgid "Add New"
+msgstr "Ajouter un nouveau"
+
+#: classes/class-wecmf-settings.php:105
+msgid "Templates"
+msgstr "Modèles"
+
+#: classes/class-wecmf-settings.php:103
+msgid "Email Customizer"
+msgstr "Email Customizer"
+
+#. Author URI of the plugin
+msgid "https://www.themehigh.com"
+msgstr "https://www.themehigh.com"
+
+#. Author of the plugin
+msgid "ThemeHigh"
+msgstr "ThemeHigh"
+
+#. Description of the plugin
+msgid "Customize WooCommerce Emails (Create, Edit and Delete Email Templates)"
+msgstr "Personnaliser les e-mails de WooCommerce (créer, modifier et supprimer des modèles d’e-mail)"
+
+#. Plugin URI of the plugin
+msgid "https://www.themehigh.com/product/woocommerce-email-customizer"
+msgstr "https://www.themehigh.com/product/woocommerce-email-customizer"
+
+#. Plugin Name of the plugin
+msgid "Email Customizer for WooCommerce"
+msgstr "Email Customizer for WooCommerce"

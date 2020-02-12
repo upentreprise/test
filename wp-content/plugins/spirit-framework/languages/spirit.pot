@@ -1,0 +1,4917 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Spirit Framework\n"
+"POT-Creation-Date: 2019-12-08 09:59+0900\n"
+"PO-Revision-Date: 2018-12-02 07:46+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: spirit-framework.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-sf-admin.php:77
+msgid "Welcome"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:78
+msgid "Registration"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:79
+msgid "Demos"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:80
+msgid "Fonts"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:81
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:102
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:197
+msgid "Are you sure to remove this sidebar?"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:198
+msgid "Please install all the required plugins."
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:199
+msgid ""
+"Demo Installation\n"
+"\n"
+"This will replicate the live demo, which include all the demo content and "
+"theme settings being selected. Your current theme settings will be "
+"overwritten. Installation could take a minute or less to complete.\n"
+"\n"
+"Do you want to proceed?"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:200
+msgid ""
+"All demo content and settings will be deleted. Contents created prior to demo "
+"installation will not be touched.\n"
+"\n"
+"Do you want to procceed?"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:201
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:202 includes/class-sf-login.php:107
+msgid "Approve now"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:203 includes/class-sf-login.php:150
+msgid "Remove Approval"
+msgstr ""
+
+#: includes/admin/class-sf-admin.php:204
+msgid "Updating user"
+msgstr ""
+
+#: includes/admin/settings/callbacks.php:115
+#: includes/libs/meta-box/inc/fields/file-input.php:43
+#: includes/libs/meta-box/inc/fields/select.php:92
+msgid "Select"
+msgstr ""
+
+#: includes/admin/settings/callbacks.php:181
+#: includes/class-sf-user-profile.php:38 includes/class-sf-widget.php:695
+#: includes/menu/class-sf-megamenu.php:76
+#: includes/menu/class-sf-megamenu.php:249
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/settings/callbacks.php:182
+#: includes/class-sf-user-profile.php:39 includes/class-sf-widget.php:695
+#: includes/menu/class-sf-megamenu-edit.php:137
+#: includes/menu/class-sf-megamenu.php:77
+#: includes/menu/class-sf-megamenu.php:250
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/settings/callbacks.php:183
+#: includes/class-sf-user-profile.php:40 includes/class-sf-widget.php:695
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:62
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:133
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:386
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:418
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:443
+#: includes/libs/kirki/controls/views/image.php:37
+#: includes/libs/kirki/field/class-kirki-field-image.php:50
+#: includes/libs/meta-box/inc/fields/file-input.php:45
+#: includes/menu/class-sf-megamenu-edit.php:216
+#: includes/menu/class-sf-megamenu.php:78
+#: includes/menu/class-sf-megamenu.php:251
+msgid "Remove"
+msgstr ""
+
+#: includes/admin/settings/register-settings.php:132
+msgid "Settings updated."
+msgstr ""
+
+#: includes/admin/settings/settings.php:22
+msgid "Custom Sidebars"
+msgstr ""
+
+#: includes/admin/settings/settings.php:23
+msgid "Enable Custom Sidebars"
+msgstr ""
+
+#: includes/admin/settings/settings.php:29
+msgid "Login & Registration"
+msgstr ""
+
+#: includes/admin/settings/settings.php:30
+msgid "Enable User Login & Registration"
+msgstr ""
+
+#: includes/admin/settings/settings.php:44
+msgid "Login Redirect Page"
+msgstr ""
+
+#: includes/admin/settings/settings.php:51
+msgid "Verification Page"
+msgstr ""
+
+#: includes/admin/settings/settings.php:58
+msgid "Verification Redirect Page"
+msgstr ""
+
+#: includes/admin/settings/settings.php:65
+msgid "Email Verification"
+msgstr ""
+
+#: includes/admin/settings/settings.php:66
+msgid "New account requires email verification"
+msgstr ""
+
+#: includes/admin/settings/settings.php:71
+msgid "Verification Auto login"
+msgstr ""
+
+#: includes/admin/settings/settings.php:72
+msgid "Automatically login after verification"
+msgstr ""
+
+#: includes/admin/settings/settings.php:77
+msgid "Autogenerate Username"
+msgstr ""
+
+#: includes/admin/settings/settings.php:78
+msgid ""
+"When creating an account, automatically generate a username from the user's "
+"email address"
+msgstr ""
+
+#: includes/admin/settings/settings.php:83
+msgid "Autogenerate Password"
+msgstr ""
+
+#: includes/admin/settings/settings.php:84
+msgid "When creating an account, automatically generate an account password"
+msgstr ""
+
+#: includes/admin/settings/settings.php:91 templates/account/form-login.php:37
+msgid "Remember Me"
+msgstr ""
+
+#: includes/admin/settings/settings.php:92
+msgid "Display remember me field in Login Form"
+msgstr ""
+
+#: includes/admin/settings/settings.php:98
+msgid "First name and Last name"
+msgstr ""
+
+#: includes/admin/settings/settings.php:99
+msgid "Display first name and last name fields in Registration Form"
+msgstr ""
+
+#: includes/admin/settings/settings.php:104
+msgid "New Account Agreement"
+msgstr ""
+
+#: includes/admin/settings/settings.php:105
+msgid ""
+"Optionally add some text about your site terms and privacy policy to show on "
+"account registration form."
+msgstr ""
+
+#: includes/admin/settings/settings.php:107
+msgid "I agree to [terms] and [privacy_policy]"
+msgstr ""
+
+#: includes/admin/settings/settings.php:111
+msgid "Terms and Conditions Page"
+msgstr ""
+
+#: includes/admin/settings/settings.php:118
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: includes/admin/settings/settings.php:133
+#: includes/widgets/class-sf-widget-about-site.php:24
+msgid "Logo"
+msgstr ""
+
+#: includes/admin/settings/settings.php:135
+msgid ""
+"URL to an image you want to show in the email header. Displayed on HTML "
+"emails only."
+msgstr ""
+
+#: includes/admin/settings/settings.php:139
+msgid "From Name"
+msgstr ""
+
+#: includes/admin/settings/settings.php:142
+msgid "How the sender name appears in outgoing emails."
+msgstr ""
+
+#: includes/admin/settings/settings.php:146
+msgid "From Email"
+msgstr ""
+
+#: includes/admin/settings/settings.php:147
+msgid "How the sender email appears in outgoing emails."
+msgstr ""
+
+#: includes/admin/settings/settings.php:155
+#: includes/admin/settings/settings.php:193
+#: includes/admin/settings/settings.php:231
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin/settings/settings.php:157 includes/class-sf-email.php:150
+msgid "Your account on {site_title}"
+msgstr ""
+
+#: includes/admin/settings/settings.php:161
+#: includes/admin/settings/settings.php:199
+#: includes/admin/settings/settings.php:237
+msgid "Email Heading"
+msgstr ""
+
+#: includes/admin/settings/settings.php:163 includes/class-sf-email.php:154
+msgid "Welcome to {site_title}"
+msgstr ""
+
+#: includes/admin/settings/settings.php:167
+#: includes/admin/settings/settings.php:205
+#: includes/admin/settings/settings.php:243
+msgid "Email Type"
+msgstr ""
+
+#: includes/admin/settings/settings.php:170
+#: includes/admin/settings/settings.php:208
+#: includes/admin/settings/settings.php:246
+msgid "Plain text"
+msgstr ""
+
+#: includes/admin/settings/settings.php:171
+#: includes/admin/settings/settings.php:209
+#: includes/admin/settings/settings.php:247
+msgid "HTML"
+msgstr ""
+
+#: includes/admin/settings/settings.php:172
+#: includes/admin/settings/settings.php:210
+#: includes/admin/settings/settings.php:248
+msgid "Multipart"
+msgstr ""
+
+#: includes/admin/settings/settings.php:175
+#: includes/admin/settings/settings.php:213
+#: includes/admin/settings/settings.php:251
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/admin/settings/settings.php:179
+#: includes/admin/settings/settings.php:217
+#: includes/admin/settings/settings.php:255
+msgid "Plain template"
+msgstr ""
+
+#: includes/admin/settings/settings.php:181
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/plain/new-account.php</code> to your theme folder: "
+"<code>yourtheme/spirit/emails/plain/new-account.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:185
+#: includes/admin/settings/settings.php:223
+#: includes/admin/settings/settings.php:261
+msgid "HTML template"
+msgstr ""
+
+#: includes/admin/settings/settings.php:187
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/new-account.php</code> to your theme folder: <code>yourtheme/"
+"spirit/emails/new-account.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:195 includes/class-sf-email.php:201
+msgid "Password reset for {site_title}"
+msgstr ""
+
+#: includes/admin/settings/settings.php:201 includes/class-sf-email.php:205
+msgid "Password reset instructions"
+msgstr ""
+
+#: includes/admin/settings/settings.php:219
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/plain/reset-password.php</code> to your theme folder: "
+"<code>yourtheme/spirit/emails/plain/reset-password.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:225
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/reset-password.php</code> to your theme folder: "
+"<code>yourtheme/spirit/emails/reset-password.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:233
+#: includes/admin/settings/settings.php:239 includes/class-sf-email.php:251
+#: includes/class-sf-email.php:255
+msgid "Account Confirmation"
+msgstr ""
+
+#: includes/admin/settings/settings.php:257
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/plain/activate-account.php</code> to your theme folder: "
+"<code>yourtheme/spirit/emails/plain/activate-account.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:263
+msgid ""
+"To override and edit this email template copy <code>spirit-framework/"
+"templates/emails/activate-account.php</code> to your theme folder: "
+"<code>yourtheme/spirit/emails/activate-account.php</code>"
+msgstr ""
+
+#: includes/admin/settings/settings.php:280
+#: includes/admin/settings/settings.php:322
+#: includes/admin/settings/settings.php:325
+#: includes/admin/settings/settings.php:329
+#: includes/elementor/widgets/team-members.php:34
+#: includes/elementor/widgets/testimonials.php:104
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings/settings.php:281
+msgid "Login"
+msgstr ""
+
+#: includes/admin/settings/settings.php:282
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/settings/settings.php:326
+msgid "Forms"
+msgstr ""
+
+#: includes/admin/settings/settings.php:330
+msgid "New Account"
+msgstr ""
+
+#: includes/admin/settings/settings.php:331
+msgid "Activate Account"
+msgstr ""
+
+#: includes/admin/settings/settings.php:332
+msgid "Reset Password"
+msgstr ""
+
+#: includes/admin/views/demos.php:9 includes/elementor/widgets/gallery.php:501
+#: includes/libs/meta-box/inc/fields/select.php:92
+msgid "All"
+msgstr ""
+
+#: includes/admin/views/demos.php:10
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/views/demos.php:11
+msgid "Posts"
+msgstr ""
+
+#: includes/admin/views/demos.php:12 includes/elementor/widgets/gallery.php:362
+msgid "Images"
+msgstr ""
+
+#: includes/admin/views/demos.php:13 includes/admin/views/welcome.php:46
+msgid "Widgets"
+msgstr ""
+
+#: includes/admin/views/demos.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: includes/admin/views/demos.php:15
+msgid "Sliders"
+msgstr ""
+
+#: includes/admin/views/demos.php:16
+msgid "Courses"
+msgstr ""
+
+#: includes/admin/views/demos.php:17
+msgid "Events"
+msgstr ""
+
+#: includes/admin/views/demos.php:40 includes/admin/views/demos.php:80
+msgid "Installing.."
+msgstr ""
+
+#: includes/admin/views/demos.php:41 includes/admin/views/demos.php:81
+msgid "Uninstalling.."
+msgstr ""
+
+#: includes/admin/views/demos.php:44 includes/admin/views/demos.php:85
+msgid "Uninstall"
+msgstr ""
+
+#: includes/admin/views/demos.php:45 includes/admin/views/demos.php:84
+msgid "Install"
+msgstr ""
+
+#: includes/admin/views/demos.php:46 includes/admin/views/fonts.php:107
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/views/demos.php:49
+msgid "Demo Modal"
+msgstr ""
+
+#: includes/admin/views/demos.php:54
+msgid "Import Content"
+msgstr ""
+
+#: includes/admin/views/demos.php:82
+msgid "Done :)"
+msgstr ""
+
+#: includes/admin/views/fonts.php:7
+msgid "Theme Font List"
+msgstr ""
+
+#: includes/admin/views/fonts.php:20 includes/admin/views/fonts.php:79
+msgid "Remove Font"
+msgstr ""
+
+#: includes/admin/views/fonts.php:29
+msgid "Unknown"
+msgstr ""
+
+#: includes/admin/views/fonts.php:36
+#: includes/fonts/class-sf-fonts-manager.php:31
+#, php-format
+msgid "Source: %s"
+msgstr ""
+
+#: includes/admin/views/fonts.php:40
+#: includes/fonts/class-sf-fonts-manager.php:34
+msgid "Variants"
+msgstr ""
+
+#: includes/admin/views/fonts.php:63
+msgid "Save Fonts"
+msgstr ""
+
+#: includes/admin/views/fonts.php:71 includes/admin/views/fonts.php:122
+#: includes/admin/views/fonts.php:133 includes/admin/views/fonts.php:144
+#: includes/admin/views/fonts.php:155 includes/admin/views/fonts.php:166
+msgid "Custom Fonts"
+msgstr ""
+
+#: includes/admin/views/fonts.php:78 includes/admin/views/fonts.php:108
+msgid "Add Font"
+msgstr ""
+
+#: includes/admin/views/fonts.php:87
+msgid "Google Web Fonts"
+msgstr ""
+
+#: includes/admin/views/fonts.php:118 includes/admin/views/fonts.php:181
+msgid "Add Custom Font"
+msgstr ""
+
+#: includes/admin/views/fonts.php:127 includes/admin/views/fonts.php:138
+#: includes/admin/views/fonts.php:149 includes/admin/views/fonts.php:160
+#: includes/admin/views/fonts.php:171
+msgid "Upload"
+msgstr ""
+
+#: includes/admin/views/fonts.php:177
+msgid "Font Name"
+msgstr ""
+
+#: includes/admin/views/header.php:5
+#, php-format
+msgid "Welcome to %s!"
+msgstr ""
+
+#: includes/admin/views/header.php:11
+#, php-format
+msgid ""
+"%s is now installed and ready to use! Get ready to build something beautiful! "
+"Please register your purchase to get automatic theme updates, import demos "
+"and install premium plugins."
+msgstr ""
+
+#: includes/admin/views/status.php:13
+msgid "Get system report"
+msgstr ""
+
+#: includes/admin/views/status.php:14
+msgid ""
+"Please copy and paste this information in your ticket when contacting support."
+msgstr ""
+
+#: includes/admin/views/status.php:18
+msgid "Copied!"
+msgstr ""
+
+#: includes/admin/views/status.php:18
+msgid "Copy for support"
+msgstr ""
+
+#: includes/admin/views/status.php:19
+msgid "Copying to clipboard failed. Please press Ctrl/Cmd+C to copy."
+msgstr ""
+
+#: includes/admin/views/status.php:28
+msgid "Theme Info"
+msgstr ""
+
+#: includes/admin/views/status.php:33
+msgid "Theme Version"
+msgstr ""
+
+#: includes/admin/views/status.php:34
+msgid "The installed version of the current active theme."
+msgstr ""
+
+#: includes/admin/views/status.php:38
+msgid "Child Theme"
+msgstr ""
+
+#: includes/admin/views/status.php:39
+msgid "Displays whether or not the current theme is a child theme."
+msgstr ""
+
+#: includes/admin/views/status.php:41
+#, php-format
+msgid ""
+"If you are modifying a theme that you did not build personally we recommend "
+"using a child theme. See: <a href=\"%s\" target=\"_blank\">How to create a "
+"child theme</a>"
+msgstr ""
+
+#: includes/admin/views/status.php:46
+msgid "Parent theme name"
+msgstr ""
+
+#: includes/admin/views/status.php:47
+msgid "The name of the parent theme."
+msgstr ""
+
+#: includes/admin/views/status.php:51
+msgid "Parent theme version"
+msgstr ""
+
+#: includes/admin/views/status.php:52
+msgid "The installed version of the parent theme."
+msgstr ""
+
+#: includes/admin/views/status.php:61
+msgid "WordPress environment"
+msgstr ""
+
+#: includes/admin/views/status.php:66
+msgid "Home URL"
+msgstr ""
+
+#: includes/admin/views/status.php:67
+msgid "The homepage URL of your site."
+msgstr ""
+
+#: includes/admin/views/status.php:71
+msgid "Site URL"
+msgstr ""
+
+#: includes/admin/views/status.php:72
+msgid "The root URL of your site."
+msgstr ""
+
+#: includes/admin/views/status.php:76
+msgid "WP Version"
+msgstr ""
+
+#: includes/admin/views/status.php:77
+msgid "The version of WordPress installed on your site."
+msgstr ""
+
+#: includes/admin/views/status.php:81
+msgid "WP Multisite"
+msgstr ""
+
+#: includes/admin/views/status.php:82
+msgid "Whether or not you have WordPress Multisite enabled."
+msgstr ""
+
+#: includes/admin/views/status.php:86
+msgid "WP Memory Limit"
+msgstr ""
+
+#: includes/admin/views/status.php:87
+msgid "The maximum amount of memory (RAM) that your site can use at one time."
+msgstr ""
+
+#: includes/admin/views/status.php:90
+#, php-format
+msgid "%1$s - We recommend setting memory to at least 64MB. See: %2$s"
+msgstr ""
+
+#: includes/admin/views/status.php:90
+msgid "Increasing memory allocated to PHP"
+msgstr ""
+
+#: includes/admin/views/status.php:97
+msgid "WP Debug Mode"
+msgstr ""
+
+#: includes/admin/views/status.php:98
+msgid "Displays whether or not WordPress is in Debug Mode."
+msgstr ""
+
+#: includes/admin/views/status.php:108
+msgid "WP Cron"
+msgstr ""
+
+#: includes/admin/views/status.php:109
+msgid "Displays whether or not WP Cron Jobs are enabled."
+msgstr ""
+
+#: includes/admin/views/status.php:119
+msgid "Language"
+msgstr ""
+
+#: includes/admin/views/status.php:120
+msgid "The current language used by WordPress. Default = English"
+msgstr ""
+
+#: includes/admin/views/status.php:128
+msgid "Server Environment"
+msgstr ""
+
+#: includes/admin/views/status.php:133
+msgid "Server Info"
+msgstr ""
+
+#: includes/admin/views/status.php:134
+msgid "Information about the web server that is currently hosting your site."
+msgstr ""
+
+#: includes/admin/views/status.php:138
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:156
+msgid "PHP Version"
+msgstr ""
+
+#: includes/admin/views/status.php:139
+msgid "The version of PHP installed on your hosting server."
+msgstr ""
+
+#: includes/admin/views/status.php:142
+#, php-format
+msgid "%1$s - We recommend a minimum PHP version of 5.6. See: %2$s"
+msgstr ""
+
+#: includes/admin/views/status.php:142
+msgid "How to update your PHP version"
+msgstr ""
+
+#: includes/admin/views/status.php:149
+msgid "MySQL Version"
+msgstr ""
+
+#: includes/admin/views/status.php:150
+msgid "The version of MySQL installed on your hosting server."
+msgstr ""
+
+#: includes/admin/views/status.php:156
+#, php-format
+msgid "%1$s - We recommend a minimum MySQL version of 5.6. See: %2$s"
+msgstr ""
+
+#: includes/admin/views/status.php:156
+msgid "WordPress requirements"
+msgstr ""
+
+#: includes/admin/views/status.php:165
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: includes/admin/views/status.php:166
+msgid "The largest filesize that can be contained in one post."
+msgstr ""
+
+#: includes/admin/views/status.php:170
+msgid "PHP Time Limit"
+msgstr ""
+
+#: includes/admin/views/status.php:171
+msgid ""
+"The amount of time (in seconds) that your site will spend on a single "
+"operation before timing out (to avoid server lockups)"
+msgstr ""
+
+#: includes/admin/views/status.php:174
+#, php-format
+msgid "%s - Recommended value: <b>180</b>."
+msgstr ""
+
+#: includes/admin/views/status.php:181
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: includes/admin/views/status.php:182
+msgid ""
+"The maximum number of variables your server can use for a single function to "
+"avoid overloads."
+msgstr ""
+
+#: includes/admin/views/status.php:185
+#, php-format
+msgid ""
+"%s - Recommended value: <b>3000</b>.<br>Max input vars limitation will "
+"truncate POST data such as menus."
+msgstr ""
+
+#: includes/admin/views/status.php:192
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: includes/admin/views/status.php:193
+msgid ""
+"Suhosin is an advanced protection system for PHP installations. It was "
+"designed to protect your servers on the one hand against a number of well "
+"known problems in PHP applications and on the other hand against potential "
+"unknown vulnerabilities within these applications or the PHP core itself. If "
+"enabled on your server, Suhosin may need to be configured to increase its "
+"data submission limits."
+msgstr ""
+
+#: includes/admin/views/status.php:198
+msgid "Max Upload Size"
+msgstr ""
+
+#: includes/admin/views/status.php:199
+msgid ""
+"The largest filesize that can be uploaded to your WordPress installation."
+msgstr ""
+
+#: includes/admin/views/status.php:203
+msgid "DOMDocument"
+msgstr ""
+
+#: includes/admin/views/status.php:204
+msgid ""
+"HTML/Multipart emails use DOMDocument to generate inline CSS in templates."
+msgstr ""
+
+#: includes/admin/views/status.php:209
+#, php-format
+msgid ""
+"Your server does not have the %s class enabled - HTML/Multipart emails, and "
+"also some extensions, will not work without DOMDocument."
+msgstr ""
+
+#: includes/admin/views/status.php:214
+msgid "ZipArchive"
+msgstr ""
+
+#: includes/admin/views/status.php:215
+msgid ""
+"ZipArchive is required for importing demos. They are used to import and "
+"export zip files specifically for sliders."
+msgstr ""
+
+#: includes/admin/views/status.php:220
+msgid ""
+"ZipArchive is not installed on your server, but is required if you need to "
+"import demo content."
+msgstr ""
+
+#: includes/admin/views/status.php:225 includes/admin/views/status.php:226
+msgid "WP Remote Post"
+msgstr ""
+
+#: includes/admin/views/status.php:231 includes/admin/views/status.php:242
+#, php-format
+msgid "%s failed. Contact your hosting provider."
+msgstr ""
+
+#: includes/admin/views/status.php:236 includes/admin/views/status.php:237
+msgid "WP Remote Get"
+msgstr ""
+
+#: includes/admin/views/status.php:251
+msgid "Active plugins"
+msgstr ""
+
+#: includes/admin/views/status.php:259
+msgid "Visit plugin homepage"
+msgstr ""
+
+#: includes/admin/views/status.php:265
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: includes/admin/views/welcome.php:7
+msgid "Theme Support"
+msgstr ""
+
+#: includes/admin/views/welcome.php:11 includes/admin/views/welcome.php:13
+#: includes/libs/meta-box/inc/about/sections/welcome.php:21
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/views/welcome.php:12
+msgid ""
+"Want step by step how to guides? Our online documentation is the great place "
+"to start learning all the in and outs of the theme."
+msgstr ""
+
+#: includes/admin/views/welcome.php:18
+msgid "Video Tutorials"
+msgstr ""
+
+#: includes/admin/views/welcome.php:19
+msgid ""
+"Nothing is better than watching a video to learn. We have a growing number of "
+"high-definititon video tutorials to help you know the different aspects of "
+"the theme."
+msgstr ""
+
+#: includes/admin/views/welcome.php:20
+msgid "Watch Videos"
+msgstr ""
+
+#: includes/admin/views/welcome.php:24
+msgid "Submit A Ticket"
+msgstr ""
+
+#: includes/admin/views/welcome.php:25
+msgid ""
+"We offer outstanding support through our support center. To get submit a "
+"ticket first you need to register an account and verify your purchase."
+msgstr ""
+
+#: includes/admin/views/welcome.php:26
+msgid "Support Center"
+msgstr ""
+
+#: includes/admin/views/welcome.php:33
+msgid "Appearance"
+msgstr ""
+
+#: includes/admin/views/welcome.php:38
+msgid "Customize"
+msgstr ""
+
+#: includes/admin/views/welcome.php:42
+msgid "Menus"
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:63
+#: includes/elementor/widgets/team-members.php:125
+#: includes/elementor/widgets/team-members.php:644
+#: includes/elementor/widgets/testimonials.php:65
+#: includes/elementor/widgets/testimonials.php:365
+msgid "Name"
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:66
+#: includes/elementor/widgets/icon-box.php:813
+#: includes/elementor/widgets/team-members.php:137
+#: includes/elementor/widgets/team-members.php:700
+#: includes/menu/class-sf-megamenu-edit.php:183
+msgid "Description"
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:69
+msgid "Add New Sidebar"
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:137
+msgid "Please enter a name."
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:138
+msgid "Name exist, please use another name."
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:139
+msgid "New sidebar created successfully."
+msgstr ""
+
+#: includes/class-sf-custom-sidebars.php:140
+msgid "Widget cannot be removed."
+msgstr ""
+
+#: includes/class-sf-elementor-addon.php:105
+msgid "Theme"
+msgstr ""
+
+#: includes/class-sf-login.php:76
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: includes/class-sf-login.php:85
+msgid "User Status"
+msgstr ""
+
+#: includes/class-sf-login.php:103 includes/class-sf-login.php:142
+msgid "Verified"
+msgstr ""
+
+#: includes/class-sf-login.php:103 includes/class-sf-login.php:142
+msgid "Pending Verification"
+msgstr ""
+
+#: includes/class-sf-login.php:109
+msgid "Remove approval"
+msgstr ""
+
+#: includes/class-sf-login.php:149
+msgid "Approve"
+msgstr ""
+
+#: includes/class-sf-login.php:204
+#, php-format
+msgid "%s user account marked as approved."
+msgid_plural "%s user accounts marked as approved."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sf-login.php:211
+#, php-format
+msgid "%s user account marked as unverified."
+msgid_plural "%s user accounts marked as unverified."
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-sf-login.php:221 includes/class-sf-login.php:275
+#: includes/class-sf-login.php:438 includes/class-sf-login.php:543
+msgid "Token is invalid or expired. Please refresh and try again."
+msgstr ""
+
+#. translators: 1: Browser cookie documentation URL, 2: Support forums URL
+#: includes/class-sf-login.php:245
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\" target=\"_blank\">this documentation</a> or "
+"try the <a href=\"%2$s\">support forums</a>."
+msgstr ""
+
+#: includes/class-sf-login.php:246
+msgid "https://codex.wordpress.org/Cookies"
+msgstr ""
+
+#: includes/class-sf-login.php:246
+msgid "https://wordpress.org/support/"
+msgstr ""
+
+#: includes/class-sf-login.php:398
+msgid "Re-send Verfication Email"
+msgstr ""
+
+#: includes/class-sf-login.php:530
+#, php-format
+msgid ""
+"You have not verified your email address, please check your email and click "
+"on verification link we sent you. <a href=\"javascript:void(0)\" data-user="
+"\"%s\">Re-send the link</a>"
+msgstr ""
+
+#: includes/class-sf-login.php:667
+msgid "Invalid request"
+msgstr ""
+
+#: includes/class-sf-login.php:668
+msgid "Your email has been verified."
+msgstr ""
+
+#: includes/class-sf-login.php:669
+msgid "Your email has been verified. Redirecting in 3 seconds.."
+msgstr ""
+
+#: includes/class-sf-login.php:670
+msgid "Sorry we could not verify your email address."
+msgstr ""
+
+#: includes/class-sf-login.php:703
+msgid "Login successful, redirecting.."
+msgstr ""
+
+#: includes/class-sf-login.php:704
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: includes/class-sf-login.php:706 includes/class-sf-login.php:710
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/class-sf-login.php:708
+msgid "<strong>ERROR</strong>: Incorrect password."
+msgstr ""
+
+#: includes/class-sf-login.php:721
+msgid "Registration complete. Please check your email."
+msgstr ""
+
+#: includes/class-sf-login.php:722
+msgid "Registration complete. Please verify your email address."
+msgstr ""
+
+#: includes/class-sf-login.php:723
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: includes/class-sf-login.php:724
+msgid "Sorry, that username already exists! "
+msgstr ""
+
+#: includes/class-sf-login.php:725
+msgid "Please enter a valid username."
+msgstr ""
+
+#: includes/class-sf-login.php:726
+msgid "That email is already registered, please choose another one."
+msgstr ""
+
+#: includes/class-sf-login.php:727
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: includes/class-sf-login.php:728
+msgid "Registration complete. System is unable to send you an email."
+msgstr ""
+
+#: includes/class-sf-login.php:738
+msgid ""
+"Link for password reset has been emailed to you. Please check your email."
+msgstr ""
+
+#: includes/class-sf-login.php:739
+msgid "Password reset is not allowed for this user."
+msgstr ""
+
+#: includes/class-sf-login.php:740
+msgid "There is no user registered with that email."
+msgstr ""
+
+#: includes/class-sf-login.php:741
+msgid "System is unable to send you an email for password reset."
+msgstr ""
+
+#: includes/class-sf-post-fields.php:41
+msgid "Enter subtitle here"
+msgstr ""
+
+#: includes/class-sf-user-profile.php:30
+msgid "Avatar"
+msgstr ""
+
+#: includes/class-sf-user-profile.php:33
+msgid "Select Image"
+msgstr ""
+
+#: includes/class-sf-user-profile.php:50
+#: includes/elementor/widgets/team-members.php:157
+msgid "Social Links"
+msgstr ""
+
+#: includes/class-sf-user-profile.php:53
+msgid "Author Title"
+msgstr ""
+
+#: includes/class-sf-widget.php:605
+msgid "Select Categories"
+msgstr ""
+
+#: includes/class-spirit-framework.php:45 includes/class-spirit-framework.php:56
+#: includes/envato/class-sf-envato-api.php:71
+#: includes/envato/class-sf-envato-api.php:80
+#: includes/envato/class-sf-product-registration.php:117
+#: includes/envato/class-sf-product-registration.php:126
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: includes/core-functions.php:54
+#, php-format
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:14
+#: includes/elementor/widgets/accordion.php:38
+#: includes/elementor/widgets/accordion.php:50
+#: includes/elementor/widgets/accordion.php:188
+msgid "Accordion"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:45
+msgid "Accordion Type"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:51
+msgid "Toggle"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:60
+#: includes/elementor/widgets/accordion.php:88
+#: includes/elementor/widgets/accordion.php:367
+#: includes/elementor/widgets/button.php:123
+#: includes/elementor/widgets/button.php:132
+#: includes/elementor/widgets/buttons.php:44
+#: includes/elementor/widgets/buttons.php:51
+#: includes/elementor/widgets/icon-box.php:46
+#: includes/elementor/widgets/icon-box.php:75
+#: includes/elementor/widgets/icon-box.php:399
+#: includes/elementor/widgets/number-counter.php:109
+#: includes/elementor/widgets/number-counter.php:120
+#: includes/elementor/widgets/number-counter.php:133
+#: includes/elementor/widgets/number-counter.php:471
+#: includes/elementor/widgets/price-table.php:173
+#: includes/elementor/widgets/price-table.php:179
+#: includes/elementor/widgets/search-form.php:71
+#: includes/widgets/class-sf-widget-contact-info.php:25
+#: includes/widgets/class-sf-widget-contact-info.php:41
+#: includes/widgets/class-sf-widget-contact-info.php:57
+#: includes/widgets/class-sf-widget-contact-info.php:73
+msgid "Icon"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:73
+#: includes/elementor/widgets/accordion.php:98
+msgid "Active Icon"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:111
+#: includes/elementor/widgets/icon-box.php:205
+msgid "Title HTML Tag"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:132
+#: includes/elementor/widgets/price-table.php:166
+#: includes/elementor/widgets/price-table.php:753
+#: includes/elementor/widgets/team-members.php:106
+#: includes/elementor/widgets/testimonials.php:41
+msgid "Items"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:139
+msgid "Accordion Items"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:145
+msgid "Active Item"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:151
+msgid "Title & Content"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:153
+msgid "Accordion Title"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:161
+#: includes/elementor/widgets/accordion.php:441
+#: includes/elementor/widgets/countdown.php:330
+#: includes/elementor/widgets/icon-box.php:155
+#: includes/elementor/widgets/icon-box.php:747
+#: includes/elementor/widgets/team-members.php:573
+#: includes/elementor/widgets/testimonials.php:53
+#: includes/elementor/widgets/testimonials.php:326
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:163
+msgid "Accordion Content"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:170
+msgid "Accordion #1"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:171
+#: includes/elementor/widgets/accordion.php:176
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, neque qui "
+"velit. Magni dolorum quidem ipsam eligendi, totam, facilis laudantium cum "
+"accusamus ullam voluptatibus commodi numquam, error, est. Ea, consequatur."
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:175
+msgid "Accordion #2"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:196
+#: includes/elementor/widgets/search-form.php:210
+#: includes/elementor/widgets/search-form.php:265
+#: includes/elementor/widgets/team-members.php:934
+msgid "Border Color"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:209
+msgid "Border Active Color"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:225
+#: includes/elementor/widgets/icon-box.php:614
+msgid "Border Width"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:244
+#: includes/elementor/widgets/accordion.php:421
+#: includes/elementor/widgets/gallery.php:370
+#: includes/elementor/widgets/heading.php:262
+#: includes/elementor/widgets/heading.php:308
+#: includes/elementor/widgets/icon-box.php:538
+#: includes/elementor/widgets/icon-box.php:776
+#: includes/elementor/widgets/number-counter.php:261
+#: includes/elementor/widgets/progress-bars.php:154
+#: includes/elementor/widgets/team-members.php:775
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:135
+msgid "Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:263
+#: includes/elementor/widgets/gallery.php:110
+#: includes/elementor/widgets/icon-box.php:767
+#: includes/elementor/widgets/number-counter.php:51
+#: includes/elementor/widgets/number-counter.php:281
+#: includes/elementor/widgets/price-table.php:44
+#: includes/elementor/widgets/price-table.php:46
+#: includes/elementor/widgets/price-table.php:290
+#: includes/elementor/widgets/progress-bars.php:65
+#: includes/elementor/widgets/progress-bars.php:67
+#: includes/elementor/widgets/testimonials.php:72
+#: includes/elementor/widgets/testimonials.php:393
+#: includes/widgets/class-sf-widget-about-site.php:16
+#: includes/widgets/class-sf-widget-about.php:17
+#: includes/widgets/class-sf-widget-contact-info.php:17
+#: includes/widgets/class-sf-widget-popular-categories.php:17
+#: includes/widgets/class-sf-widget-popular-posts.php:17
+#: includes/widgets/class-sf-widget-social-icons.php:13
+msgid "Title"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:273
+#: includes/elementor/widgets/gallery.php:272
+#: includes/elementor/widgets/icon-box.php:325
+#: includes/elementor/widgets/icon-box.php:452
+#: includes/elementor/widgets/icon-box.php:657
+#: includes/elementor/widgets/search-form.php:181
+#: includes/elementor/widgets/search-form.php:357
+#: includes/elementor/widgets/team-members.php:850
+msgid "Normal"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:280
+#: includes/elementor/widgets/accordion.php:311
+#: includes/elementor/widgets/accordion.php:449
+#: includes/elementor/widgets/gallery.php:279
+#: includes/elementor/widgets/gallery.php:312
+#: includes/elementor/widgets/heading.php:195
+#: includes/elementor/widgets/heading.php:243
+#: includes/elementor/widgets/heading.php:289
+#: includes/elementor/widgets/price-table.php:1005
+#: includes/elementor/widgets/progress-bars.php:185
+#: includes/elementor/widgets/search-form.php:188
+#: includes/elementor/widgets/search-form.php:243
+#: includes/elementor/widgets/search-form.php:364
+#: includes/elementor/widgets/search-form.php:395
+#: includes/elementor/widgets/team-members.php:653
+#: includes/elementor/widgets/team-members.php:681
+#: includes/elementor/widgets/team-members.php:709
+#: includes/elementor/widgets/testimonials.php:345
+#: includes/elementor/widgets/testimonials.php:374
+#: includes/elementor/widgets/testimonials.php:402
+#: includes/menu/class-sf-megamenu.php:117
+msgid "Text Color"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:291
+#: includes/elementor/widgets/accordion.php:323
+#: includes/elementor/widgets/accordion.php:460
+#: includes/elementor/widgets/countdown.php:240
+#: includes/elementor/widgets/gallery.php:291
+#: includes/elementor/widgets/gallery.php:324
+#: includes/elementor/widgets/icon-box.php:332
+#: includes/elementor/widgets/icon-box.php:361
+#: includes/elementor/widgets/price-table.php:354
+#: includes/elementor/widgets/price-table.php:444
+#: includes/elementor/widgets/price-table.php:840
+#: includes/elementor/widgets/price-table.php:975
+#: includes/elementor/widgets/progress-bars.php:110
+#: includes/elementor/widgets/search-form.php:199
+#: includes/elementor/widgets/search-form.php:254
+#: includes/elementor/widgets/search-form.php:375
+#: includes/elementor/widgets/search-form.php:406
+#: includes/elementor/widgets/team-members.php:471
+#: includes/elementor/widgets/team-members.php:581
+#: includes/elementor/widgets/team-members.php:867
+#: includes/elementor/widgets/team-members.php:922
+#: includes/elementor/widgets/testimonials.php:334
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:48
+#: includes/menu/class-sf-megamenu.php:236
+msgid "Background Color"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:304
+#: includes/elementor/widgets/gallery.php:305
+msgid "Active"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:347
+#: includes/elementor/widgets/accordion.php:479
+#: includes/elementor/widgets/button.php:226
+#: includes/elementor/widgets/buttons.php:181
+#: includes/elementor/widgets/countdown.php:316
+#: includes/elementor/widgets/gallery.php:340
+#: includes/elementor/widgets/icon-box.php:311
+#: includes/elementor/widgets/icon-box.php:579
+#: includes/elementor/widgets/icon-box.php:755
+#: includes/elementor/widgets/price-table.php:365
+#: includes/elementor/widgets/price-table.php:455
+#: includes/elementor/widgets/price-table.php:851
+#: includes/elementor/widgets/search-form.php:159
+#: includes/elementor/widgets/search-form.php:332
+#: includes/elementor/widgets/team-members.php:547
+#: includes/elementor/widgets/team-members.php:615
+msgid "Padding"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:376
+#: includes/elementor/widgets/button.php:79
+#: includes/elementor/widgets/buttons.php:138
+#: includes/elementor/widgets/countdown.php:272
+#: includes/elementor/widgets/heading.php:109
+#: includes/elementor/widgets/number-counter.php:179
+#: includes/elementor/widgets/price-table.php:798
+#: includes/elementor/widgets/products.php:332
+#: includes/elementor/widgets/testimonials.php:143
+#: includes/widgets/class-sf-widget-social-icons.php:33
+msgid "Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:380
+msgid "Start"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:384
+msgid "End"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:398
+#: includes/elementor/widgets/price-table.php:200
+#: includes/elementor/widgets/team-members.php:856
+#: includes/elementor/widgets/team-members.php:911
+#: includes/menu/class-sf-megamenu.php:101
+msgid "Icon Color"
+msgstr ""
+
+#: includes/elementor/widgets/accordion.php:409
+msgid "Active Icon Color"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:14
+#: includes/elementor/widgets/button.php:37
+#: includes/elementor/widgets/button.php:209
+#: includes/elementor/widgets/price-table.php:863
+#: includes/elementor/widgets/search-form.php:324
+msgid "Button"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:44
+#: includes/elementor/widgets/buttons.php:82
+msgid "Type"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:54
+#: includes/elementor/widgets/buttons.php:89
+#: includes/elementor/widgets/price-table.php:191
+#: includes/elementor/widgets/progress-bars.php:177
+#: includes/elementor/widgets/search-form.php:72
+#: includes/widgets/class-sf-widget-contact-info.php:33
+#: includes/widgets/class-sf-widget-contact-info.php:49
+#: includes/widgets/class-sf-widget-contact-info.php:65
+#: includes/widgets/class-sf-widget-contact-info.php:81
+#: includes/widgets/class-sf-widget-popular-posts.php:61
+msgid "Text"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:56
+#: includes/elementor/widgets/button.php:57
+#: includes/elementor/widgets/buttons.php:64
+#: includes/elementor/widgets/buttons.php:72
+#: includes/elementor/widgets/buttons.php:91
+#: includes/elementor/widgets/buttons.php:92
+#: includes/elementor/widgets/price-table.php:240
+#: includes/elementor/widgets/search-form.php:83
+msgid "Button Text"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:64
+#: includes/elementor/widgets/buttons.php:96
+#: includes/elementor/widgets/heading.php:73
+#: includes/elementor/widgets/price-table.php:249
+msgid "Link"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:69
+#: includes/elementor/widgets/buttons.php:101
+#: includes/elementor/widgets/heading.php:78
+#: includes/elementor/widgets/icon-box.php:197
+#: includes/elementor/widgets/price-table.php:251
+msgid "https://your-link.com"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:83
+#: includes/elementor/widgets/buttons.php:142
+#: includes/elementor/widgets/countdown.php:276
+#: includes/elementor/widgets/heading.php:113
+#: includes/elementor/widgets/icon-box.php:59
+#: includes/elementor/widgets/icon-box.php:240
+#: includes/elementor/widgets/number-counter.php:94
+#: includes/elementor/widgets/number-counter.php:183
+#: includes/elementor/widgets/price-table.php:307
+#: includes/elementor/widgets/price-table.php:803
+#: includes/elementor/widgets/products.php:337
+#: includes/elementor/widgets/team-members.php:396
+#: includes/elementor/widgets/testimonials.php:149
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:131
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:145
+#: includes/libs/kirki/field/class-kirki-field-spacing.php:34
+#: includes/widgets/class-sf-widget-social-icons.php:39
+msgid "Left"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:87
+#: includes/elementor/widgets/buttons.php:146
+#: includes/elementor/widgets/countdown.php:280
+#: includes/elementor/widgets/heading.php:117
+#: includes/elementor/widgets/icon-box.php:244
+#: includes/elementor/widgets/number-counter.php:187
+#: includes/elementor/widgets/price-table.php:807
+#: includes/elementor/widgets/products.php:341
+#: includes/elementor/widgets/team-members.php:400
+#: includes/elementor/widgets/testimonials.php:153
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:133
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:151
+#: includes/widgets/class-sf-widget-social-icons.php:40
+msgid "Center"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:91
+#: includes/elementor/widgets/buttons.php:150
+#: includes/elementor/widgets/countdown.php:284
+#: includes/elementor/widgets/heading.php:121
+#: includes/elementor/widgets/icon-box.php:60
+#: includes/elementor/widgets/icon-box.php:248
+#: includes/elementor/widgets/number-counter.php:191
+#: includes/elementor/widgets/price-table.php:311
+#: includes/elementor/widgets/price-table.php:811
+#: includes/elementor/widgets/products.php:345
+#: includes/elementor/widgets/team-members.php:404
+#: includes/elementor/widgets/testimonials.php:157
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:132
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:157
+#: includes/libs/kirki/field/class-kirki-field-spacing.php:35
+#: includes/widgets/class-sf-widget-social-icons.php:41
+msgid "Right"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:95
+#: includes/elementor/widgets/buttons.php:154
+msgid "Justified"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:107
+#: includes/elementor/widgets/buttons.php:166
+#: includes/elementor/widgets/icon-box.php:562
+#: includes/elementor/widgets/number-counter.php:224
+#: includes/elementor/widgets/number-counter.php:300
+#: includes/elementor/widgets/number-counter.php:348
+#: includes/elementor/widgets/number-counter.php:419
+#: includes/elementor/widgets/number-counter.php:490
+#: includes/elementor/widgets/price-table.php:499
+#: includes/elementor/widgets/price-table.php:583
+#: includes/elementor/widgets/price-table.php:875
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:134
+msgid "Size"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:111
+#: includes/elementor/widgets/buttons.php:170
+#: includes/elementor/widgets/price-table.php:879
+#: includes/widgets/class-sf-widget-popular-posts.php:60
+msgid "Small"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:112
+#: includes/elementor/widgets/buttons.php:171
+#: includes/elementor/widgets/price-table.php:880
+msgid "Medium"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:113
+#: includes/elementor/widgets/buttons.php:172
+#: includes/elementor/widgets/price-table.php:881
+msgid "Large"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:143
+#: includes/elementor/widgets/buttons.php:206
+#: includes/elementor/widgets/icon-box.php:53
+#: includes/elementor/widgets/number-counter.php:90
+msgid "Icon Position"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:147
+#: includes/elementor/widgets/buttons.php:210
+#: includes/elementor/widgets/price-table.php:525
+msgid "Before"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:148
+#: includes/elementor/widgets/buttons.php:211
+#: includes/elementor/widgets/price-table.php:529
+msgid "After"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:156
+#: includes/elementor/widgets/buttons.php:220
+msgid "Icon Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:173
+#: includes/elementor/widgets/countdown.php:57
+#: includes/elementor/widgets/icon-box.php:409
+msgid "View"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:182
+msgid "Button ID"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:185
+msgid "Add your custom id WITHOUT the Pound key. e.g: my-id"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:187
+msgid ""
+"Please make sure the ID is unique and not used elsewhere on the page this "
+"form is displayed. This field allows <code>A-z 0-9</code> & underscore chars "
+"without spaces."
+msgstr ""
+
+#: includes/elementor/widgets/button.php:195
+msgid "Button Class"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:198
+msgid "Add your custom classes"
+msgstr ""
+
+#: includes/elementor/widgets/button.php:239
+#: includes/elementor/widgets/buttons.php:194
+#: includes/elementor/widgets/countdown.php:260
+#: includes/elementor/widgets/icon-box.php:628
+#: includes/elementor/widgets/progress-bars.php:142
+#: includes/elementor/widgets/search-form.php:305
+#: includes/elementor/widgets/team-members.php:559
+#: includes/elementor/widgets/team-members.php:888
+msgid "Border Radius"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:14
+#: includes/elementor/widgets/buttons.php:37
+#: includes/elementor/widgets/buttons.php:130
+msgid "Buttons"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:111
+msgid "CSS ID"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:116
+#: includes/elementor/widgets/icon-box.php:852
+msgid "CSS Classes"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:247
+msgid "Space between buttons"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:273
+msgid "Stack on"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:274
+msgid "Choose on what breakpoint where the buttons will stack."
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:278
+#: includes/elementor/widgets/gallery.php:237
+#: includes/elementor/widgets/heading.php:147
+#: includes/elementor/widgets/icon-box.php:74
+#: includes/elementor/widgets/price-table.php:73
+#: includes/elementor/widgets/products.php:270
+#: includes/elementor/widgets/team-members.php:302
+#: includes/elementor/widgets/testimonials.php:260
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:176
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:192
+#: includes/libs/meta-box/inc/fields/select.php:92
+msgid "None"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:279
+msgid "Desktop"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:280
+msgid "Tablet"
+msgstr ""
+
+#: includes/elementor/widgets/buttons.php:281
+msgid "Mobile"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:14
+#: includes/elementor/widgets/countdown.php:39
+msgid "Countdown"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:46
+msgid "Due Date"
+msgstr ""
+
+#. translators: %s: Time zone.
+#: includes/elementor/widgets/countdown.php:50
+#, php-format
+msgid "Date set according to your timezone: %s."
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:60
+msgid "Block"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:61
+msgid "Inline"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:71
+#: includes/elementor/widgets/countdown.php:138
+#: includes/elementor/widgets/countdown.php:140
+#: includes/elementor/widgets/countdown.php:141
+#: includes/elementor/widgets/countdown.php:415
+msgid "Days"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:73
+#: includes/elementor/widgets/countdown.php:84
+#: includes/elementor/widgets/countdown.php:95
+#: includes/elementor/widgets/countdown.php:106
+#: includes/elementor/widgets/countdown.php:117
+#: includes/elementor/widgets/price-table.php:280
+#: includes/elementor/widgets/products.php:126
+#: includes/elementor/widgets/products.php:255
+#: includes/elementor/widgets/team-members.php:287
+#: includes/elementor/widgets/testimonials.php:245
+msgid "Show"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:74
+#: includes/elementor/widgets/countdown.php:85
+#: includes/elementor/widgets/countdown.php:96
+#: includes/elementor/widgets/countdown.php:107
+#: includes/elementor/widgets/countdown.php:118
+#: includes/elementor/widgets/products.php:254
+#: includes/elementor/widgets/team-members.php:286
+#: includes/elementor/widgets/testimonials.php:244
+msgid "Hide"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:82
+#: includes/elementor/widgets/countdown.php:153
+#: includes/elementor/widgets/countdown.php:155
+#: includes/elementor/widgets/countdown.php:156
+#: includes/elementor/widgets/countdown.php:416
+msgid "Hours"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:93
+#: includes/elementor/widgets/countdown.php:168
+#: includes/elementor/widgets/countdown.php:170
+#: includes/elementor/widgets/countdown.php:171
+#: includes/elementor/widgets/countdown.php:417
+msgid "Minutes"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:104
+#: includes/elementor/widgets/countdown.php:183
+#: includes/elementor/widgets/countdown.php:185
+#: includes/elementor/widgets/countdown.php:186
+#: includes/elementor/widgets/countdown.php:418
+msgid "Seconds"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:115
+msgid "Show Label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:127
+msgid "Custom Label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:200
+msgid "Boxes"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:208
+msgid "Container Width"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:296
+#: includes/elementor/widgets/countdown.php:338
+#: includes/elementor/widgets/products.php:358
+#: includes/elementor/widgets/team-members.php:451
+#: includes/elementor/widgets/team-members.php:728
+#: includes/elementor/widgets/team-members.php:757
+#: includes/elementor/widgets/testimonials.php:168
+msgid "Space Between"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:355
+msgid "Digits"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:364
+#: includes/elementor/widgets/countdown.php:392
+#: includes/elementor/widgets/icon-box.php:793
+#: includes/elementor/widgets/icon-box.php:822
+#: includes/elementor/widgets/number-counter.php:213
+#: includes/elementor/widgets/number-counter.php:289
+#: includes/elementor/widgets/number-counter.php:337
+#: includes/elementor/widgets/number-counter.php:408
+#: includes/elementor/widgets/number-counter.php:479
+#: includes/elementor/widgets/price-table.php:386
+#: includes/elementor/widgets/price-table.php:414
+#: includes/elementor/widgets/price-table.php:467
+#: includes/elementor/widgets/price-table.php:645
+#: includes/elementor/widgets/price-table.php:720
+#: includes/elementor/widgets/price-table.php:786
+#: includes/elementor/widgets/price-table.php:914
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:221
+msgid "Color"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:383
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:413
+msgid "Months"
+msgstr ""
+
+#: includes/elementor/widgets/countdown.php:414
+msgid "Weeks"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:16
+#: includes/elementor/widgets/gallery.php:51
+msgid "Gallery"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:58
+msgid "Bulk upload images?"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:60
+#: includes/elementor/widgets/gallery.php:161
+#: includes/elementor/widgets/gallery.php:172
+#: includes/libs/meta-box/inc/fields/checkbox.php:53
+msgid "Yes"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:61
+#: includes/elementor/widgets/gallery.php:160
+#: includes/elementor/widgets/gallery.php:173
+#: includes/libs/meta-box/inc/fields/checkbox.php:53
+msgid "No"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:69
+msgid "Add Images"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:85
+#: includes/elementor/widgets/heading.php:150
+#: includes/elementor/widgets/icon-box.php:76
+#: includes/elementor/widgets/icon-box.php:645
+#: includes/elementor/widgets/number-counter.php:110
+#: includes/elementor/widgets/number-counter.php:147
+#: includes/elementor/widgets/team-members.php:144
+#: includes/elementor/widgets/team-members.php:495
+#: includes/elementor/widgets/testimonials.php:60
+#: includes/elementor/widgets/testimonials.php:415
+msgid "Image"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:95
+msgid "Column Span"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:113
+#: includes/elementor/widgets/heading.php:45
+#: includes/elementor/widgets/icon-box.php:168
+msgid "Enter your title"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:120
+msgid "Tag(s)"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:123
+msgid ""
+"One or more comma separated tags for the gallery item. Will be used as "
+"filters for the items."
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:128
+#: includes/elementor/widgets/icon-box.php:192
+msgid "Link to"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:134
+msgid "http://your-link.com"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:151
+msgid "Options"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:159
+msgid "Enable Lightbox Gallery"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:170
+msgid "Show Image Filters"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:184
+#: includes/elementor/widgets/products.php:61
+#: includes/elementor/widgets/team-members.php:54
+msgid "Columns"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:204
+msgid "Layout Mode"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:206
+msgid "Fit Rows"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:207
+msgid "Masonry"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:217
+msgid "Gallery Image Size"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:227
+#: includes/elementor/widgets/gallery.php:235
+#: includes/elementor/widgets/products.php:266
+#: includes/elementor/widgets/team-members.php:298
+#: includes/elementor/widgets/testimonials.php:256
+msgid "Pagination"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:238
+msgid "Load More"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:247
+msgid "Items Per Page"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:262
+msgid "Filters"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:392
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:405
+msgid "Item Title"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:413
+#: includes/elementor/widgets/icon-box.php:381
+msgid "Title Color"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:532
+msgid "Load more"
+msgstr ""
+
+#: includes/elementor/widgets/gallery.php:533
+msgid "Loading..."
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:14
+#: includes/elementor/widgets/heading.php:33
+#: includes/elementor/widgets/heading.php:40
+#: includes/elementor/widgets/heading.php:187
+msgid "Heading"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:46
+msgid "Add Your Heading Text Here"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:53
+#: includes/elementor/widgets/heading.php:235
+msgid "Subheading"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:55
+msgid "Enter your subtitle"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:56
+msgid "A subtitle displayed above the heading title."
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:63
+msgid "Short Text"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:65
+msgid "Enter your short text"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:66
+msgid "Short text generally displayed below the heading title."
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:89
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:137
+#: includes/elementor/widgets/heading.php:327
+msgid "Decoration"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:144
+#: includes/elementor/widgets/team-members.php:376
+msgid "Style"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:148
+msgid "Top line"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:149
+msgid "Bottom line"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:161
+msgid "Top Image"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:173
+msgid "Bottom Image"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:206
+msgid "Highlight Color"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:281
+msgid "Short text"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:335
+msgid "Line Color"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:346
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:125
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:110
+msgid "Line Height"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:367
+msgid "Line Width"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:388
+msgid "Top Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/heading.php:408
+msgid "Bottom Spacing"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:14
+#: includes/elementor/widgets/icon-box.php:227
+msgid "Icon Box"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:58
+#: includes/elementor/widgets/icon-box.php:266
+#: includes/elementor/widgets/number-counter.php:95
+#: includes/elementor/widgets/number-counter.php:371
+#: includes/elementor/widgets/number-counter.php:442
+#: includes/elementor/widgets/price-table.php:544
+#: includes/elementor/widgets/price-table.php:605
+#: includes/elementor/widgets/price-table.php:677
+#: includes/elementor/widgets/team-members.php:421
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:129
+#: includes/libs/kirki/field/class-kirki-field-spacing.php:32
+msgid "Top"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:69
+#: includes/elementor/widgets/number-counter.php:105
+msgid "Icon Type"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:77
+#: includes/elementor/widgets/icon-box.php:140
+#: includes/elementor/widgets/number-counter.php:205
+msgid "Number"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:86
+#: includes/elementor/widgets/icon-box.php:98
+msgid "Choose Icon"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:111
+msgid "Choose Image"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:162
+msgid "Title & Description"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:167
+msgid "Heading text"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:181
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, "
+"luctus nec ullamcorper mattis, pulvinar dapibus leo."
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:182
+msgid "Enter your description"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:235
+msgid "Horiziontal Align"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:262
+msgid "Vertical Align"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:270
+#: includes/elementor/widgets/number-counter.php:375
+#: includes/elementor/widgets/number-counter.php:446
+#: includes/elementor/widgets/price-table.php:548
+#: includes/elementor/widgets/price-table.php:609
+#: includes/elementor/widgets/price-table.php:681
+#: includes/elementor/widgets/team-members.php:425
+msgid "Middle"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:274
+#: includes/elementor/widgets/number-counter.php:379
+#: includes/elementor/widgets/number-counter.php:450
+#: includes/elementor/widgets/price-table.php:552
+#: includes/elementor/widgets/price-table.php:613
+#: includes/elementor/widgets/price-table.php:685
+#: includes/elementor/widgets/team-members.php:429
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:130
+#: includes/libs/kirki/field/class-kirki-field-spacing.php:33
+msgid "Bottom"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:289
+#: includes/elementor/widgets/search-form.php:442
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:136
+msgid "Width"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:354
+#: includes/elementor/widgets/icon-box.php:490
+#: includes/elementor/widgets/icon-box.php:691
+#: includes/elementor/widgets/search-form.php:388
+#: includes/elementor/widgets/team-members.php:905
+msgid "Hover"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:412
+#: includes/elementor/widgets/products.php:69
+#: includes/elementor/widgets/products.php:217
+#: includes/elementor/widgets/products.php:239
+#: includes/elementor/widgets/products.php:402
+#: includes/elementor/widgets/products.php:432
+#: includes/elementor/widgets/progress-bars.php:208
+#: includes/elementor/widgets/team-members.php:62
+#: includes/elementor/widgets/team-members.php:248
+#: includes/elementor/widgets/team-members.php:271
+#: includes/elementor/widgets/team-members.php:380
+#: includes/elementor/widgets/team-members.php:968
+#: includes/elementor/widgets/team-members.php:998
+#: includes/elementor/widgets/testimonials.php:115
+#: includes/elementor/widgets/testimonials.php:206
+#: includes/elementor/widgets/testimonials.php:229
+#: includes/elementor/widgets/testimonials.php:477
+#: includes/elementor/widgets/testimonials.php:507
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:134
+#: includes/libs/kirki/controls/views/image.php:36
+#: includes/libs/kirki/field/class-kirki-field-image.php:49
+#: includes/menu/class-sf-megamenu.php:164
+#: includes/widgets/class-sf-widget-about-site.php:76
+#: includes/widgets/class-sf-widget-social-icons.php:26
+#: includes/widgets/class-sf-widget-social-icons.php:38
+msgid "Default"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:413
+msgid "Stacked"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:414
+msgid "Framed"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:424
+msgid "Shape"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:427
+msgid "Circle"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:428
+msgid "Square"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:459
+#: includes/elementor/widgets/icon-box.php:497
+msgid "Primary Color"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:472
+#: includes/elementor/widgets/icon-box.php:510
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:526
+msgid "Hover Animation"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:599
+msgid "Rotate"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:664
+#: includes/elementor/widgets/icon-box.php:698
+msgid "Opacity"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:724
+msgid "Transition Duration"
+msgstr ""
+
+#: includes/elementor/widgets/icon-box.php:844
+msgid "Advanced"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:14
+#: includes/elementor/widgets/number-counter.php:44
+msgid "Number Counter"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:53
+msgid "Customers"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:60
+msgid "Start Value"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:70
+msgid "End Value"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:80
+msgid "Duration"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:81
+msgid "The total duration of the count up animation"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:159
+#: includes/elementor/widgets/number-counter.php:329
+msgid "Prefix"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:169
+#: includes/elementor/widgets/number-counter.php:400
+msgid "Suffix"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:243
+#: includes/elementor/widgets/number-counter.php:319
+msgid "Typography"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:251
+msgid "Number Separator"
+msgstr ""
+
+#: includes/elementor/widgets/number-counter.php:366
+#: includes/elementor/widgets/number-counter.php:437
+#: includes/elementor/widgets/price-table.php:539
+#: includes/elementor/widgets/price-table.php:600
+#: includes/elementor/widgets/price-table.php:672
+msgid "Vertical Position"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:14
+msgid "Price Table"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:37
+#: includes/elementor/widgets/price-table.php:345
+msgid "Header"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:53
+msgid "Subtitle"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:63
+#: includes/elementor/widgets/price-table.php:435
+msgid "Pricing"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:70
+#: includes/elementor/widgets/price-table.php:487
+msgid "Currency Symbol"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:74
+msgctxt "Currency Symbol"
+msgid "Dollar"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:75
+msgctxt "Currency Symbol"
+msgid "Euro"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:76
+msgctxt "Currency Symbol"
+msgid "Baht"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:77
+msgctxt "Currency Symbol"
+msgid "Franc"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:78
+msgctxt "Currency Symbol"
+msgid "Guilder"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:79
+msgctxt "Currency Symbol"
+msgid "Krona"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:80
+msgctxt "Currency Symbol"
+msgid "Lira"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:81
+msgctxt "Currency Symbol"
+msgid "Peseta"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:82
+msgctxt "Currency Symbol"
+msgid "Peso"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:83
+msgctxt "Currency Symbol"
+msgid "Pound Sterling"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:84
+msgctxt "Currency Symbol"
+msgid "Real"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:85
+msgctxt "Currency Symbol"
+msgid "Ruble"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:86
+msgctxt "Currency Symbol"
+msgid "Rupee"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:87
+msgctxt "Currency Symbol"
+msgid "Rupee (Indian)"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:88
+msgctxt "Currency Symbol"
+msgid "Shekel"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:89
+msgctxt "Currency Symbol"
+msgid "Yen/Yuan"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:90
+msgctxt "Currency Symbol"
+msgid "Won"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:91
+#: includes/widgets/class-sf-widget-social-icons.php:54
+msgid "Custom"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:100
+msgid "Custom Symbol"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:111
+#: includes/elementor/widgets/products.php:161
+msgid "Price"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:120
+msgid "Currency Format"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:132
+msgid "Sale"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:134
+#: includes/libs/kirki/controls/php/class-kirki-control-switch.php:52
+#: includes/libs/kirki/field/class-kirki-field-switch.php:39
+#: includes/libs/meta-box/inc/fields/switch.php:93
+msgid "On"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:135
+#: includes/libs/kirki/controls/php/class-kirki-control-switch.php:56
+#: includes/libs/kirki/field/class-kirki-field-switch.php:40
+#: includes/libs/meta-box/inc/fields/switch.php:94
+msgid "Off"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:143
+#: includes/elementor/widgets/price-table.php:632
+msgid "Original Price"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:155
+#: includes/elementor/widgets/price-table.php:708
+msgid "Period"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:157
+msgid "Monthly"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:193
+msgid "List Item"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:209
+msgid "List Item #1"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:212
+msgid "List Item #2"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:215
+msgid "List Item #3"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:218
+msgid "List Item #4"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:221
+msgid "List Item #5"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:233
+#: includes/elementor/widgets/price-table.php:831
+msgid "Footer"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:242
+msgid "Buy Now"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:261
+#: includes/elementor/widgets/price-table.php:902
+msgid "Additional Info"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:273
+#: includes/elementor/widgets/price-table.php:963
+msgid "Ribbon"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:292
+msgid "Popular"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:302
+msgid "Horizontal Position"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:326
+msgid "Main"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:377
+msgid "Premium"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:405
+msgid "Sub Title"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:519
+#: includes/elementor/widgets/price-table.php:734
+msgid "Position"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:574
+msgid "Fractional Part"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:738
+msgid "Below"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:739
+msgid "Beside"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:762
+msgid "Items Padding"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:774
+msgid "Item Padding"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:892
+msgid "Button Style"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:939
+#: includes/elementor/widgets/team-members.php:603
+msgid "Margin"
+msgstr ""
+
+#: includes/elementor/widgets/price-table.php:988
+msgid "Distance"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:14
+msgid "Woo Products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:41
+#: includes/elementor/widgets/products.php:93
+msgid "Products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:48
+#: includes/elementor/widgets/products.php:324
+#: includes/elementor/widgets/team-members.php:41
+#: includes/elementor/widgets/testimonials.php:125
+msgid "Layout"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:51
+#: includes/elementor/widgets/team-members.php:45
+msgid "Grid"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:52
+#: includes/elementor/widgets/team-members.php:44
+msgid "Carousel"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:64
+#: includes/elementor/widgets/products.php:211
+#: includes/elementor/widgets/products.php:233
+#: includes/elementor/widgets/team-members.php:57
+#: includes/elementor/widgets/team-members.php:242
+#: includes/elementor/widgets/team-members.php:265
+#: includes/elementor/widgets/testimonials.php:200
+#: includes/elementor/widgets/testimonials.php:223
+msgid "1"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:65
+#: includes/elementor/widgets/products.php:212
+#: includes/elementor/widgets/products.php:234
+#: includes/elementor/widgets/team-members.php:58
+#: includes/elementor/widgets/team-members.php:243
+#: includes/elementor/widgets/team-members.php:266
+#: includes/elementor/widgets/testimonials.php:201
+#: includes/elementor/widgets/testimonials.php:224
+msgid "2"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:66
+#: includes/elementor/widgets/products.php:213
+#: includes/elementor/widgets/products.php:235
+#: includes/elementor/widgets/team-members.php:59
+#: includes/elementor/widgets/team-members.php:244
+#: includes/elementor/widgets/team-members.php:267
+#: includes/elementor/widgets/testimonials.php:202
+#: includes/elementor/widgets/testimonials.php:225
+msgid "3"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:67
+#: includes/elementor/widgets/products.php:214
+#: includes/elementor/widgets/products.php:236
+#: includes/elementor/widgets/team-members.php:60
+#: includes/elementor/widgets/team-members.php:245
+#: includes/elementor/widgets/team-members.php:268
+#: includes/elementor/widgets/testimonials.php:203
+#: includes/elementor/widgets/testimonials.php:226
+msgid "4"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:68
+#: includes/elementor/widgets/products.php:216
+#: includes/elementor/widgets/products.php:238
+#: includes/elementor/widgets/team-members.php:61
+#: includes/elementor/widgets/team-members.php:247
+#: includes/elementor/widgets/team-members.php:270
+#: includes/elementor/widgets/testimonials.php:205
+#: includes/elementor/widgets/testimonials.php:228
+msgid "6"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:86
+msgid "Query"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:104
+#: includes/widgets/class-sf-widget-popular-posts.php:25
+msgid "Categories"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:115
+msgid "Tags"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:129
+msgid "All products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:130
+msgid "Featured products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:131
+msgid "On-sale products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:139
+msgid "Number of products to show"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:148
+msgid "Offset"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:157
+#: includes/widgets/class-sf-widget-popular-posts.php:42
+msgid "Order By"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:160
+msgid "Date"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:162
+msgid "Random"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:163
+msgid "Sales"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:172
+msgid "Order"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:175
+msgid "DESC"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:176
+msgid "ASC"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:185
+msgid "Hide free products"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:197
+#: includes/elementor/widgets/team-members.php:228
+#: includes/elementor/widgets/testimonials.php:189
+msgid "Slider"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:208
+#: includes/elementor/widgets/team-members.php:239
+#: includes/elementor/widgets/testimonials.php:197
+msgid "Sliders Per View"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:215
+#: includes/elementor/widgets/products.php:237
+#: includes/elementor/widgets/team-members.php:246
+#: includes/elementor/widgets/team-members.php:269
+#: includes/elementor/widgets/testimonials.php:204
+#: includes/elementor/widgets/testimonials.php:227
+msgid "5"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:229
+#: includes/elementor/widgets/team-members.php:261
+#: includes/elementor/widgets/testimonials.php:219
+msgid "Sliders Per Scroll"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:231
+#: includes/elementor/widgets/team-members.php:263
+#: includes/elementor/widgets/testimonials.php:221
+msgid "Set how many slides are scrolled per swipe."
+msgstr ""
+
+#: includes/elementor/widgets/products.php:252
+#: includes/elementor/widgets/team-members.php:284
+#: includes/elementor/widgets/testimonials.php:242
+msgid "Arrows"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:271
+#: includes/elementor/widgets/team-members.php:303
+#: includes/elementor/widgets/testimonials.php:261
+msgid "Dots"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:282
+#: includes/elementor/widgets/team-members.php:314
+#: includes/elementor/widgets/testimonials.php:272
+msgid "Autoplay"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:292
+#: includes/elementor/widgets/team-members.php:324
+#: includes/elementor/widgets/testimonials.php:282
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:304
+#: includes/elementor/widgets/team-members.php:336
+#: includes/elementor/widgets/testimonials.php:294
+msgid "Infinite Loop"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:313
+#: includes/elementor/widgets/team-members.php:357
+#: includes/elementor/widgets/testimonials.php:315
+msgid "Animation Speed"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:389
+#: includes/elementor/widgets/team-members.php:952
+#: includes/elementor/widgets/testimonials.php:464
+msgid "Navigation"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:397
+#: includes/elementor/widgets/team-members.php:963
+#: includes/elementor/widgets/testimonials.php:472
+msgid "Arrows Skin"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:403
+#: includes/elementor/widgets/team-members.php:969
+#: includes/elementor/widgets/testimonials.php:478
+#: includes/widgets/class-sf-widget-about-site.php:77
+#: includes/widgets/class-sf-widget-social-icons.php:27
+msgid "Style 1"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:404
+#: includes/elementor/widgets/team-members.php:970
+#: includes/elementor/widgets/testimonials.php:479
+msgid "Style 2"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:405
+#: includes/elementor/widgets/team-members.php:971
+#: includes/elementor/widgets/testimonials.php:480
+msgid "Style 3"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:413
+#: includes/elementor/widgets/team-members.php:979
+#: includes/elementor/widgets/testimonials.php:488
+msgid "Arrows Color"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:418
+#: includes/elementor/widgets/team-members.php:984
+#: includes/elementor/widgets/testimonials.php:493 includes/helpers.php:153
+msgid "Light"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:419
+#: includes/elementor/widgets/team-members.php:985
+#: includes/elementor/widgets/testimonials.php:494 includes/helpers.php:154
+msgid "Dark"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:427
+#: includes/elementor/widgets/team-members.php:993
+#: includes/elementor/widgets/testimonials.php:502
+msgid "Arrows Position"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:433
+#: includes/elementor/widgets/team-members.php:999
+#: includes/elementor/widgets/testimonials.php:508
+#: includes/libs/meta-box/inc/fields/background.php:100
+msgid "Top Right"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:434
+#: includes/elementor/widgets/team-members.php:1000
+#: includes/elementor/widgets/testimonials.php:509
+#: includes/libs/meta-box/inc/fields/background.php:98
+msgid "Top Left"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:435
+#: includes/elementor/widgets/team-members.php:1001
+#: includes/elementor/widgets/testimonials.php:510
+#: includes/libs/meta-box/inc/fields/background.php:106
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:436
+#: includes/elementor/widgets/team-members.php:1002
+#: includes/elementor/widgets/testimonials.php:511
+#: includes/libs/meta-box/inc/fields/background.php:104
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:444
+#: includes/elementor/widgets/team-members.php:1038
+#: includes/elementor/widgets/testimonials.php:548
+msgid "Bullets Color"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:455
+#: includes/elementor/widgets/team-members.php:1049
+#: includes/elementor/widgets/testimonials.php:559
+msgid "Bullets Active Color"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:496
+#: includes/elementor/widgets/team-members.php:1187
+#: includes/elementor/widgets/testimonials.php:708
+msgid "Prev"
+msgstr ""
+
+#: includes/elementor/widgets/products.php:497
+#: includes/elementor/widgets/team-members.php:1188
+#: includes/elementor/widgets/testimonials.php:709
+msgid "Next"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:14
+#: includes/elementor/widgets/progress-bars.php:40
+msgid "Progress Bars"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:50
+msgid "Photoshop"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:54
+msgid "Illustrator"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:58
+msgid "InDesign"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:74
+msgid "Percentage"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:84
+msgid "Bar Color"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:102
+msgid "Bar"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:121
+#: includes/elementor/widgets/search-form.php:44
+#: includes/elementor/widgets/team-members.php:627
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:137
+msgid "Height"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:204
+msgid "Text Position"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:209
+msgid "Text Top"
+msgstr ""
+
+#: includes/elementor/widgets/progress-bars.php:219
+msgid "Display Percentage"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:14
+#: includes/elementor/widgets/search-form.php:37
+msgid "Search Form"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:57
+msgid "Placeholder"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:60
+#: includes/elementor/widgets/search-form.php:85
+#: includes/elementor/widgets/search-form.php:468
+msgid "Search"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:67
+msgid "Button Type"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:97
+#: includes/elementor/widgets/search-form.php:114
+msgid "Button Icon"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:131
+msgid "Search Query"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:138
+msgid "Post Types"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:151
+msgid "Input"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:236
+msgid "Focus"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:293
+msgid "Border Size"
+msgstr ""
+
+#: includes/elementor/widgets/search-form.php:421
+#: includes/elementor/widgets/team-members.php:787
+msgid "Icon Size"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:14
+#: includes/elementor/widgets/team-members.php:113
+#: includes/elementor/widgets/team-members.php:368
+msgid "Team Members"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:77
+msgid "Show Description"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:86
+msgid "Description Limit"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:87
+msgid "Number of characters"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:95
+msgid "Show Social Links"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:118
+msgid "Member"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:119
+msgid "This option will pull member data from Wordpress profile."
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:131
+#: includes/elementor/widgets/team-members.php:672
+msgid "Job Position"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:149
+msgid "Link To"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:163
+msgid "Facebook"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:168
+msgid "Twitter"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:173
+msgid "Google+"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:178
+msgid "Linkedin"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:183
+msgid "Instagram"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:188
+msgid "YouTube"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:193
+msgid "Pinterest"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:198
+msgid "Dribbble"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:345
+#: includes/elementor/widgets/testimonials.php:303
+msgid "Fade"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:381
+#: includes/elementor/widgets/testimonials.php:132
+msgid "Image Left"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:382
+#: includes/elementor/widgets/testimonials.php:133
+msgid "Image Right"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:391
+msgid "Horizontal Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:416
+msgid "Vertical Alignment"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:483
+msgid "Border"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:503
+msgid "Image Width"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:525
+msgid "Image Height"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:592
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:749
+#: includes/widgets/class-sf-widget-social-icons.php:73
+msgid "Social Icons"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:805
+msgid "Icon Height"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:827
+msgid "Icon Width"
+msgstr ""
+
+#: includes/elementor/widgets/team-members.php:1010
+#: includes/elementor/widgets/testimonials.php:520
+msgid "Arrows Offset"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:14
+#: includes/elementor/widgets/testimonials.php:48
+msgid "Testimonials"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:111
+msgid "Skin"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:116
+msgid "Card"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:129
+msgid "Image Inline"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:130
+msgid "Image Above"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:131
+msgid "Image Top"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:423
+msgid "Image Size"
+msgstr ""
+
+#: includes/elementor/widgets/testimonials.php:442
+msgid "Image Gap"
+msgstr ""
+
+#: includes/envato/class-sf-envato-api.php:135
+msgid "An API token is required."
+msgstr ""
+
+#: includes/envato/class-sf-envato-api.php:152
+#: includes/envato/class-sf-envato-api.php:156
+msgid "An unknown API error occurred."
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:289
+msgid "Congratulations! Your product is registered now."
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:291
+msgid "Please enter your Envato token to complete registration."
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:303
+msgid "Submit"
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:311
+msgid ""
+"Invalid token, or corresponding Envato account does not have a valid purchase."
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:318
+msgid "Instructions For Generating A Token"
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:322
+#, php-format
+msgid "Generate an Envato API Personal Token by %s."
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:323
+msgid "clicking this link"
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:326
+msgid ""
+"Enter a name for your token, then check the boxes for <strong>View Your "
+"Envato Account Username, Download Your Purchased Items, List Purchases You've "
+"Made</strong> and <strong>Verify Purchases You've Made</strong> from the "
+"permissions needed section. Check the box to agree to the terms and "
+"conditions, then click the <strong>Create Token button</strong>"
+msgstr ""
+
+#: includes/envato/class-sf-product-registration.php:329
+msgid ""
+"A new page will load with a token number in a box. Copy the token number then "
+"come back to this registration page and paste it into the field below and "
+"click the <strong>Submit</strong> button."
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:52
+msgid "Source: Custom"
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:67
+msgid "Fonts Saved."
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:79
+msgid "No font file was choosen."
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:85
+msgid "Please enter a font name."
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:108
+msgid "Font already exist."
+msgstr ""
+
+#: includes/fonts/class-sf-fonts-manager.php:135
+msgid "Font has been added."
+msgstr ""
+
+#: includes/helpers.php:151
+msgid "Primary"
+msgstr ""
+
+#: includes/helpers.php:152
+msgid "Secondary"
+msgstr ""
+
+#: includes/helpers.php:155
+msgid "Info"
+msgstr ""
+
+#: includes/helpers.php:156
+msgid "Success"
+msgstr ""
+
+#: includes/helpers.php:157
+msgid "Warning"
+msgstr ""
+
+#: includes/helpers.php:158
+msgid "Danger"
+msgstr ""
+
+#: includes/helpers.php:159
+msgid "Outline Primary"
+msgstr ""
+
+#: includes/helpers.php:160
+msgid "Outline Secondary"
+msgstr ""
+
+#: includes/helpers.php:161
+msgid "Outline Light"
+msgstr ""
+
+#: includes/helpers.php:162
+msgid "Outline Dark"
+msgstr ""
+
+#: includes/helpers.php:163
+msgid "Outline Info"
+msgstr ""
+
+#: includes/helpers.php:164
+msgid "Outline Success"
+msgstr ""
+
+#: includes/helpers.php:165
+msgid "Outline Warning"
+msgstr ""
+
+#: includes/helpers.php:166
+msgid "Outline Danger"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:54
+#: includes/libs/meta-box/inc/fields/background.php:64
+#: includes/menu/class-sf-megamenu.php:244
+msgid "Background Image"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:59
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:132
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:408
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:413
+msgid "No File Selected"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:63
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:135
+#: includes/libs/meta-box/inc/fields/file-input.php:23
+msgid "Select File"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:70
+#: includes/menu/class-sf-megamenu.php:281
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:72
+#: includes/libs/meta-box/inc/fields/background.php:80
+#: includes/menu/class-sf-megamenu.php:285
+msgid "No Repeat"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:73
+#: includes/libs/meta-box/inc/fields/background.php:81
+#: includes/menu/class-sf-megamenu.php:286
+msgid "Repeat All"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:74
+#: includes/libs/meta-box/inc/fields/background.php:82
+#: includes/menu/class-sf-megamenu.php:287
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:75
+#: includes/libs/meta-box/inc/fields/background.php:83
+#: includes/menu/class-sf-megamenu.php:288
+msgid "Repeat Vertically"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:81
+#: includes/menu/class-sf-megamenu.php:262
+msgid "Background Position"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:83
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:114
+#: includes/menu/class-sf-megamenu.php:267
+msgid "Left Top"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:84
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:115
+#: includes/menu/class-sf-megamenu.php:268
+msgid "Left Center"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:85
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:116
+#: includes/menu/class-sf-megamenu.php:269
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:86
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:117
+#: includes/menu/class-sf-megamenu.php:270
+msgid "Right Top"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:87
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:118
+#: includes/menu/class-sf-megamenu.php:271
+msgid "Right Center"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:88
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:119
+#: includes/menu/class-sf-megamenu.php:272
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:89
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:120
+#: includes/menu/class-sf-megamenu.php:273
+msgid "Center Top"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:90
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:121
+#: includes/libs/meta-box/inc/fields/background.php:102
+#: includes/menu/class-sf-megamenu.php:266
+#: includes/menu/class-sf-megamenu.php:274
+msgid "Center Center"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:91
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:122
+#: includes/menu/class-sf-megamenu.php:275
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:97
+msgid "Background Size"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:100
+#: includes/libs/meta-box/inc/fields/background.php:137
+msgid "Cover"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:103
+#: includes/libs/meta-box/inc/fields/background.php:138
+msgid "Contain"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:106
+msgid "Auto"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:113
+msgid "Background Attachment"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:116
+#: includes/libs/meta-box/inc/fields/background.php:121
+msgid "Scroll"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-background.php:119
+#: includes/libs/meta-box/inc/fields/background.php:120
+msgid "Fixed"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:136
+msgid "Standard Fonts"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:137
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:138
+msgid "CSS Defaults"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-base.php:139
+msgid "Default Browser Font-Family"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimension.php:41
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:138
+msgid "Invalid Value"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:123
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:102
+msgid "Font Size"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:124
+msgid "Font Weight"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:126
+msgid "Font Style"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:127
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:118
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-dimensions.php:128
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:126
+msgid "Word Spacing"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:77
+msgid "row"
+msgstr ""
+
+#. translators: %s represents the label of the row.
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:86
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:121
+msgid "Select a Page"
+msgstr ""
+
+#. translators: %s represents the number of rows we're limiting the repeater to allow.
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:227
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:376
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:381
+msgid "No Image Selected"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:387
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:391
+msgid "Add Image"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:387
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:389
+msgid "Change Image"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:419
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:423
+msgid "Add File"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:419
+#: includes/libs/kirki/controls/php/class-kirki-control-repeater.php:421
+msgid "Change File"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-slider.php:67
+msgid "Reset"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:82
+msgid "Font Family"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:83
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:88
+msgid "Select Font Family"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:87
+msgid "Backup Font"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:93
+msgid "Variant"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:134
+msgid "Text Align"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:139
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:181
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:197
+#: includes/libs/meta-box/inc/fields/background.php:84
+#: includes/libs/meta-box/inc/fields/background.php:122
+#: includes/libs/meta-box/inc/fields/background.php:136
+msgid "Inherit"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:163
+msgid "Justify"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:173
+msgid "Text Transform"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:177
+msgid "Capitalize"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:178
+msgid "Uppercase"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:179
+msgid "Lowercase"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:180
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:196
+msgid "Initial"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:189
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:193
+msgid "Underline"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:194
+msgid "Overline"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:195
+msgid "Line-Through"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:205
+msgid "Margin Top"
+msgstr ""
+
+#: includes/libs/kirki/controls/php/class-kirki-control-typography.php:213
+msgid "Margin Bottom"
+msgstr ""
+
+#: includes/libs/kirki/controls/views/image.php:34
+#: includes/libs/kirki/controls/views/image.php:39
+#: includes/libs/kirki/field/class-kirki-field-image.php:47
+#: includes/libs/kirki/field/class-kirki-field-image.php:52
+msgid "Select image"
+msgstr ""
+
+#: includes/libs/kirki/controls/views/image.php:35
+#: includes/libs/kirki/field/class-kirki-field-image.php:48
+msgid "Change image"
+msgstr ""
+
+#: includes/libs/kirki/controls/views/image.php:38
+#: includes/libs/kirki/field/class-kirki-field-image.php:51
+msgid "No image selected"
+msgstr ""
+
+#: includes/libs/kirki/controls/views/image.php:40
+#: includes/libs/kirki/field/class-kirki-field-image.php:53
+msgid "Choose image"
+msgstr ""
+
+#. translators: %s represents the field ID where the error occurs.
+#: includes/libs/kirki/core/class-kirki-field.php:248
+#, php-format
+msgid "Typo found in field %s - setting instead of settings."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2$s is the URL in the documentation site.
+#: includes/libs/kirki/core/class-kirki-field.php:257
+#: includes/libs/kirki/core/class-kirki-field.php:267
+#, php-format
+msgid ""
+"Config not defined for field %1$s - See %2$s for details on how to properly "
+"add fields."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs.
+#: includes/libs/kirki/core/class-kirki-field.php:375
+#, php-format
+msgid "\"partial_refresh\" invalid entry in field %s"
+msgstr ""
+
+#. translators: The field ID where the error occurs.
+#: includes/libs/kirki/core/class-kirki-field.php:498
+#: includes/libs/kirki/core/class-kirki-field.php:509
+#, php-format
+msgid ""
+"\"output\" invalid format in field %s. The \"output\" argument should be "
+"defined as an array of arrays."
+msgstr ""
+
+#: includes/libs/kirki/core/class-kirki-init.php:289
+msgid ""
+"We detected you're using Kirki_Init::get_variables(). Please use Kirki_Util::"
+"get_variables() instead."
+msgstr ""
+
+#: includes/libs/kirki/core/class-kirki-init.php:365
+msgid ""
+"Your theme uses a Font Awesome field for icons. To avoid issues with missing "
+"icons on your frontend we recommend you install the official Font Awesome "
+"plugin."
+msgstr ""
+
+#: includes/libs/kirki/core/class-kirki-init.php:368
+msgid "Install Plugin"
+msgstr ""
+
+#: includes/libs/kirki/core/class-kirki-init.php:369
+msgid "Don't show this again"
+msgstr ""
+
+#: includes/libs/kirki/core/class-kirki.php:237
+msgid ""
+"Kirki fields should not be added on customize_register. Please add them "
+"directly, or on init."
+msgstr ""
+
+#: includes/libs/kirki/deprecated/functions.php:19
+#, php-format
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: includes/libs/kirki/field/class-kirki-field-color.php:52
+msgid ""
+"Do not use \"alpha\" as an argument in color controls. Use \"choices[alpha]\" "
+"instead."
+msgstr ""
+
+#. translators: %1$s represents the field ID where the error occurs. %2%s is buttonset/image.
+#: includes/libs/kirki/field/class-kirki-field-radio.php:37
+#, php-format
+msgid ""
+"Error in field %1$s. The \"mode\" argument has been deprecated since Kirki "
+"v0.8. Use the \"radio-%2$s\" type instead."
+msgstr ""
+
+#: includes/libs/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:61
+msgid "Customizing"
+msgstr ""
+
+#. translators: The title.
+#: includes/libs/kirki/modules/custom-sections/sections/class-kirki-sections-nested-section.php:64
+#, php-format
+msgid "Customizing &#9656; %s"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:146
+msgid "Help us improve Kirki."
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:147
+msgid ""
+"Help us begin a dialogue with theme developers, collaborate and improve both "
+"the theme you are using and the Kirki framework by agreeing to send anonymous "
+"data. <strong>The data is completely anonymous and we will never collect any "
+"identifyable information about you or your website.</strong>"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:151
+msgid "Data that will be sent"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:160
+msgid "Theme Name"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:164
+msgid "Theme Author"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:168
+msgid "Theme URI"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:172
+msgid "Field Types Used"
+msgstr ""
+
+#. translators: %1$s: URL to the server plugin code. %2$s: URL to the stats page.
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:182
+#, php-format
+msgid ""
+"We believe in complete transparency. You can see the code used on our server "
+"<a href=\"%1$s\" rel=\"nofollow\">here</a>, and the results of the statistics "
+"we're gathering on <a href=\"%2$s\" rel=\"nofollow\">this page</a>."
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:193
+msgid "I agree"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:194
+msgid "No thanks"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:195
+msgid "Show me the data"
+msgstr ""
+
+#: includes/libs/kirki/modules/telemetry/class-kirki-modules-telemetry.php:196
+msgid "Collapse data"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:198
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:199
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:200
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:201
+msgid "Light 200"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:202
+msgid "Light 200 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:203
+msgid "Book 300"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:204
+msgid "Book 300 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:205
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:206
+msgid "Normal 400"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:207
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:208
+msgid "Medium 500"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:209
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:210
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:211
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:212
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:213
+msgid "Bold 700"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:214
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:215
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:216
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:217
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:218
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:219
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: includes/libs/kirki/modules/webfonts/class-kirki-fonts.php:220
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: includes/libs/mb-term-meta/inc/class-mb-term-meta-box.php:97
+msgid "Term added."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/about.php:54
+#: includes/widgets/class-sf-widget-about.php:12
+msgid "About"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/about.php:66
+#: includes/libs/meta-box/inc/about/about.php:67
+msgid "Meta Box"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/about.php:82
+msgid "Welcome to Meta Box"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/about.php:83
+msgid "Dashboard"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/about.php:153
+#, php-format
+msgid ""
+"Please rate <strong>Meta Box</strong> <a href=\"%1$s\" target=\"_blank"
+"\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a href=\"%1$s\" target=\"_blank"
+"\">WordPress.org</a> to help us spread the word. Thank you from the Meta Box "
+"team!"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:11
+msgid ""
+"Extend custom fields in WordPress well beyond what others would ever consider "
+"ordinary!"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:12
+msgid "Save over 80% with our extensions bundles."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:12
+msgid "View Bundles"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:20
+msgid ""
+"Create and manage custom post types easily in WordPress with an easy-to-use "
+"interface."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:24
+#: includes/libs/meta-box/inc/about/sections/extensions.php:120
+msgid "Free Download"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:32
+msgid ""
+"Drag and drop your custom fields into place without a single line of code."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:36
+#: includes/libs/meta-box/inc/about/sections/extensions.php:48
+#: includes/libs/meta-box/inc/about/sections/extensions.php:60
+#: includes/libs/meta-box/inc/about/sections/extensions.php:72
+#: includes/libs/meta-box/inc/about/sections/extensions.php:84
+#: includes/libs/meta-box/inc/about/sections/extensions.php:96
+#: includes/libs/meta-box/inc/about/sections/extensions.php:108
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:23
+msgid "Learn More"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:44
+msgid ""
+"Create repeatable groups of custom fields for better appearance and structure."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:56
+msgid "Create a powerful settings page for your theme, plugin or website."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:68
+msgid ""
+"Control the visibility of meta boxes and fields or even HTML elements with "
+"ease."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:80
+msgid ""
+"Create register, login and edit user profile forms in the frontend. Embed "
+"everywhere with shortcodes."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:92
+msgid ""
+"Create frontend forms for users to submit custom content. Embed everywhere "
+"with shortcode."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:104
+msgid ""
+"Save custom fields data to custom table. Reduce database size and increase "
+"performance."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:116
+msgid "Create many-to-many relationships between posts, terms and users."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/extensions.php:124
+msgid "View all extensions"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:12
+msgid "Getting Started With Online Generator"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:13
+msgid ""
+"The fastest way to getting started with Meta Box is use our online generator "
+"to generate meta boxes with custom fields. It provides a friendly UI for you "
+"to create meta boxes and custom fields just by drag and drop fields."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:15
+msgid "online generator"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:17
+msgid "Go to Online Generator"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:21
+msgid "Understand The Basics"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:22
+msgid ""
+"Meta Box doesn't have any admin page for configuration or settings. Instead "
+"of that, it provides a very powerful API to speed up the process of creating "
+"meta boxes and custom fields. It might take you a little time at first, but "
+"then you'll love the way it work because it helps you do and customize almost "
+"everything."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:25
+#: includes/libs/meta-box/inc/about/sections/tabs.php:12
+#: includes/libs/meta-box/inc/about/sections/welcome.php:22
+msgid "Extensions"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:26
+msgid ""
+"Wanna see more features that transform your WordPress website into a powerful "
+"CMS? Check out some extensions below:"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:28
+msgid "Meta Box Group"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:29
+msgid "Meta Box Conditional Logic"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:30
+msgid "MB Settings Page"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:31
+msgid "MB Term Meta"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/getting-started.php:33
+msgid "More Extensions"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/newsletter.php:11
+msgid "Meta Box Newsletter"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/newsletter.php:13
+msgid ""
+"Want to learn how to use Meta Box to its full potential? Sign up to get "
+"valuable tips and resources. We will never spam you."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/newsletter.php:15
+msgid "Subscribe"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:18
+#, php-format
+msgid ""
+"Still need help with Meta Box? We offer excellent support for you. But don't "
+"forget to check our <a href=\"%s\">documentation</a> first."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:23
+msgid "Free Support"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:24
+msgid ""
+"If you have any question about how to use the plugin, please open a new topic "
+"on WordPress.org support forum or open a new issue on Github (preferable). We "
+"will try to answer as soon as we can."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:25
+msgid "Go to Github"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:26
+msgid "Go to WordPress.org"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:30
+msgid "Premium Support"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:31
+msgid ""
+"For users that have bought premium extensions, the support is provided in the "
+"Meta Box Support forum. Any question will be answered with technical details "
+"within 24 hours."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/support.php:32
+msgid "Go to support forum"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/tabs.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/tabs.php:13
+#: includes/libs/meta-box/inc/about/sections/welcome.php:23
+msgid "Support"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:10
+msgid "Upgrade to Meta Box PRO"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:11
+msgid "Please upgrade to the PRO plan to unlock more awesome features."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:13
+msgid ""
+"Create custom fields with drag-n-drop interface - no coding knowledge "
+"required!"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:14
+msgid "Add custom fields to taxonomies or user profile."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:15
+msgid "Create custom settings pages."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:16
+msgid "Create frontend submission forms."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:17
+msgid "Save custom fields in custom tables."
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:18
+msgid "And much more!"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/upgrade.php:20
+msgid "Get Meta Box PRO now"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/welcome.php:15
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/libs/meta-box/inc/about/sections/welcome.php:18
+msgid ""
+"Meta Box is a free Gutenberg and GDPR-compatible WordPress custom fields "
+"plugin and framework that makes quick work of customizing a website with—you "
+"guessed it—meta boxes and custom fields in WordPress. Follow the instruction "
+"below to get started!"
+msgstr ""
+
+#: includes/libs/meta-box/inc/core.php:38
+msgid "Docs"
+msgstr ""
+
+#: includes/libs/meta-box/inc/core.php:39
+msgid "Go Pro"
+msgstr ""
+
+#: includes/libs/meta-box/inc/field.php:354
+msgid "+ Add more"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/autocomplete.php:23
+#: includes/libs/meta-box/inc/fields/autocomplete.php:85
+#: includes/libs/meta-box/inc/fields/autocomplete.php:97
+msgid "Delete"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:78
+msgid "-- Background Repeat --"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:96
+msgid "-- Background Position --"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:99
+msgid "Top Center"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:101
+msgid "Center Left"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:103
+msgid "Center Right"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:105
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:118
+msgid "-- Background Attachment --"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/background.php:134
+msgid "-- Background Size --"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/button.php:34
+msgid "Click me"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:24
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:26
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:63
+msgid "Error: Invalid file"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:77
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:90
+msgctxt "file upload"
+msgid "+ Add new file"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:171
+msgctxt "file upload"
+msgid "Delete"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/file.php:172
+msgctxt "file upload"
+msgid "Edit"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/input-list.php:92
+msgid "Toggle All"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/key-value.php:135
+msgid "Key"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/key-value.php:136
+msgid "Value"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/map.php:55
+#: includes/libs/meta-box/inc/fields/osm.php:28
+msgid "No results found"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:27
+msgctxt "media"
+msgid "+ Add Media"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:28
+msgctxt "media"
+msgid " file"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:29
+msgctxt "media"
+msgid " files"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:30
+msgctxt "media"
+msgid "Remove"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:31
+msgctxt "media"
+msgid "Edit"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:32
+msgctxt "media"
+msgid "View"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:33
+msgctxt "media"
+msgid "No Title"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:36
+msgctxt "media"
+msgid "Select Files"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:37
+msgctxt "media"
+msgid "or"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/media.php:38
+msgctxt "media"
+msgid "Drop files here to upload"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/oembed.php:24
+msgid "Embed HTML not available."
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/post.php:80
+msgid "Select a post"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/post.php:86
+#: includes/libs/meta-box/inc/fields/taxonomy.php:98
+#, php-format
+msgid "Select a %s"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/select-advanced.php:47
+msgid "Select an item"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/sidebar.php:23
+msgid "Select a sidebar"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/taxonomy.php:94
+msgid "Select a term"
+msgstr ""
+
+#: includes/libs/meta-box/inc/fields/user.php:84
+msgid "Select an user"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/checker.php:134
+msgid ""
+"UPDATE UNAVAILABLE! Please enter a valid license key to enable automatic "
+"updates."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:112
+#, php-format
+msgid ""
+"You have not set your Meta Box license key yet, which means you are missing "
+"out on automatic updates and support! Please <a href=\"%1$s\">enter your "
+"license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:114
+#: includes/libs/meta-box/inc/update/notification.php:116
+#, php-format
+msgid ""
+"Your license key for Meta Box is <b>invalid</b>. Please <a href=\"%1$s"
+"\">update your license key</a> or <a href=\"%2$s\" target=\"_blank\">get a "
+"new one</a> to enable automatic updates."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:118
+#, php-format
+msgid ""
+"Your license key for Meta Box is <b>expired</b>. Please <a href=\"%3$s\" "
+"target=\"_blank\">renew your license</a> to get automatic updates and premium "
+"support."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:142
+#, php-format
+msgid ""
+"Please <a href=\"%1$s\">enter your license key</a> or <a href=\"%2$s\" target="
+"\"_blank\">get a new one here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:144
+#: includes/libs/meta-box/inc/update/notification.php:146
+#, php-format
+msgid ""
+"Your license key is <b>invalid</b>. Please <a href=\"%1$s\">update your "
+"license key</a> or <a href=\"%2$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:148
+#, php-format
+msgid ""
+"Your license key is <b>expired</b>. Please <a href=\"%3$s\" target=\"_blank"
+"\">renew your license</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:171
+msgid "Activate License"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/notification.php:171
+msgid "Update License"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:72
+#: includes/libs/meta-box/inc/update/settings.php:90
+msgid "Meta Box License"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:72
+msgid "License"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:91
+msgid ""
+"Please enter your license key to enable automatic updates for Meta Box "
+"extensions."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:96
+#, php-format
+msgid ""
+"To get the license key, visit the <a href=\"%1$s\" target=\"_blank\">My "
+"Account</a> page on metabox.io website. If you have not purchased any "
+"extension yet, please <a href=\"%2$s\" target=\"_blank\">get a new license "
+"here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:108
+msgid "License Key"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:113
+#: includes/libs/meta-box/inc/update/settings.php:115
+#, php-format
+msgid ""
+"Your license key is <b>invalid</b>. Please update your license key or <a href="
+"\"%1$s\" target=\"_blank\">get a new one here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:117
+#, php-format
+msgid ""
+"Your license key is <b>expired</b>. Please <a href=\"%2$s\" target=\"_blank"
+"\">renew your license</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:118
+msgid "Your license key is <b>active</b>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:131
+msgid "Save Changes"
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:157
+msgid ""
+"Something wrong with the connection to metabox.io. Please try again later."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:159
+msgid "Your license is activated."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:162
+#, php-format
+msgid ""
+"License expired. Please renew on the <a href=\"%s\" target=\"_blank\">My "
+"Account</a> page on metabox.io website."
+msgstr ""
+
+#: includes/libs/meta-box/inc/update/settings.php:168
+#, php-format
+msgid ""
+"Invalid license. Please <a href=\"%1$s\" target=\"_blank\">check again</a> or "
+"<a href=\"%2$s\" target=\"_blank\">get a new license here</a>."
+msgstr ""
+
+#: includes/libs/meta-box/inc/validation.php:50
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: includes/libs/meta-box/meta-box.php:24
+msgid "Meta Box requires PHP version 5.3+. Please contact your host to upgrade."
+msgstr ""
+
+#. translators: %s: title of menu item which is invalid
+#: includes/menu/class-sf-megamenu-edit.php:88
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. translators: %s: title of menu item in draft status
+#: includes/menu/class-sf-megamenu-edit.php:92
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:105
+msgid "sub item"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:120
+msgid "Move up"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:133
+msgid "Move down"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:137
+msgid "Edit menu item"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:146
+msgid "URL"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:153
+msgid "Navigation Label"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:159
+msgid "Title Attribute"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:166
+msgid "Open link in a new tab"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:171
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:177
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:185
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:192
+msgid "Move"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:193
+msgid "Up one"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:194
+msgid "Down one"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:197
+msgid "To the top"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:203
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu-edit.php:217
+#: includes/menu/class-sf-megamenu.php:136
+msgid "Cancel"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:51 includes/menu/class-sf-megamenu.php:52
+msgid "Menu Options"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:56
+msgid "Menu Item Options"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:62
+msgid "Icon Font"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:70
+msgid "Icon Image"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:71
+msgid "Icon font option will be ignored if icon image is set."
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:89
+msgid "Icon Only"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:90
+msgid "Turn on to only show the icon while hiding the menu text."
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:109
+msgid "Icon Background Color"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:125
+msgid "Item Background Color"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:137
+msgid "Save"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:156
+msgid "Mega Menu Settings"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:160
+msgid "Menu Type"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:165
+msgid "Mega Menu"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:171
+msgid "Menu Width"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:175
+msgid "Full Width ( 8 )"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:184
+msgid "Column Width"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:188
+msgid "Default ( 1/4 )"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:198
+msgid "Widget Area"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:202
+msgid "Select a Widget Area"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:214
+msgid "Hide Column Title"
+msgstr ""
+
+#: includes/menu/class-sf-megamenu.php:225
+msgid "Start a New Row"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:11
+msgid "About Site"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:12
+msgid "About Site."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:32
+msgid "Retina Logo"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:40
+msgid "Logo Width"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:48
+msgid "Logo Height"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:56
+msgid "Site Description"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:65
+msgid "Show Social Icons"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about-site.php:71
+#: includes/widgets/class-sf-widget-social-icons.php:21
+msgid "Icon Style"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about.php:13
+msgid "About."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about.php:25
+msgid "About Image"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about.php:33
+msgid "About Title"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about.php:41
+msgid "About Description"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-about.php:50
+msgid "About Autography"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-contact-info.php:12
+msgid "Contact Info"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-contact-info.php:13
+msgid "Contact Info."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:12
+msgid "Popular Categories"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:13
+msgid "Show popular categories by post count."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:24
+msgid "Include Categories"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:25
+#: includes/widgets/class-sf-widget-popular-categories.php:42
+msgid "Leave empty to show all the categories"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:33
+msgid "Exclude Categories"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:41
+msgid "Number of categories to show"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-categories.php:50
+msgid "Show post counts"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:12
+msgid "Popular Posts"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:13
+msgid "Show popular posts."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:33
+msgid "Post IDs"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:34
+msgid ""
+"Enter post IDs separated by comma.( e.g. 35,36 ) Exclude a post by prefixing "
+"its ID with a - (minus) sign.( e.g. -35,-36 )"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:47
+msgid "Latest Posts"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:48
+msgid "Most Commented"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:49
+msgid "Random Posts"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:55
+msgid "Post Style"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:67
+msgid "Number of posts to show"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-popular-posts.php:75
+msgid "Offset posts"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-social-icons.php:47
+msgid "URL Source"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-social-icons.php:48
+msgid "Use social links in theme options or add custom links below."
+msgstr ""
+
+#: includes/widgets/class-sf-widget-social-icons.php:53
+msgid "Theme Option"
+msgstr ""
+
+#: includes/widgets/class-sf-widget-social-icons.php:74
+msgid "Displays social icons."
+msgstr ""
+
+#: templates/account/form-login.php:23
+#: templates/account/form-lost-password.php:22
+msgid "Username or Email"
+msgstr ""
+
+#: templates/account/form-login.php:27 templates/account/form-register.php:53
+msgid "Password"
+msgstr ""
+
+#: templates/account/form-login.php:43 templates/account/login-box.php:18
+msgid "Log In"
+msgstr ""
+
+#: templates/account/form-lost-password.php:19
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: templates/account/form-lost-password.php:25
+msgid "Get New Password"
+msgstr ""
+
+#: templates/account/form-lost-password.php:27
+msgid ""
+"If you do not receive this email, please check your spam folder or contact us "
+"for assistance."
+msgstr ""
+
+#: templates/account/form-register.php:26
+msgid "First name"
+msgstr ""
+
+#: templates/account/form-register.php:30
+msgid "Last name"
+msgstr ""
+
+#: templates/account/form-register.php:39
+msgid "Username"
+msgstr ""
+
+#: templates/account/form-register.php:46
+msgid "Email"
+msgstr ""
+
+#: templates/account/form-register.php:70 templates/account/login-box.php:19
+msgid "Register"
+msgstr ""
+
+#: templates/account/login-box.php:20
+msgid "Reset your possword"
+msgstr ""
+
+#: templates/account/login-box.php:31
+msgid "Forgot Password?"
+msgstr ""
+
+#: templates/account/login-box.php:40
+msgid "Logout"
+msgstr ""
+
+#: templates/emails/activate-account.php:19
+#, php-format
+msgid ""
+"Welcome to %s. Please click the button below to confirm your email address."
+msgstr ""
+
+#: templates/emails/activate-account.php:23
+msgid "Confirm your email address"
+msgstr ""
+
+#: templates/emails/activated.php:20 templates/emails/plain/activated.php:18
+msgid "Your email address has been confirmed."
+msgstr ""
+
+#: templates/emails/new-account.php:19 templates/emails/plain/new-account.php:17
+#, php-format
+msgid "Thanks for creating an account on %s."
+msgstr ""
+
+#: templates/emails/new-account.php:21 templates/emails/plain/new-account.php:19
+#: templates/emails/plain/reset-password.php:19
+#: templates/emails/reset-password.php:20
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: templates/emails/new-account.php:25 templates/emails/plain/new-account.php:22
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: templates/emails/new-account.php:29 templates/emails/plain/new-account.php:24
+msgid "Password: [Password entered at registration]"
+msgstr ""
+
+#: templates/emails/new-account.php:33 templates/emails/plain/new-account.php:27
+#, php-format
+msgid "Login URL: %s"
+msgstr ""
+
+#: templates/emails/plain/activate-account.php:17
+#, php-format
+msgid ""
+"Welcome to %s. Please click the link below to confirm your email address."
+msgstr ""
+
+#: templates/emails/plain/reset-password.php:17
+#: templates/emails/reset-password.php:19
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: templates/emails/plain/reset-password.php:20
+#: templates/emails/reset-password.php:21
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: templates/emails/plain/reset-password.php:21
+#: templates/emails/reset-password.php:22
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: templates/emails/reset-password.php:25
+msgid "Click here to reset your password"
+msgstr ""
+
+#: templates/post-share-buttons.php:9
+msgid "Share on Facebook"
+msgstr ""
+
+#: templates/post-share-buttons.php:9
+msgid "Share"
+msgstr ""
+
+#: templates/post-share-buttons.php:10
+msgid "Tweet"
+msgstr ""
+
+#: templates/post-share-buttons.php:11
+msgid "Pin it"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Spirit Framework"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://themespirit.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Spirit Framework."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeSpirit"
+msgstr ""
